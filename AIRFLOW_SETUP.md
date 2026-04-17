@@ -19,6 +19,7 @@ The goals of this setup are:
 - `Dockerfile`: builds a custom Airflow image with additional packages installed.
 - `requirements-airflow.txt`: specific dependencies for the Airflow image.
 - `dags/collect_vnstock_test.py`: test DAG to import `vnstock`.
+- `dags/vnstock_daily_sync.py`: production DAGs for backfill and weekday quote sync.
 
 ## What Has Been Setup
 
@@ -93,6 +94,54 @@ If this DAG is a `Success`, it means:
 - Airflow parsed the DAG.
 - The scheduler can run the task.
 - The runtime environment has `vnstock`.
+
+## Current Production Quote DAGs
+
+File:
+
+- [vnstock_daily_sync.py](C:/Work/vnstock/dags/vnstock_daily_sync.py)
+
+This file currently contains 2 DAGs:
+
+- `vnstock_backfill_to_today`
+- `vnstock_weekday_quotes_18h`
+
+### `vnstock_backfill_to_today`
+
+Use this one first.
+
+Behavior:
+
+- No schedule, manual trigger only.
+- Reads local quote files already present in `data/raw_data.csv` and `data/singular_stock/`.
+- For each configured ticker, only fetches the missing dates up to today.
+- Rebuilds `data/raw_data.csv` from the per-ticker files after the sync completes.
+
+### `vnstock_weekday_quotes_18h`
+
+Use this one for ongoing automation.
+
+Behavior:
+
+- Runs at `18:00` Asia/Ho_Chi_Minh.
+- Runs only on weekdays, Monday to Friday.
+- Skips Saturday and Sunday.
+- On each run, fetches only the missing quote rows since the latest local date.
+
+### Correct Run Order
+
+1. Trigger `vnstock_backfill_to_today` once to catch up the local dataset to the current date.
+2. Leave `vnstock_weekday_quotes_18h` enabled so Airflow keeps the quote dataset current every weekday evening.
+
+### Important Note About the 100-Ticker Universe
+
+The new DAG follows the current intended 100-ticker universe from `collect_data.ipynb`.
+
+That means:
+
+- The sync is now aligned to the current code-defined 100-stock list.
+- The old local raw dataset in the repo had a small ticker mismatch versus this list.
+- The rebuilt aggregate `data/raw_data.csv` will gradually align to the new DAG universe as the sync runs.
 
 ## What Happens After Turning Off or Restarting the Computer?
 
@@ -247,9 +296,8 @@ docker compose down --volumes --remove-orphans
 
 ## Logical Next Steps
 
-The next step is to write a DAG to collect real data using `vnstock`, for example:
+The next step is:
 
-- Get data for a single stock ticker.
-- Save CSV to `data/`.
-- Manually trigger to test first.
-- Only then add a schedule.
+1. Trigger `vnstock_backfill_to_today`.
+2. Verify `data/raw_data.csv` and several files inside `data/singular_stock/` were updated through today.
+3. Leave `vnstock_weekday_quotes_18h` active for daily weekday refreshes.
