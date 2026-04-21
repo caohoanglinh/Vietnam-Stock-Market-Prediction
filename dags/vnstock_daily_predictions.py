@@ -10,6 +10,7 @@ All tasks run strictly sequential — no parallelism.
 import os
 import sys
 from datetime import datetime, timedelta
+from airflow.utils.state import DagRunState
 
 import pendulum
 from airflow.sdk import DAG, task
@@ -45,8 +46,8 @@ with DAG(
         external_task_id=None, 
         execution_delta=timedelta(minutes=15),  
         timeout=3600,
-        allowed_states=["success"],
-        failed_states=["failed", "skipped"],
+        allowed_states=[DagRunState.SUCCESS],
+        failed_states=[DagRunState.FAILED],
         mode="reschedule",
     )
 
