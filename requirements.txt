@@ -9,3 +9,7 @@ vnstock
 python-dotenv
 joblib
 jupyter
+feedparser
+requests
+beautifulsoup4
+lxml

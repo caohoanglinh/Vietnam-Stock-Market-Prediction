@@ -194,51 +194,13 @@ with DAG(
         return prediction_date
 
 
-    @task
-    def weekly_and_retrain(prediction_date: str):
-        """
-        On Friday: compute weekly accuracy summary.
-        If avg accuracy < 50%: retrain the three 1D models.
-        On other days: skip.
-        """
-        import pandas as pd
-        from datetime import datetime
 
-        today = pd.Timestamp(prediction_date)
-        weekday = today.weekday()  # 0=Mon ... 4=Fri
-
-        if weekday != 4:
-            print(f"  Not Friday (weekday={weekday}). Skipping weekly summary.")
-            return
-
-        print("  📅 Friday — Computing weekly summary...")
-        from utils.evaluation import weekly_summary
-
-        result = weekly_summary(PROJECT_ROOT, today_str=prediction_date)
-
-        if result is None:
-            print("  ⚠ Insufficient data for weekly summary.")
-            return
-
-        if result["needs_retrain"]:
-            print(f"\n  [WARN] Average accuracy {result['avg_accuracy']:.2%} < 50%")
-            print("  [ACTION] Creating retrain flag file for host machine...")
-
-            flag_path = os.path.join(PROJECT_ROOT, "data", "predictions", ".trigger_retrain")
-            with open(flag_path, "w") as f:
-                f.write(prediction_date)
-
-            print(f"  [OK] Flag file created at: {flag_path}")
-            print("  Host machine should monitor this file and run GPU retrain.")
-        else:
-            print(f"\n  [OK] Average accuracy {result['avg_accuracy']:.2%} >= 50%. No retrain needed.")
 
 
     t2 = compute_features()
     t3 = run_predictions(t2)
     t4 = save_predictions(t3)
     t5 = compare_yesterday_task(t4)
-    t6 = weekly_and_retrain(t5)
 
     branch_sensor >> wait_for_sync >> rejoin >> t2
     branch_sensor >> skip_path     >> rejoin
