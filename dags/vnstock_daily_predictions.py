@@ -14,6 +14,8 @@ from airflow.utils.state import DagRunState
 
 import pendulum
 from airflow.sdk import DAG, task
+from airflow.operators.python import BranchPythonOperator
+from airflow.operators.empty import EmptyOperator
 
 # ── Project setup ────────────────────────────────────────────────────────────
 PROJECT_ROOT = "/opt/airflow/project"
@@ -40,15 +42,39 @@ with DAG(
 
     from airflow.sensors.external_task import ExternalTaskSensor
 
+    def _branch_sensor(**context):
+        """
+        BranchPythonOperator: trả về task_id của nhánh sẽ chạy.
+        - skip_sensor=true  → bỏ qua sensor, chạy thẳng
+        - skip_sensor=false → chạy ExternalTaskSensor (mặc định)
+        """
+        conf = context["dag_run"].conf or {}
+        if conf.get("skip_sensor", False):
+            print("  [INFO] skip_sensor=true — bypassing ExternalTaskSensor.")
+            return "skip_sensor_path"
+        return "wait_for_daily_sync"
+
+    branch_sensor = BranchPythonOperator(
+        task_id="branch_sensor_check",
+        python_callable=_branch_sensor,
+    )
+
     wait_for_sync = ExternalTaskSensor(
         task_id="wait_for_daily_sync",
         external_dag_id="vnstock_weekday_quotes_18h",
-        external_task_id=None, 
-        execution_delta=timedelta(minutes=15),  
-        timeout=3600,
+        external_task_id=None,
+        execution_delta=timedelta(minutes=15),
+        timeout=7200,
         allowed_states=[DagRunState.SUCCESS],
         failed_states=[DagRunState.FAILED],
         mode="reschedule",
+    )
+
+    skip_path = EmptyOperator(task_id="skip_sensor_path")
+
+    rejoin = EmptyOperator(
+        task_id="rejoin",
+        trigger_rule="none_failed_min_one_success",
     )
 
 
@@ -208,11 +234,12 @@ with DAG(
             print(f"\n  [OK] Average accuracy {result['avg_accuracy']:.2%} >= 50%. No retrain needed.")
 
 
-    t1 = wait_for_sync
     t2 = compute_features()
     t3 = run_predictions(t2)
     t4 = save_predictions(t3)
     t5 = compare_yesterday_task(t4)
     t6 = weekly_and_retrain(t5)
 
-    t1 >> t2  
+    branch_sensor >> wait_for_sync >> rejoin >> t2
+    branch_sensor >> skip_path     >> rejoin
+
