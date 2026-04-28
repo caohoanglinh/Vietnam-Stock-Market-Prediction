@@ -1,0 +1,100 @@
+id:ID,sector,note
+VCB,banking_state,Largest state bank; dominant in forex and trade finance. Regulatory news affects all banks. | Nhà nước sở hữu chéo VCB-BID-CTG qua NHNN/MOF.
+BID,banking_state,Heavy exposure to infrastructure and SOE loans. Infrastructure policy directly impacts BID. | BID là công ty mẹ của BSI (BIDV Securities).
+CTG,banking_state,Industrial and manufacturing sector lender. Steel and consumer sector health affects CTG loan quality. | CTG là công ty mẹ của CTS (VietinBank Securities).
+ACB,banking_private,Retail-focused bank. Gold trading regulation (liên quan PNJ) can impact ACB. | ACB từng nắm cổ phần lớn tại PNJ — sở hữu chéo lịch sử.
+TCB,banking_private,Heavily exposed to Vingroup ecosystem. VHM/VIC news often affects TCB. | MSN nắm ~15% TCB — sở hữu chéo chiến lược Masan-Techcombank.
+MBB,banking_private,Military-linked bank. Strong retail and SME franchise. | MBB mẹ của MBS. Cùng hệ quân đội với Viettel (VGI).
+VPB,banking_private,High consumer finance / unsecured lending exposure. Consumer spending data affects VPB quality.
+STB,banking_private,Recovering from bad debt restructuring. Regulatory update on bad debt handling moves STB.
+HDB,banking_private,"Close relationship with HD Group (HDC, HDG). News about HD Group affects HDB. | HDB là trụ cột hệ sinh thái HD Group; sở hữu HCM (HFSC), liên kết HDC, HDG."
+SHB,banking_private,Linked to T&T Group. Real estate and infrastructure project loans. | SHB mẹ của SHS (SHB Securities). Thuộc hệ T&T Group (Đỗ Quang Hiển).
+VIB,banking_private,Strong auto loan and mortgage portfolio.
+TPB,banking_private,Linked to FPT Group ecosystem. Tech-forward retail banking. | FPT Group nắm cổ phần chiến lược tại TPBank — sở hữu chéo FPT-TPB.
+LPB,banking_private,Post Office distribution network. Rural and SME focus.
+MSB,banking_private,Maritime-linked origins. Trade finance and SME.
+OCB,banking_private,Retail-focused smaller private bank.
+SSB,banking_private,Southeast Asia Commercial Bank. Smaller cap private bank.
+SSI,securities,Largest securities firm. Market liquidity and margin credit policy directly impact all securities stocks.
+HCM,securities,HFSC is subsidiary of HDBank group. | HCM (HFSC) là công ty con của HDBank — thuộc hệ HD Group.
+VND,securities,VNDirect. Strong retail investor base.
+VCI,securities,Viet Capital Securities. Strong in institutional and bond markets.
+MBS,securities,Subsidiary of MB Bank. MB Bank news directly affects MBS. | MBS là công ty con của MBB. Cùng hệ quân đội.
+SHS,securities,"SHB Securities, linked to SHB bank. | SHS là công ty con của SHB. Thuộc hệ T&T Group."
+FTS,securities,Finhay Technology Securities.
+BSI,securities,Subsidiary of BIDV bank. | BSI là công ty con của BIDV (BID).
+CTS,securities,Subsidiary of VietinBank. | CTS là công ty con của VietinBank (CTG).
+AGR,securities,Agribank Securities. Agricultural sector exposure.
+VHM,realestate_developer,"Largest developer (Vingroup). News about Vingroup ecosystem affects VHM, VIC, VRE simultaneously. | VHM và VRE cùng thuộc hệ sinh thái Vingroup (công ty mẹ VIC không trong danh sách)."
+VRE,realestate_retail,Vincom Retail. Consumer spending and retail sector health affects VRE occupancy. | VRE (Vincom Retail) cùng hệ Vingroup với VHM.
+NVL,realestate_developer,High leverage developer. Interest rate news and bond market policies critically affect NVL.
+KDH,realestate_developer,Ho Chi Minh City residential focus. Land clearance policy in HCM directly affects KDH.
+NLG,realestate_developer,Nam Long Group. Affordable housing focus.
+PDR,realestate_developer,Phat Dat Real Estate. Binh Duong and resort/tourism property focus.
+DIG,realestate_developer,DIC Corp. Vung Tau coastal and infrastructure property.
+DXG,realestate_developer,Dat Xanh Group. Strong in real estate brokerage and distribution.
+HDC,realestate_developer,Part of HD Group. HDB bank news affects HDC. | HDC thuộc hệ HD Group; HDB là ngân hàng tài trợ chính.
+HDG,realestate_developer,"HD Group holding. Diversified: real estate + hydropower. | HDG là holding của HD Group, mẹ của HDC."
+IJC,realestate_developer,Binh Duong industrial zone and urban developer.
+SZC,realestate_industrial,Sonadezi industrial zone. FDI inflow news directly affects industrial zone stocks.
+IDC,realestate_industrial,"Industrial zone developer. FDI and factory relocation trends (e.g., from China) are key drivers."
+KBC,realestate_industrial,Kinh Bac industrial zone. Northern Vietnam FDI focus.
+ITA,realestate_industrial,Tan Tao industrial zone. Long Anh IZ development.
+SJS,realestate_developer,Song Da Urban and Industrial Zone.
+CTD,construction,Coteccons. General contractor. Health of RE developers directly drives CTD backlog.
+HBC,construction,Hoa Binh Construction. Similar exposure to CTD.
+VCG,construction,Vinaconex. SOE contractor. Infrastructure investment policy affects VCG directly.
+HPG,steel,Hoa Phat Group. Dominant in construction steel. China steel export price is key benchmark. RE market health = steel demand. | Hòa Phát Group — tập đoàn tư nhân lớn nhất ngành thép VN.
+HSG,steel,"Hoa Sen Group. Flat steel (roofing, pipes). HPG entering flat steel = direct competitive threat. | Hoa Sen Group (Lê Phước Vũ). Tập trung tôn/ống thép."
+NKG,steel,Nam Kim Steel. Similar to HSG — buys HRC from HPG/imports.
+HT1,cement,Ha Tien 1 Cement. Southern Vietnam market. Construction activity = cement demand.
+BCC,cement,Bim Son Cement. Northern Vietnam market.
+DPM,fertilizer,PetroVietnam Fertilizer. Gas price = major cost driver. GAS news directly affects DPM margins. | DPM thuộc hệ PetroVietnam (PVN). PVN nắm ~61% DPM.
+DCM,fertilizer,Ca Mau Fertilizer. Same gas feedstock dependency as DPM. | DCM thuộc hệ PetroVietnam (PVN). PVN nắm ~75% DCM.
+BFC,fertilizer_distribution,Fertilizer distributor. Margin depends on spread between DPM/DCM wholesale and retail price.
+DGC,chemicals,Duc Giang Chemicals. Phosphate chemicals and industrial chemicals exporter.
+CSV,chemicals,Southern Chemical. Calcium carbide and chemicals.
+VNM,consumer_fmcg,Vinamilk. Exchange rate (USD import) and milk powder global prices are key. Consumer confidence affects volumes. | SCIC nắm ~36% VNM — doanh nghiệp nhà nước lớn ngành FMCG.
+KDC,consumer_fmcg,Kido Group. Confectionery and ice cream. Closely tied to consumer spending cycle.
+SAB,consumer_fmcg,Sabeco (beer). Tax policy on alcohol and consumer spending are the key drivers. | ThaiBev (Thailand) nắm ~53% SAB sau thương vụ thoái vốn nhà nước.
+SBT,consumer_fmcg,Thanh Thanh Cong Sugar. Global sugar prices and domestic quota policies are key.
+MSN,consumer_diversified,"Masan Group. Diversified consumer (Techcombank stake, Masan Consumer, WinMart, Masan MEATLife). TCB news affects MSN. | MSN nắm ~15% TCB. Hệ sinh thái Masan: Consumer, WinMart, MEATLife, Techcombank."
+MWG,retail,Mobile World. Electronics and grocery retail. Consumer confidence index is a leading indicator.
+FRT,retail,FPT Retail. Pharma (Long Chau) and electronics retail. | FRT là công ty con của FPT Corp (FPT Retail). FPT news ảnh hưởng trực tiếp FRT.
+DGW,retail,Digiworld. IT distribution. Apple product cycle = DGW volume.
+PET,retail_energy,PetroVietnam Technical Services trading arm. Diversified distribution. | PET thuộc hệ PetroVietnam (PVN). Mảng thương mại/phân phối dầu khí.
+GAS,energy_gas,"PV Gas. Monopoly in gas distribution. Gas price changes cascade to DPM, DCM, POW, NT2. | GAS (PV Gas) thuộc hệ PetroVietnam. PVN nắm ~95% GAS."
+PLX,energy_fuel,"Petrolimex. Fuel retail. Crude oil price is the key driver. Aviation stocks affected by PLX fuel cost. | Petrolimex — MOF nắm ~40%, JX Nippon (Nhật) nắm ~8%."
+POW,power_generation,PetroVietnam Power. Gas-fired plants. GAS price = POW cost. Hydrology affects dispatch order vs VSH. | POW (PV Power) thuộc hệ PetroVietnam. PVN nắm ~80%.
+NT2,power_generation,Nhon Trach 2 Power. Single gas-fired plant. Very similar drivers to POW.
+VSH,power_hydro,"Vinh Son Song Hinh Hydro Power. Rainfall and reservoir levels are key. Good hydrology hurts thermal plants (POW, NT2)."
+GEG,power_renewable,Gia Lai Electricity. Wind + solar renewable. Feed-in tariff policy changes affect GEG directly.
+PPC,power_generation,Pha Lai Thermal Power (coal). Coal price = major cost driver.
+BWE,utilities_water,Binh Duong Water. Stable utility. Industrial zone growth in Binh Duong = water demand.
+TDM,utilities_water,Thu Duc Water. Similar to BWE in Binh Duong region.
+FPT,technology,"FPT Corp. IT services, education, telecom. Strong offshore IT export growth driver. USD/VND rate affects FPT overseas revenue. | FPT mẹ của FRT (FPT Retail). FPT nắm cổ phần chiến lược tại TPBank."
+CMG,technology,CMC Corp. IT services and data center. Competes with FPT in government and enterprise IT.
+ELC,technology,Elcom. Defense and government IT systems.
+VGI,technology_telecom,Viettel Global. Overseas telecom operations. Political stability in operating countries is a key risk. | VGI (Viettel Global) thuộc Tập đoàn Viettel — cùng hệ quân đội với MBB.
+GMD,logistics_port,Gemadept. Port operator and logistics. Export/import volume = container throughput.
+HAH,logistics_shipping,Hai An Container Shipping. Intra-Asia container freight rates.
+VOS,logistics_shipping,Vietnam Ocean Shipping. Bulk carrier. Dry bulk freight index (Baltic Dry) is the benchmark.
+PVT,logistics_tanker,PetroVietnam Transport. Tanker shipping. Crude oil and petroleum product shipping volumes. | PVT (PV Transportation) thuộc hệ PetroVietnam. PVN nắm ~51%.
+VJC,aviation,VietJet Air. Low-cost carrier. Jet fuel price (PLX) and tourist arrivals are key drivers.
+HVN,aviation,Vietnam Airlines. Full-service carrier. International route recovery post-COVID. PLX fuel cost is critical. | Nhà nước nắm ~86% HVN qua SCIC và ACV.
+VHC,seafood,Vinh Hoan. Pangasius export leader. US anti-dumping tariff changes are the biggest risk/opportunity.
+ANV,seafood,Nam Viet Corp. Pangasius exporter. Same US/EU export market as VHC.
+FMC,seafood,Sao Ta Foods. Shrimp exporter. Shrimp supply/demand balance and global commodity prices.
+AGF,agriculture,An Giang Fisheries. Diversified: pangasius + agricultural inputs distribution.
+TCM,textile,Thanh Cong Textile. Yarn-to-garment integrated. Cotton price and USD/VND are key.
+TNG,textile,TNG Investment and Trading. Garment manufacturer. US/EU retail orders and trade policy.
+GIL,textile,Binh Thanh Garment. Export-oriented garment. Same macro drivers as TCM and TNG.
+PHR,rubber,Phuoc Hoa Rubber. Natural rubber price (linked to oil/synthetic rubber) is the key driver. | GVR (Tập đoàn Cao su VN) nắm khoảng 30% cổ phần PHR — sở hữu chéo.
+DPR,rubber,Dong Phu Rubber. Similar to PHR. | GVR nắm cổ phần chi phối tại DPR — cùng hệ Tập đoàn Cao su.
+GVR,rubber,Vietnam Rubber Group. Largest rubber conglomerate. Also has industrial zone land (rubber land conversion). | GVR (Tập đoàn Công nghiệp Cao su VN) là công ty mẹ/nắm cổ phần chi phối PHR và DPR.
+DRC,tire,Da Nang Rubber (tire). Natural rubber price and auto sales volume.
+CSM,tire,Casumina (tire). Similar to DRC. Radial tire shift is a structural risk.
+BMP,plastic,Binh Minh Plastic Pipe. Construction activity drives demand. PVC resin (import) cost is key.
+DHG,pharma,Hau Giang Pharmaceutical. Drug regulatory policy and healthcare spending. Defensive sector. | Taisho (Nhật Bản) nắm ~51% DHG — cổ đông chiến lược nước ngoài.
+PNJ,jewelry,Phu Nhuan Jewelry. Gold price (global) is the primary driver. Consumer spending on jewelry. | PNJ và ACB có lịch sử sở hữu chéo lâu dài.
+REE,mep_services,"REE Corp. MEP (Mechanical, Electrical, Plumbing) + utilities investments (water, power). Diversified. | REE đầu tư tài chính vào nhiều công ty điện/nước — danh mục đa dạng."
