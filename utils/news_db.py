@@ -48,12 +48,6 @@ def init_db():
 
 
 def insert_articles(articles: list[dict]) -> int:
-    """
-    Insert articles into DB, skip duplicates (by URL).
-
-    Returns:
-        Number of new articles inserted
-    """
     if not articles:
         return 0
 
@@ -83,15 +77,9 @@ def insert_articles(articles: list[dict]) -> int:
 
 
 def get_news_by_ticker(ticker: str, limit: int = 20) -> list[dict]:
-    """
-    Fetch latest news for a ticker.
-
-    Returns:
-        List of article dicts ordered by crawled_at DESC
-    """
     sql = """
         SELECT id, ticker, title, summary, url, published_at_raw,
-               source, crawled_at, sentiment, llm_summary
+               published_at, source, crawled_at, sentiment, llm_summary
         FROM stock_news
         WHERE ticker = %s
         ORDER BY crawled_at DESC
@@ -105,12 +93,6 @@ def get_news_by_ticker(ticker: str, limit: int = 20) -> list[dict]:
 
 
 def get_news_by_tickers(tickers: list[str], limit_per_ticker: int = 10) -> dict[str, list[dict]]:
-    """
-    Fetch latest news for multiple tickers at once.
-
-    Returns:
-        Dict mapping ticker -> list of articles
-    """
     if not tickers:
         return {}
 
@@ -137,7 +119,6 @@ def get_news_by_tickers(tickers: list[str], limit_per_ticker: int = 10) -> dict[
 
 
 def update_llm_analysis(article_id: int, sentiment: str, llm_summary: str):
-    """Update sentiment and LLM summary for an article (called by LLM pipeline)."""
     sql = """
         UPDATE stock_news
         SET sentiment = %s, llm_summary = %s

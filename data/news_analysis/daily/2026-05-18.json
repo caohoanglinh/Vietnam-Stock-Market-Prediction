@@ -1,0 +1,161 @@
+{
+  "analysisDate": "2026-05-18",
+  "generatedAt": "2026-05-18T13:48:47Z",
+  "tickerCount": 8,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "DCM",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "90e7264d2b9ba7d77ebd3e2d74b67448017f2e3bc7e9f93b4b12bd7484edafad",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.8,
+      "newsScore": 0.7,
+      "summary": "Đạm Cà Mau (DCM) reported a significant surge in net profit for Q1 2026, reaching 789 billion VND, a 91% increase year-on-year. This exceptional performance is attributed to the global urea price surge and accelerated export activities. The company is benefiting greatly from the international urea market.",
+      "bullPoints": [
+        "Record Q1 profit driven by global urea price increase.",
+        "Strong export performance contributing to profit growth.",
+        "Significant year-on-year profit increase of 91%."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 12:30:07"
+    },
+    {
+      "ticker": "MBS",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "6c27367dff207f184ca8d8ee68876d0ed9cb18bdae1dec717048f49f9ee4a7f0",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "In April 2026, the real estate sector led in the issuance of corporate bonds through private placements. The total issuance value reached approximately VND 51.7 trillion. This news item does not directly mention MBS or its activities.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 13:47:49"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "7283d57ea30da99dd7849553c09cbac654c54106beaadae15235f42ce6f3d081",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "Bách Hóa Xanh, a subsidiary of MWG, has officially surpassed the 3,000 store milestone. The company has demonstrated a rapid expansion rate, opening 451 new stores since the beginning of the year, averaging three new stores daily.",
+      "bullPoints": [
+        "Bách Hóa Xanh exceeds 3,000 store threshold.",
+        "Significant store opening pace maintained.",
+        "Rapid expansion indicates strong growth momentum."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 12:30:18"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "a5545429aa8d34a67e54207bfb6a0599e159701a49100ce79accb1ac81ddddd6",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "Novaland has been fined a total of 42 million VND for tax violations by the Ho Chi Minh City Tax Department. This marks the second consecutive tax penalty issued to the company. The fines are a direct consequence of administrative violations related to tax regulations.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Novaland fined for tax violations.",
+        "Received two consecutive tax penalty decisions.",
+        "Total fine amounts to 42 million VND."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 13:47:59"
+    },
+    {
+      "ticker": "PLX",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "57d63072d9e6aad6c6b86453f7ab8d4e0dfd61c2b7cd217412f61f72b2e4a276",
+      "sentiment": "negative",
+      "impactHorizon": "10d",
+      "confidence": 0.8,
+      "newsScore": -0.7,
+      "summary": "Petrolimex (PLX) is facing significant challenges, with its stock losing nearly 40% from its peak. The company reported a substantial loss in Q1 2026 due to inventory shocks, exacerbated by global oil price volatility. This difficult period for PLX raises questions about potential \"bottom fishing\" opportunities versus ongoing risks.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Stock down nearly 40% from its peak.",
+        "Significant loss reported in Q1 2026 due to inventory shocks.",
+        "Global oil price volatility is impacting business."
+      ],
+      "riskFlags": [
+        "Inventory shocks",
+        "Global oil price volatility"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 13:48:20"
+    },
+    {
+      "ticker": "REE",
+      "analysisDate": "2026-05-18",
+      "articleCount": 2,
+      "newsInputHash": "3d7f3c46959abfeb7e3ba7c5c7f5f21ff60411a46e988ebe67aeee686b4c0152",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Bà Nguyễn Thị Mai Thanh will step down as Chairwoman of REE on July 10, 2026. Her son, Mr. Nguyễn Ngọc Thái Bình, will assume the role of General Director. This leadership transition marks a significant change in the company's top management.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Leadership transition"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 13:48:35"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-05-18",
+      "articleCount": 1,
+      "newsInputHash": "c10df865c23bc9a95a1eaaa48ef1124aceb7d0474f974cbc415b4e46e406f4c0",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "The article discusses interest rates for savings deposits at various banks, including SHB. It notes that in the latter half of May, many banks are maintaining good interest rates for online savings. The piece aims to inform readers about how much deposit is needed to earn a certain amount of interest per month.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 12:30:38"
+    },
+    {
+      "ticker": "TCB",
+      "analysisDate": "2026-05-18",
+      "articleCount": 2,
+      "newsInputHash": "54fc7c4a65b72319241ccd3c8e5666ed298a147d9c58eb12fb29b0e00f6bb122",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "Techcombank is preparing to pay out nearly 9,000 billion VND in cash dividends next week, alongside VPBank. Additionally, the bank has demonstrated a forward-thinking approach by strategically investing in a unique asset class, aiming to foster new cultural and entertainment values for the public.",
+      "bullPoints": [
+        "Significant cash dividend payout approaching.",
+        "Strategic investment in a unique asset class.",
+        "Demonstrates modern financial institution's pioneering mindset."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-18 13:48:47"
+    }
+  ]
+}

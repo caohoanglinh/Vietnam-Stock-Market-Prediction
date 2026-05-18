@@ -45,7 +45,8 @@ We implement and benchmark three major architectures to find the best fit for fi
 - **Init database**: Run `docker compose up airflow-init` to init database.
 - **Run Airflow**: Run `docker compose up -d airflow-apiserver airflow-scheduler airflow-dag-processor airflow-triggerer` to start the Airflow automation suite.
 - **Open UI**: http://localhost:8080 and login
-
+- **Run Dashboard**: Run `powershell -ExecutionPolicy Bypass -File .\web\run_dashboard.ps1` to run server
+- **Open Dashboard**: http://127.0.0.1:8000/static/
 
 ## 📁 Repository Structure
 - `data/`: Contains raw data and processed feature sets.

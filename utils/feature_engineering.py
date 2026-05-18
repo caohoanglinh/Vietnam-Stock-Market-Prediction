@@ -76,17 +76,7 @@ def compute_obv(close, volume):
 # Per-Ticker Feature Computation
 
 def compute_ticker_features(df):
-    """
-    Compute 13 technical features for a single ticker DataFrame.
-    Does NOT compute market_ret_1d / relative_strength (cross-ticker).
-    Does NOT compute label (not needed for inference).
 
-    Args:
-        df: DataFrame sorted by date, with [date, open, high, low, close, volume]
-
-    Returns:
-        Same DataFrame with 13 feature columns added.
-    """
     c  = df["close"]
     o  = df["open"]
     h  = df["high"]
@@ -134,16 +124,7 @@ def compute_ticker_features(df):
 # Full Pipeline: Raw OHLCV → Featured DataFrame
 
 def prepare_featured_data(raw_df, tickers_list=None):
-    """
-    Compute all 16 features from raw OHLCV data.
 
-    Args:
-        raw_df: DataFrame with columns [date, open, high, low, close, volume, ticker, ticker_id]
-        tickers_list: Optional list of tickers to process. If None, process all.
-
-    Returns:
-        DataFrame with all 16 feature columns, sorted by [ticker, date].
-    """
     df = raw_df.copy()
     df = df.sort_values(["ticker", "date"]).reset_index(drop=True)
 
@@ -179,18 +160,7 @@ def prepare_featured_data(raw_df, tickers_list=None):
 
 
 def extract_inference_windows(featured_df, window_keep=WINDOW_KEEP):
-    """
-    Extract the latest sliding window for each ticker for model inference.
 
-    Args:
-        featured_df: DataFrame with all 16 features (output of prepare_featured_data).
-        window_keep: Number of timesteps in sliding window (default 20).
-
-    Returns:
-        windows: dict {ticker: np.array shape (window_keep, 16)}
-        prediction_date: the latest date in the data (pd.Timestamp)
-        skipped: list of tickers that were skipped (insufficient data)
-    """
     windows = {}
     skipped = []
     prediction_date = None
@@ -222,20 +192,7 @@ def extract_inference_windows(featured_df, window_keep=WINDOW_KEEP):
 # Training Pipeline: Full Featured Data with Labels + Split
 
 def prepare_training_data(raw_df, horizon=1, train_ratio=0.80, val_ratio=0.10):
-    """
-    Prepare complete training data: features + labels + chronological split.
-    Used by retrain.py.
 
-    Args:
-        raw_df: Raw OHLCV DataFrame.
-        horizon: Prediction horizon in days (1, 5, or 10).
-        train_ratio, val_ratio: Split ratios. Test = 1 - train - val.
-
-    Returns:
-        X_train, y_train, X_val, y_val, X_test, y_test: numpy arrays
-        X arrays have shape (N, WINDOW_KEEP, len(FEATURE_COLS))
-        y arrays have shape (N,)
-    """
     # Compute features
     featured_df = prepare_featured_data(raw_df)
 

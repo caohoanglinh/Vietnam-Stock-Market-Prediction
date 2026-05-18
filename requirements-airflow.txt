@@ -2,7 +2,6 @@ vnstock
 scikit-learn
 xgboost
 joblib
-# News crawler dependencies
 httpx
 beautifulsoup4
 lxml

@@ -11,23 +11,7 @@ import pandas as pd
 # Daily Comparison: Yesterday's 1D Prediction vs Today's Actual
 
 def compare_yesterday(project_root, today_str=None):
-    """
-    Compare yesterday's 1D predictions against actual price movement.
 
-    Logic:
-        1. Find the most recent prediction file before today
-        2. Load actual close prices for pred_date and eval_date
-        3. actual_1d = 1 if close_today > close_pred_date else 0
-        4. Compare pred_1d vs actual_1d
-
-    Args:
-        project_root: Path to project root directory.
-        today_str: Today's date as "YYYY-MM-DD". If None, auto-detect.
-
-    Returns:
-        dict with keys: eval_date, daily_accuracy, n_correct, n_total, df_comparison
-        Returns None if no prediction file found.
-    """
     pred_dir = os.path.join(project_root, "data", "predictions", "daily")
     comp_dir = os.path.join(project_root, "data", "predictions", "comparison")
     raw_path = os.path.join(project_root, "data", "raw_data.csv")
@@ -123,19 +107,6 @@ def compare_yesterday(project_root, today_str=None):
 # Weekly Summary: Aggregate 5 Days of Comparisons
 
 def weekly_summary(project_root, today_str=None):
-    """
-    Aggregate comparison files from the current week (Mon-Fri).
-    Compute average accuracy for the week.
-
-    Args:
-        project_root: Path to project root.
-        today_str: Today's date as "YYYY-MM-DD". If None, use datetime.now().
-
-    Returns:
-        dict with keys: week_label, avg_accuracy, daily_accuracies, n_days,
-                        needs_retrain (True if avg < 50%)
-        Returns None if insufficient data.
-    """
     comp_dir = os.path.join(project_root, "data", "predictions", "comparison")
     week_dir = os.path.join(project_root, "data", "predictions", "weekly")
     os.makedirs(week_dir, exist_ok=True)

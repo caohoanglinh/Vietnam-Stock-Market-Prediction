@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VN Stock Market Predictions</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div>
+          <h1>VN Stock Market Predictions</h1>
+          <p id="metaLine" class="meta-line">Loading latest prediction snapshot...</p>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Tickers</h2>
+            <p class="panel-copy">10 tickers per page. Click a logo to see model output, 20-day features, and Gemini news analysis.</p>
+          </div>
+          <div id="pagination" class="pagination"></div>
+        </div>
+        <div id="tickerGrid" class="ticker-grid"></div>
+      </section>
+
+      <section class="panel detail-panel">
+        <div class="panel-head detail-head">
+          <div>
+            <h2 id="detailTitle">Ticker Detail</h2>
+            <p id="detailMeta" class="panel-copy">Select a ticker from the list above.</p>
+          </div>
+        </div>
+
+        <div id="detailEmpty" class="empty-state">
+          No ticker is selected.
+        </div>
+
+        <div id="detailContent" class="detail-content hidden">
+          <div class="summary-strip">
+            <div class="summary-card summary-card-wide">
+              <img id="detailAvatar" class="detail-avatar" alt="">
+              <div>
+                <div id="consensusBadge" class="badge">-</div>
+                <p id="predictionDateText" class="summary-copy"></p>
+                <p id="comparisonText" class="summary-copy"></p>
+              </div>
+            </div>
+            <div id="horizonCards" class="horizon-grid"></div>
+          </div>
+
+          <div class="table-panel news-panel">
+            <div class="table-head">
+              <h3>Gemini News Analysis</h3>
+              <p id="newsMeta" class="panel-copy"></p>
+            </div>
+            <div id="newsEmpty" class="empty-state hidden">No news analysis snapshot for this ticker.</div>
+            <div id="newsContent" class="news-grid hidden">
+              <article class="summary-card">
+                <div class="news-kv"><span>Sentiment</span><strong id="newsSentimentValue">-</strong></div>
+                <div class="news-kv"><span>Impact horizon</span><strong id="newsImpactValue">-</strong></div>
+                <div class="news-kv"><span>Confidence</span><strong id="newsConfidenceValue">-</strong></div>
+                <div class="news-kv"><span>News score</span><strong id="newsScoreValue">-</strong></div>
+                <div class="news-kv"><span>Articles analyzed</span><strong id="newsArticleCountValue">-</strong></div>
+              </article>
+              <article class="summary-card news-summary-card">
+                <h3>AI Summary</h3>
+                <p id="newsSummaryText" class="summary-copy"></p>
+              </article>
+              <article class="summary-card">
+                <h3>Bull Points</h3>
+                <ul id="bullPointsList" class="news-list"></ul>
+              </article>
+              <article class="summary-card">
+                <h3>Bear Points</h3>
+                <ul id="bearPointsList" class="news-list"></ul>
+              </article>
+              <article class="summary-card">
+                <h3>Risk Flags</h3>
+                <ul id="riskFlagsList" class="news-list"></ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="table-panel">
+            <div class="table-head">
+              <h3>20-Day Feature Input</h3>
+              <p id="featureWindowMeta" class="panel-copy"></p>
+            </div>
+            <div class="table-wrap">
+              <table id="featureTable">
+                <thead></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -16,15 +16,7 @@ from utils.feature_engineering import FEATURE_COLS, WINDOW_KEEP
 # LSTM Model Definition (must match training notebook exactly)
 
 class StackedLSTMClassifier(nn.Module):
-    """
-    2-layer Stacked LSTM for binary stock direction classification.
 
-    Architecture:
-        Input  : (batch, seq_len=20, input_size=16)
-        LSTM-1 : hidden_size=128, returns full sequence
-        LSTM-2 : hidden_size=64,  returns last hidden state only
-        LayerNorm → FC(64→32) → ReLU → Dropout → FC(32→1)
-    """
 
     def __init__(
         self,
@@ -115,18 +107,7 @@ def load_auc_weights(config_path):
 # Prediction for a Single Ticker
 
 def predict_single_ticker(window, models, weights, horizon="1d"):
-    """
-    Run RF + XGBoost + LSTM on a single ticker's window.
 
-    Args:
-        window: np.array shape (20, 16) — one ticker's feature window.
-        models: dict from load_all_models().
-        weights: AUC weights for the given horizon {"rf": w, "xgb": w, "lstm": w}.
-        horizon: "1d", "5d", or "10d".
-
-    Returns:
-        dict with prob_rf, prob_xgb, prob_lstm, ensemble prob, and prediction.
-    """
     device = models["device"]
 
     # ── RF: flatten → predict_proba ──────────────────────────────────────────
@@ -168,19 +149,7 @@ def predict_single_ticker(window, models, weights, horizon="1d"):
 # Full Prediction Pipeline: All Tickers × 3 Horizons + Consensus
 
 def run_ensemble_predictions(windows, models, auc_weights):
-    """
-    Run predictions for all tickers across all 3 horizons.
 
-    Args:
-        windows: dict {ticker: np.array (20, 16)} from extract_inference_windows.
-        models: dict from load_all_models().
-        auc_weights: dict from load_auc_weights().
-
-    Returns:
-        pd.DataFrame with columns:
-            ticker, prob_rf_1d, prob_xgb_1d, prob_lstm_1d, ensemble_1d, pred_1d,
-            (same for 5d, 10d), consensus_votes, consensus_decision
-    """
     rows = []
 
     for ticker, window in sorted(windows.items()):

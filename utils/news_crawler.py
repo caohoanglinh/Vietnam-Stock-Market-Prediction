@@ -21,10 +21,6 @@ CAFEF_SEARCH_URL = "https://cafef.vn/tim-kiem.chn?keywords={ticker}"
 
 
 def _parse_date(raw: str) -> datetime | None:
-    """
-    Parse CafeF date string 'DD/MM/YYYY HH:MM' -> UTC datetime.
-    Returns None if parsing fails.
-    """
     for fmt in ("%d/%m/%Y %H:%M", "%d/%m/%Y"):
         try:
             return datetime.strptime(raw.strip(), fmt).replace(tzinfo=timezone.utc)
@@ -34,16 +30,7 @@ def _parse_date(raw: str) -> datetime | None:
 
 
 def _parse_cafef_articles(html: str, ticker: str) -> list[dict]:
-    """
-    Parse articles from CafeF ticker tag page.
 
-    Live HTML structure (confirmed from cafef.vn/{ticker}.html):
-        <h3>
-            <a href="/article-slug.chn">Title text</a>
-        </h3>
-        <!-- text node: "DD/MM/YYYY HH:MM" -->
-        <!-- text node: summary text -->
-    """
     soup = BeautifulSoup(html, "html.parser")
     articles = []
     crawled_at = datetime.now(tz=timezone.utc)
@@ -109,17 +96,6 @@ def _parse_cafef_articles(html: str, ticker: str) -> list[dict]:
 
 
 def crawl_stock_news(ticker: str, max_articles: int = 20) -> list[dict]:
-    """
-    Crawl latest news for a stock ticker from CafeF.
-
-    Args:
-        ticker: Stock symbol (e.g. 'VCB', 'HPG')
-        max_articles: Maximum number of articles to return
-
-    Returns:
-        List of article dicts with keys:
-        ticker, title, summary, url, published_at_raw, source, crawled_at
-    """
     articles = []
     urls_to_try = [
         CAFEF_STOCK_URL.format(ticker=ticker.lower()),
@@ -157,16 +133,7 @@ def crawl_stock_news(ticker: str, max_articles: int = 20) -> list[dict]:
 
 
 def crawl_multiple_tickers(tickers: list[str], max_per_ticker: int = 20) -> list[dict]:
-    """
-    Crawl news for multiple tickers.
 
-    Args:
-        tickers: List of stock symbols
-        max_per_ticker: Max articles per ticker
-
-    Returns:
-        Combined list of articles from all tickers
-    """
     all_articles = []
     for ticker in tickers:
         try:
