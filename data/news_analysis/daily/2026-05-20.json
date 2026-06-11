@@ -1,0 +1,240 @@
+{
+  "analysisDate": "2026-05-20",
+  "generatedAt": "2026-05-20T12:31:22Z",
+  "tickerCount": 12,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "e43d9f0b1a18e334569122f192fabcd41bc30c2957c6cc61be8ac3f56044ae2b",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "ACB has announced information regarding its shareholders who own 1% or more of the company's capital. This disclosure includes the shareholding percentages of three foreign shareholders and related individuals. The announcement provides transparency on major ownership stakes within the bank.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:05"
+    },
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "ab5d33598dcfb70806a03d985a6dabf0f4fa0caddce28c6b3dd1ff0b6e6710c1",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.8,
+      "newsScore": -0.6,
+      "summary": "Cổ phiếu DGC của Hóa chất Đức Giang sẽ bị hạn chế giao dịch, chỉ được phép giao dịch trong phiên chiều. Nguyên nhân là do chậm nộp báo cáo tài chính năm 2025 đã kiểm toán quá thời hạn quy định. Biện pháp này sẽ bắt đầu có hiệu lực từ ngày 26/5.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Hạn chế giao dịch trong phiên chiều."
+      ],
+      "riskFlags": [
+        "Chậm nộp báo cáo tài chính đã kiểm toán."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:13"
+    },
+    {
+      "ticker": "DXG",
+      "analysisDate": "2026-05-20",
+      "articleCount": 2,
+      "newsInputHash": "d0fd1329d93e7a36c6ede4599f5d0cef0897948f1ab1dee43dba6af1e08284c9",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "Đất Xanh (DXG) sẽ chốt quyền phát hành 155,7 triệu cổ phiếu thưởng vào ngày 29/5. Đồng thời, công ty công bố tái định vị chiến lược lớn nhất trong 23 năm, đổi tên thành BLUEMARQ GROUP. Sự chuyển mình này đánh dấu bước dịch chuyển từ nhà phát triển bất động sản sang nền tảng đầu tư, quản lý tài sản và phát triển bất động sản toàn cầu.",
+      "bullPoints": [
+        "Phát hành cổ phiếu thưởng, có thể tăng thanh khoản và thu hút nhà đầu tư.",
+        "Tái định vị chiến lược thành BLUEMARQ GROUP, mở rộng tầm nhìn toàn cầu.",
+        "Chuyển đổi sang mô hình đầu tư, quản lý tài sản và phát triển bất động sản."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:19"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-20",
+      "articleCount": 4,
+      "newsInputHash": "3ebbb2b5619b31acd5f3c996d98706386ba1e8de0c2678593d4ac297ab05131a",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "FPT has announced a strategic partnership with a leading Japanese healthcare group to implement technology, particularly AI, in healthcare services. Concurrently, the company is set to close its shareholder list for a dividend payment of VND 1,700 billion. Despite recent stock price declines, financial analysts are recommending a \"BUY\" for FPT shares with a target price indicating a 24% upside potential.",
+      "bullPoints": [
+        "New partnership with a Japanese healthcare group for technology and AI application.",
+        "Significant dividend payout of VND 1,700 billion.",
+        "Analyst \"BUY\" recommendation with a 24% upside target."
+      ],
+      "bearPoints": [
+        "Stock price has recently fallen to a 2-year low."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:28"
+    },
+    {
+      "ticker": "MBB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "524d35ad6da62aa7c58f903952498d9180100b4f16ad1aad4363f3189c36c26a",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "A Deputy General Director of MBB has registered to sell a large volume of MBB shares. The transaction is expected to be carried out through order matching. This sale is scheduled to take place from May 22 to June 20, 2026.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Deputy General Director plans to sell a large number of MBB shares."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:34"
+    },
+    {
+      "ticker": "PDR",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "9fa7b4cdae41ea8cd8a3dc44db487fb60d910e36dcfb301cdc15444f775b5dd2",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.5,
+      "summary": "Phát Đạt (PDR) is preparing for a significant investment, potentially one of its largest in recent years. This strategic move is being initiated through a shareholder consultation process. The specific project receiving this substantial investment is not yet disclosed.",
+      "bullPoints": [
+        "Significant investment planned by Phát Đạt.",
+        "Shareholder consultation indicates a major strategic decision.",
+        "Potential for substantial growth from new project."
+      ],
+      "bearPoints": [
+        "The specific project remains undisclosed, creating uncertainty."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:42"
+    },
+    {
+      "ticker": "PHR",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "3588e10aaa3c76acf30c5a04f5e8321bc892c14311b1f389646ba49527666f1c",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.8,
+      "newsScore": 0.7,
+      "summary": "PHR is set to receive over VND 2,100 billion in compensation from a Singaporean partner. This influx of funds, coupled with strong Q1 business results, has led the company to set an ambitious pre-tax profit target exceeding VND 2,000 billion for 2026. The news has already caused one stock to hit its ceiling price.",
+      "bullPoints": [
+        "Significant compensation payment expected from Singaporean partner.",
+        "Ambitious profit target set for 2026, driven by compensation and Q1 performance.",
+        "Positive market reaction indicated by a stock hitting its ceiling."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:47"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "4728e39d93db99567129e81a2c37f128f5119fabe3ebb39862f9188f295c445d",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Real estate and construction credit continues to represent a significant portion of many banks' total outstanding loans as of Q1 2026. Some institutions have allocated between 25-50% of their loan portfolios to this sector, with a few even exceeding half. This indicates a continued reliance on real estate for lending activities across the banking industry.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "High exposure to the real estate sector could pose risks if the market experiences a downturn."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:30:55"
+    },
+    {
+      "ticker": "SSB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "a76ade6b96c500a1977e4b68faaec700b41acc4468062f76420e042a80709015",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "SeABank plans to issue 583.8 million shares as a dividend, representing a ratio of over 20.5%. This move is a standard corporate action for dividend distribution.",
+      "bullPoints": [
+        "Dividend payment in shares can be seen as a sign of the bank's profitability and commitment to shareholders."
+      ],
+      "bearPoints": [
+        "Issuance of new shares can lead to dilution of existing shareholders' ownership."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:31:00"
+    },
+    {
+      "ticker": "TCB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "e87f14372256e0d7e7c0927f46ebe3e2f782fff0b138ef6eefb2527292749e36",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "Techcombank has issued an important announcement to its customers. The bank is advising customers to be vigilant against suspicious calls. This is a general advisory to enhance customer security.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Customer security advisory"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:31:11"
+    },
+    {
+      "ticker": "VCI",
+      "analysisDate": "2026-05-20",
+      "articleCount": 1,
+      "newsInputHash": "d35b06687bc674fe02c2b8eed5c9d4d194e834c4d4a6c55726849041247341f2",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Vietcap plans to issue 4.6 million ESOP shares to 178 employees at a price of VND 11,000 per share. This issuance is intended for employee incentives.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Potential dilution for existing shareholders."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:31:17"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-05-20",
+      "articleCount": 2,
+      "newsInputHash": "dbedce9ca411829d6de55c39762e44f395acf82d8c31e061e6baba5460af5018",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.5,
+      "newsScore": 0.0,
+      "summary": "VIB is running a promotional campaign for its Privilege Banking customers, offering a chance to win a trip to see the Northern Lights. Additionally, there has been a personnel change where Mr. Ho Van Long has moved from Deputy General Director, Head of Financial Services/Chief Financial Officer to Senior Strategy Director.",
+      "bullPoints": [
+        "VIB Privilege Banking promotion offers attractive prizes to customers."
+      ],
+      "bearPoints": [
+        "Personnel change in a key financial role."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-20 12:31:22"
+    }
+  ]
+}

@@ -85,21 +85,77 @@ def vnstock_news_crawl_dag():
         return {"total_inserted": total_inserted, "failed": failed}
 
     @task()
-    def log_summary(results: list[dict]):
+    def log_summary(batch_results: list[dict], penalty_macro_result: dict):
         """Aggregate and log final crawl summary across all batches."""
-        total = sum(r["total_inserted"] for r in results)
-        all_failed = [t for r in results for t in r["failed"]]
+        total = sum(r.get("total_inserted", 0) for r in batch_results) + penalty_macro_result.get("penalty_inserted", 0) + penalty_macro_result.get("macro_inserted", 0)
+        all_failed = [t for r in batch_results if "failed" in r for t in r["failed"]]
         logger.info(
             f"[NEWS CRAWL SUMMARY] "
             f"Inserted: {total} | "
             f"Failed tickers ({len(all_failed)}): {all_failed}"
         )
 
-    # DAG flow: init → N parallel batch tasks → summary
+    @task()
+    def crawl_penalty_and_macro() -> dict:
+        """
+        Crawl CafeF penalty/regulatory news and macro headlines.
+
+        Penalty articles: use a single LLM batch call to identify which tickers
+        they relate to, then re-insert each article once per matched ticker.
+
+        Macro articles: stored as-is with ticker='MACRO' for use as LLM context.
+        """
+        sys.path.insert(0, "/opt/airflow/project")
+        from utils.news_crawler import crawl_macro_news, crawl_penalty_news
+        from utils.news_db import insert_articles
+        from utils.gemini_news_analysis import extract_tickers_from_penalty_articles
+
+        result = {"penalty_inserted": 0, "macro_inserted": 0, "penalty_articles": 0}
+
+        # --- Macro news ---
+        macro_articles = crawl_macro_news(max_articles=20)
+        if macro_articles:
+            result["macro_inserted"] = insert_articles(macro_articles)
+            logger.info(f"[MACRO] {result['macro_inserted']} macro articles saved")
+
+        # --- Penalty news ---
+        penalty_articles = crawl_penalty_news(max_articles=30)
+        result["penalty_articles"] = len(penalty_articles)
+        logger.info(f"[PENALTY] Crawled {len(penalty_articles)} penalty articles")
+
+        if penalty_articles:
+            # Single LLM call to map articles → tickers
+            matches = extract_tickers_from_penalty_articles(
+                articles=penalty_articles,
+                known_tickers=TICKERS,
+            )
+            logger.info(f"[PENALTY] LLM matched tickers in {len(matches)} articles")
+
+            # Re-insert each penalty article once per matched ticker
+            tagged_articles = []
+            matched_indices = {m["article_index"]: m["tickers"] for m in matches}
+            for i, article in enumerate(penalty_articles):
+                tickers_for_article = matched_indices.get(i, [])
+                if tickers_for_article:
+                    for ticker in tickers_for_article:
+                        tagged = dict(article)
+                        tagged["ticker"] = ticker.upper()
+                        tagged_articles.append(tagged)
+                # Always keep the original PENALTY record for audit trail
+                tagged_articles.append(article)
+
+            result["penalty_inserted"] = insert_articles(tagged_articles)
+            logger.info(f"[PENALTY] {result['penalty_inserted']} penalty articles saved (incl. per-ticker copies)")
+
+        return result
+
+    # DAG flow: init → N parallel batch tasks + penalty/macro → summary
     init = init_database()
     batch_results = crawl_batch.expand(batch=TICKER_BATCHES)
+    penalty_macro_result = crawl_penalty_and_macro()
     batch_results.set_upstream(init)
-    log_summary(batch_results)
+    penalty_macro_result.set_upstream(init)
+    log_summary(batch_results, penalty_macro_result)
 
 
 vnstock_news_crawl_dag()

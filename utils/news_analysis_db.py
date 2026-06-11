@@ -230,6 +230,29 @@ def get_daily_analysis_records(analysis_date: date) -> list[dict[str, Any]]:
     return [dict(row) for row in rows]
 
 
+def fetch_macro_headlines_for_date(analysis_date: date, limit: int = 10) -> list[str]:
+    """
+    Fetch macro/policy news headlines crawled on a given date.
+    Used to inject macro context into per-ticker LLM prompts.
+
+    Returns:
+        List of headline strings (title only), most recent first.
+    """
+    sql = f"""
+        SELECT title
+        FROM stock_news
+        WHERE ticker = 'MACRO'
+          AND {LOCAL_DATE_EXPR} = %s
+        ORDER BY crawled_at DESC NULLS LAST
+        LIMIT %s
+    """
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(sql, (analysis_date, limit))
+            rows = cur.fetchall()
+    return [row[0] for row in rows if row[0]]
+
+
 def _normalize_points(value: Any) -> list[str]:
     if value is None:
         return []

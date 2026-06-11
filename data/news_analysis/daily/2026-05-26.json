@@ -1,0 +1,91 @@
+{
+  "analysisDate": "2026-05-26",
+  "generatedAt": "2026-05-26T12:30:23Z",
+  "tickerCount": 4,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-05-26",
+      "articleCount": 1,
+      "newsInputHash": "03239e0c2157410e46dc64dc8af2da33600e474be79dd65fb875a15bbb792a22",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "ACB is enhancing customer security by implementing a new alert mechanism for suspicious transactions. This initiative is in collaboration with the State Bank of Vietnam's Payment Department, the Ministry of Public Security, and NAPAS. The system will leverage data from SIMO, A05, and NAPAS to identify potentially fraudulent accounts or cards.",
+      "bullPoints": [
+        "Strengthened customer security measures.",
+        "Collaboration with key regulatory and security bodies.",
+        "Proactive approach to fraud prevention."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-26 12:30:03"
+    },
+    {
+      "ticker": "HSG",
+      "analysisDate": "2026-05-26",
+      "articleCount": 1,
+      "newsInputHash": "0424520be6e97fd878069083804645eb3edbcb9f86e1742c01479dc56ebf5b4f",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Tôn Hoa Sen has provided an update regarding a fire at its Ho Chi Minh City factory. The company stated that the acid regeneration line, where the incident occurred, is an auxiliary line and is separate from other production lines. This suggests a potentially limited impact on core operations.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Fire incident at a factory."
+      ],
+      "riskFlags": [
+        "Factory fire"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-26 12:30:09"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-05-26",
+      "articleCount": 1,
+      "newsInputHash": "61983ed8591029753e91853cc26b9510c5c5bca17c28a24d0cc010781435dbea",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Bách Hoá Xanh, a subsidiary of MWG, has officially opened its first 8 stores in Hanoi. These initial locations are situated outside the city center. This expansion marks a new geographical market for the company.",
+      "bullPoints": [
+        "Expansion into a new major market (Hanoi)."
+      ],
+      "bearPoints": [
+        "Initial stores are not in the prime city center locations."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-26 12:30:16"
+    },
+    {
+      "ticker": "REE",
+      "analysisDate": "2026-05-26",
+      "articleCount": 2,
+      "newsInputHash": "d7f1d6e0414d22b4faf2bf901a5feda0a28bd6bc39b7e5a03a8fe6a752bc4e36",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "REE has seen significant corporate actions with a change in its Chairman, alongside an increase in its charter capital to over VND 6,200 billion following a stock dividend payout. These events indicate structural shifts within the company and its shareholder base.",
+      "bullPoints": [
+        "Increased charter capital to over VND 6,200 billion.",
+        "Completed stock dividend payout to shareholders."
+      ],
+      "bearPoints": [
+        "Change in Chairman, alongside other large companies like VinFast and Novaland."
+      ],
+      "riskFlags": [
+        "Leadership change may introduce uncertainty."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-26 12:30:23"
+    }
+  ]
+}

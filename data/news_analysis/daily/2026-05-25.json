@@ -1,0 +1,276 @@
+{
+  "analysisDate": "2026-05-25",
+  "generatedAt": "2026-05-25T12:31:17Z",
+  "tickerCount": 14,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-05-25",
+      "articleCount": 3,
+      "newsInputHash": "6d0373c8c91943597ec8be16243da691effe8a63f530dde1d8c00bd977638723",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "ACB experienced positive trading activity on May 25, 2026, attracting significant investor interest. The bank is also adjusting a key credit card fee, effective June 2026. Leadership discussions highlighted the importance of adaptability in a volatile environment.",
+      "bullPoints": [
+        "ACB attracted investor interest and saw positive trading on May 25.",
+        "Leadership summit focused on strategic adaptability in a volatile market.",
+        "Credit card fee adjustment to take effect in June 2026."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:03"
+    },
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-05-25",
+      "articleCount": 2,
+      "newsInputHash": "76cde693097ec6b153ad30e000d642496efb7e4c032ea50f1026b889f4c7e729",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Hóa chất Đức Giang (DGC) has announced important information regarding its shares. The company plans to complete the audit of its 2025 financial statements in the second quarter of 2026. This comes as its shares are set to be restricted from trading starting May 26, 2026.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Shares will be restricted from trading starting May 26, 2026."
+      ],
+      "riskFlags": [
+        "Shares subject to trading restrictions."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:09"
+    },
+    {
+      "ticker": "DXG",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "e74fc254a71e71a212d3c4ce18214c8d3912b5740b4ac7b3355970dff32fa610",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "On May 20, 2026, BLUEMARQ GROUP was officially launched, marking a significant transformation for Dat Xanh (DXG) after nearly 23 years. The company is undergoing a comprehensive restructuring to evolve from a real estate developer into a global investment, asset management, and real estate development group. This strategic shift signals a new era of growth and ambition for the company.",
+      "bullPoints": [
+        "Official launch of BLUEMARQ GROUP signifies a major strategic shift.",
+        "Company is restructuring to become a global investment and asset management group.",
+        "Repositioning aims for a new era of development and global expansion."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:15"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-25",
+      "articleCount": 2,
+      "newsInputHash": "8df74e516af129230dfd054f3767415d695ba3b0d1eadfd7ebf3fed7719bd4e9",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.4,
+      "summary": "Executives at FPT have purchased company shares at a significant discount, 90% below market price. This action by leadership can be interpreted as a strong vote of confidence in the company's future prospects. The news was reported on May 23, 2026.",
+      "bullPoints": [
+        "FPT executives bought shares at a 90% discount.",
+        "Leadership's stock purchase signals confidence."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:20"
+    },
+    {
+      "ticker": "GAS",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "661061348fe6063251168a7f49e2f80dc98c703ad0008cc4d62e93663f2af092",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "PV GAS announced that it no longer meets the conditions to be a public company as of the end of 2025. This is due to a concentrated shareholder structure. The Chairman of the Board of Directors has commented on this situation.",
+      "bullPoints": [],
+      "bearPoints": [
+        "PV GAS no longer meets the criteria for a public company."
+      ],
+      "riskFlags": [
+        "Regulatory status change"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:24"
+    },
+    {
+      "ticker": "HDB",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "432e4f0d87d0f77a9761e2123be0d014247346919b8504a251d30c7902bbf7d4",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "HDBank plans to IPO its securities company in September 2026. The bank maintains the highest capital adequacy ratio among listed banks, indicating a strong capital foundation. This robust financial position allows HDBank to proactively adapt to future capital and liquidity requirements.",
+      "bullPoints": [
+        "IPO of securities company planned for September 2026.",
+        "Highest capital adequacy ratio among listed banks.",
+        "Strong liquidity and capital foundation."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:30"
+    },
+    {
+      "ticker": "MSB",
+      "analysisDate": "2026-05-25",
+      "articleCount": 2,
+      "newsInputHash": "5225ca63f92178b5cc489d3adbd404650d5e6f5720898220e9ea15912565f598",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "MSB has initiated a project related to Circular 14/2025/TT-NHNN concerning capital adequacy, in collaboration with Ernst & Young Vietnam. This marks a significant step in adopting the Internal Rating-Based (IRB) approach. Separately, ROX Living did not sell its registered 31.16 million MSB shares due to unfavorable market conditions.",
+      "bullPoints": [
+        "MSB is proactively working on capital adequacy improvements by launching a project for the IRB approach."
+      ],
+      "bearPoints": [
+        "ROX Living's decision not to sell shares indicates potential market concerns or lack of confidence from a significant holder."
+      ],
+      "riskFlags": [
+        "ROX Living's decision not to sell shares could signal negative market sentiment or internal issues."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:36"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "3eb7f54684534ca9e781afdb790e983c63016806cbf5c025c812f54c4e2eaab0",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "A board member of The World Mobile Investment Joint Stock Company (MWG) has sold 2 million MWG shares. This transaction reduces his ownership stake to 0.11% of the company's charter capital. The sale by a leadership figure can be perceived negatively by the market.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Leadership divestment of shares."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:42"
+    },
+    {
+      "ticker": "OCB",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "15fb6aa437146b615d6f92918c1d6d25af922aaa6f1f8bf43aa004239760008c",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "OCB has appointed an additional Deputy General Director as part of a broader trend of senior management changes across the banking sector. Several other banks also saw leadership transitions, including additions and departures. This news is a minor event within a larger industry trend.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:48"
+    },
+    {
+      "ticker": "PET",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "fecc226e86d3751b9c4bdd01b52c5bcab57198dd69f4d212f5f2174126141899",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Petrosetco (PET) is maintaining a significant stock investment portfolio. This portfolio is heavily concentrated in stocks within the Gelex ecosystem. The company's activities extend beyond its core iPhone distribution business.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:30:52"
+    },
+    {
+      "ticker": "POW",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "9e307d806c4f2608d8f924cfa6a33f39cd007301aef77de45ad40992a5b09a18",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "PV Power has announced significant changes in its senior management positions following its 2026 Annual General Meeting of Shareholders. The news indicates a reshuffling of key personnel within the company. The immediate impact on the stock is unclear without further details on the reasons or implications of these changes.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Personnel changes can introduce uncertainty."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:31:01"
+    },
+    {
+      "ticker": "REE",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "4efaa659705146ba90eb4827bd7b2d0d70ccd364a369118de83d68d86bb50e3b",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "The provided article discusses the succession challenges faced by large Vietnamese enterprises as their founding generation ages. It highlights the importance of maintaining stable governance, shareholder confidence, and long-term development direction during leadership transitions. REE is mentioned as one of the \"thousand-billion-dollar empires\" in Vietnam.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Succession planning uncertainty"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:31:07"
+    },
+    {
+      "ticker": "STB",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "5f2909d687fef1039cb6d8ff5c972f2beadb150e8e0a7d5e7b8d03b9e7f654d3",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": -0.4,
+      "summary": "Sacombank has accepted the resignation of Deputy General Director Vu Minh Quan, who served for less than six months. This departure follows recent executive-level changes within the bank. The frequent changes at the management level could raise concerns about stability.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Deputy General Director resigns after less than six months.",
+        "Recent executive-level changes at the bank."
+      ],
+      "riskFlags": [
+        "Executive turnover"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:31:12"
+    },
+    {
+      "ticker": "VHM",
+      "analysisDate": "2026-05-25",
+      "articleCount": 1,
+      "newsInputHash": "1fbf5ed10c45c6f3999bc1c2834a2b03c8645791435d7ad99f20eec29e6011a9",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "A recent article clarifies the conditions for Vinhomes' (VHM) gold exchange program for real estate. Customers must prove they owned gold before April 25, 2026, one month prior to the program's announcement. This detail is crucial for understanding the 110% gold exchange rate after five years.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Customers need to prove prior gold ownership."
+      ],
+      "riskFlags": [
+        "Program eligibility requires specific historical gold ownership."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-25 12:31:17"
+    }
+  ]
+}

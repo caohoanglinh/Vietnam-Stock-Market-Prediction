@@ -114,7 +114,12 @@ def _normalize_output(parsed: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_prompt(ticker: str, analysis_date: date, articles: list[dict[str, Any]]) -> str:
+def build_prompt(
+    ticker: str,
+    analysis_date: date,
+    articles: list[dict[str, Any]],
+    macro_headlines: list[str] | None = None,
+) -> str:
     compact_articles = [
         {
             "title": article.get("title"),
@@ -127,27 +132,48 @@ def build_prompt(ticker: str, analysis_date: date, articles: list[dict[str, Any]
     ]
     articles_json = json.dumps(compact_articles, ensure_ascii=False, indent=2)
 
+    macro_section = ""
+    if macro_headlines:
+        headlines_text = "\n".join(f"- {h}" for h in macro_headlines[:10])
+        macro_section = f"""
+Macro & Market Context (today's top macro/regulatory headlines — use for risk awareness only):
+{headlines_text}
+"""
+
     return f"""
-You are a financial-news analyst for Vietnamese stocks.
+You are a skeptical buy-side analyst for Vietnamese stocks. Your job is to find BOTH the upside AND the risks.
 Analyze the news items for ticker {ticker} on {analysis_date.isoformat()}.
-Use only the provided articles. Do not invent facts. Do not forecast exact prices.
-If the evidence is weak, sparse, duplicated, or contradictory, prefer a neutral sentiment and lower confidence.
-Return only one JSON object with exactly these keys:
+Use only the provided articles and macro context below. Do not invent facts. Do not forecast exact prices.
+
+CRITICAL RULES:
+1. You MUST populate bear_points with at least 1 item, even for seemingly positive news.
+   Think like a short-seller: what could go wrong? What is the market already pricing in?
+2. You MUST populate risk_flags with at least 1 item. Look for: dilution risk, insider selling,
+   regulatory risk, sector headwinds, high valuation, debt concerns, or macro risks.
+3. news_score should only be strongly positive (>0.5) if the news is GENUINELY SURPRISING
+   (unexpected earnings beat, major new contract, strategic acquisition).
+   Routine events (dividend, planned capital raise, share buyback registration) should score near 0.
+4. If the only news is a management insider BUY registration, be cautious — this often signals
+   insiders protecting price before a difficult period. Mark confidence low.
+5. If the evidence is weak, sparse, duplicated, or contradictory, prefer neutral sentiment.
+
+Scoring examples:
+- Capital raise (tăng vốn) → bull: more resources; bear: dilution risk → news_score: 0.0 to 0.2
+- Insider buy registration → bull: confidence signal; bear: could be price defense → news_score: 0.1 to 0.3
+- UBCKNN fine/penalty → sentiment: negative; news_score: -0.5 to -0.8
+- Major unexpected partnership → sentiment: positive; news_score: 0.5 to 0.8
+- Generic market recap → sentiment: neutral; news_score: 0.0
+
+Return ONLY one JSON object with exactly these keys:
 - sentiment: one of [positive, neutral, negative]
 - impact_horizon: one of [1d, 5d, 10d, mixed]
 - confidence: float from 0 to 1
 - news_score: float from -1 to 1
 - summary: string with 2 to 4 concise sentences
-- bull_points: array of up to 3 short bullet strings
-- bear_points: array of up to 3 short bullet strings
-- risk_flags: array of up to 3 short bullet strings
-
-Scoring guidance:
-- positive means the news flow is net supportive for the stock
-- negative means the news flow is net harmful for the stock
-- neutral means no clear directional edge
-- news_score should be near 0 when the evidence is mixed or weak
-
+- bull_points: array of up to 3 short bullet strings (REQUIRED — never empty)
+- bear_points: array of up to 3 short bullet strings (REQUIRED — never empty)
+- risk_flags: array of up to 3 short bullet strings (REQUIRED — never empty)
+{macro_section}
 Articles:
 {articles_json}
 """.strip()
@@ -164,9 +190,87 @@ def _build_request_body(prompt: str) -> dict[str, Any]:
         "generationConfig": {
             "temperature": 0.15,
             "topP": 0.8,
-            "maxOutputTokens": 700,
+            "maxOutputTokens": 1000,
         },
     }
+
+
+def extract_tickers_from_penalty_articles(
+    articles: list[dict[str, Any]],
+    known_tickers: list[str],
+    *,
+    api_key: str | None = None,
+    model_name: str = DEFAULT_MODEL_NAME,
+) -> list[dict[str, Any]]:
+    """
+    Batch LLM call: given a list of penalty/regulatory articles,
+    extract which ticker(s) each article is about.
+
+    Returns a list of dicts: [{"article_index": int, "tickers": [str, ...]}, ...]
+    Only returns entries where tickers were found.
+    """
+    if not articles:
+        return []
+
+    resolved_api_key = api_key or os.getenv("GEMINI_API_KEY")
+    if not resolved_api_key:
+        raise RuntimeError("GEMINI_API_KEY is not configured")
+
+    tickers_str = ", ".join(known_tickers)
+    articles_list = [
+        {"index": i, "title": a.get("title", ""), "summary": a.get("summary", "")}
+        for i, a in enumerate(articles)
+    ]
+    articles_json = json.dumps(articles_list, ensure_ascii=False, indent=2)
+
+    prompt = f"""You are a Vietnamese stock market expert.
+Below is a list of regulatory/penalty news articles from Vietnam's financial market.
+For each article, identify which Vietnamese stock ticker codes (from the list below) are mentioned
+or are clearly the subject of the article.
+
+Known tickers: {tickers_str}
+
+Return ONLY a JSON array. Each element must have:
+- "index": the article index (integer)
+- "tickers": array of matching ticker strings (empty array if none found)
+
+Only include entries where at least one ticker was found.
+Do not include articles that are general market news with no specific company.
+
+Articles:
+{articles_json}""".strip()
+
+    url = GEMINI_API_URL.format(model=model_name, api_key=resolved_api_key)
+    request_body = {
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.05, "maxOutputTokens": 800},
+    }
+
+    with httpx.Client(timeout=REQUEST_TIMEOUT_SECONDS) as client:
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                response = client.post(url, json=request_body)
+                if response.status_code == 200:
+                    text = _extract_response_text(response.json())
+                    # Extract JSON array from response
+                    start = text.find("[")
+                    end = text.rfind("]") + 1
+                    if start == -1 or end == 0:
+                        logger.warning("No JSON array in penalty extraction response")
+                        return []
+                    results = json.loads(text[start:end])
+                    return [r for r in results if r.get("tickers")]
+                if response.status_code in RETRYABLE_STATUS_CODES:
+                    time.sleep(min(60, 2 ** attempt))
+                    continue
+                logger.error("Penalty ticker extraction failed: status=%s", response.status_code)
+                return []
+            except Exception as exc:
+                logger.warning("Penalty extraction attempt %s failed: %s", attempt, exc)
+                if attempt >= MAX_RETRIES:
+                    return []
+                time.sleep(min(60, 2 ** attempt))
+    return []
 
 
 def analyze_ticker_news(
@@ -176,6 +280,7 @@ def analyze_ticker_news(
     *,
     api_key: str | None = None,
     model_name: str = DEFAULT_MODEL_NAME,
+    macro_headlines: list[str] | None = None,
 ) -> dict[str, Any]:
     if not articles:
         raise ValueError(f"No articles provided for ticker {ticker}")
@@ -185,7 +290,12 @@ def analyze_ticker_news(
         raise RuntimeError("GEMINI_API_KEY is not configured")
 
     url = GEMINI_API_URL.format(model=model_name, api_key=resolved_api_key)
-    prompt = build_prompt(ticker=ticker, analysis_date=analysis_date, articles=articles)
+    prompt = build_prompt(
+        ticker=ticker,
+        analysis_date=analysis_date,
+        articles=articles,
+        macro_headlines=macro_headlines,
+    )
     request_body = _build_request_body(prompt)
 
     last_error: Exception | None = None

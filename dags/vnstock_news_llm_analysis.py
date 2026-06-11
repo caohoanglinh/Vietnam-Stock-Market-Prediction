@@ -53,6 +53,7 @@ def vnstock_news_llm_analysis_dag():
         from utils.news_analysis_db import (
             export_daily_analysis_snapshot,
             fetch_articles_grouped_for_analysis,
+            fetch_macro_headlines_for_date,
             get_daily_analysis_records,
             get_existing_analysis,
             upsert_daily_analysis,
@@ -63,6 +64,10 @@ def vnstock_news_llm_analysis_dag():
 
         analysis_date = pendulum.now(LOCAL_TZ).date()
         logger.info("Starting Gemini news analysis for %s", analysis_date)
+
+        # Fetch macro headlines once — injected into every ticker's prompt
+        macro_headlines = fetch_macro_headlines_for_date(analysis_date)
+        logger.info("Loaded %s macro headlines for context", len(macro_headlines))
 
         groups = fetch_articles_grouped_for_analysis(
             analysis_date=analysis_date,
@@ -114,6 +119,7 @@ def vnstock_news_llm_analysis_dag():
                     analysis_date=analysis_date,
                     articles=group["articles"],
                     model_name=DEFAULT_MODEL_NAME,
+                    macro_headlines=macro_headlines,
                 )
                 record = {
                     "ticker": ticker,

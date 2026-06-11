@@ -1,0 +1,411 @@
+{
+  "analysisDate": "2026-06-05",
+  "generatedAt": "2026-06-05T12:31:52Z",
+  "tickerCount": 15,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-06-05",
+      "articleCount": 4,
+      "newsInputHash": "048981033c0b3ed3b964a4ac1d9359449adfd5bef14bae5881972082c2b9316b",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "ACB has announced its dividend payment for 2025, with a 20% payout primarily in shares and a plan for significant capital increase in 2026. The bank also launched a \"green contribution\" initiative as part of its 33rd anniversary, focusing on sustainability. Separately, an unusual transaction involving an inactive ACB account was reported, prompting police investigation.",
+      "bullPoints": [
+        "Dividend payout of 20% for 2025 provides a return to shareholders.",
+        "Planned capital increase in 2026 could fund future growth initiatives.",
+        "ESG initiative demonstrates commitment to sustainability and corporate social responsibility."
+      ],
+      "bearPoints": [
+        "The majority of the dividend is paid in shares, which can dilute existing shareholders' ownership.",
+        "The capital increase plan, while potentially beneficial, also carries inherent execution risks.",
+        "The unusual transaction involving an inactive account, while likely isolated, raises minor operational security questions."
+      ],
+      "riskFlags": [
+        "Dilution risk associated with the share dividend and potential future capital raises.",
+        "Regulatory scrutiny could arise from the investigation into the unusual account transaction.",
+        "Execution risk for the planned capital increase in 2026."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:07"
+    },
+    {
+      "ticker": "DXG",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "99cd688aee8be9f97dc2980e9e3fcc94ab913b100e0c31d12ebda4315f08a7f1",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "DXG has completed a stock dividend distribution, increasing its charter capital to nearly VND 12,700 billion. This move aims to reward shareholders and potentially improve liquidity. However, it also represents a dilution of existing ownership stakes.",
+      "bullPoints": [
+        "Shareholder reward through stock dividend.",
+        "Increased charter capital may enhance financial standing.",
+        "Potential for improved stock liquidity."
+      ],
+      "bearPoints": [
+        "Stock dividend leads to dilution of existing share ownership.",
+        "The increase in capital is a result of a non-cash event, not necessarily new investment.",
+        "Market reaction may be muted as this is a planned event."
+      ],
+      "riskFlags": [
+        "Dilution risk from stock dividend.",
+        "No new capital infusion, just a reclassification of equity.",
+        "Impact on earnings per share (EPS) will be negative due to increased share count."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:13"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-05",
+      "articleCount": 2,
+      "newsInputHash": "9a11c28cd64977bb9b2331fc039ad2be6ec4ad7eaa1c1aff501d24e57d4e2250",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "FPT saw significant foreign buying interest, with net purchases of approximately 257 billion VND on June 4th, 2026. This occurred amidst a broader market recovery where foreign investors were net sellers. An FPT board member also commented on Vietnam's manufacturing capabilities, referencing LILAMA.",
+      "bullPoints": [
+        "Strong foreign buying in FPT amidst overall foreign selling indicates specific investor confidence in the stock.",
+        "Positive commentary from a board member on Vietnam's industrial prowess could indirectly support sentiment for technology companies like FPT.",
+        "The broader market recovery suggests a potentially improving investment environment."
+      ],
+      "bearPoints": [
+        "The foreign buying in FPT is a single day's data point and may not represent a sustained trend.",
+        "The commentary from the board member is general and not directly tied to FPT's specific business performance or future outlook.",
+        "The overall market saw significant foreign selling, highlighting potential broader investor caution."
+      ],
+      "riskFlags": [
+        "Foreign investor activity can be volatile and subject to rapid shifts.",
+        "The commentary on manufacturing capabilities does not directly address FPT's specific technological advancements or competitive landscape.",
+        "The market context shows significant foreign selling pressure on other stocks, suggesting potential contagion risk."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:19"
+    },
+    {
+      "ticker": "GVR",
+      "analysisDate": "2026-06-05",
+      "articleCount": 2,
+      "newsInputHash": "776e8318e10e243c564842c58b09544121ffc95a4e954b0248f66a159ca3b1e3",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Tập đoàn Cao su Việt Nam (GVR) announced that a Deputy General Director will retire from July 1, 2026. Additionally, the company stated it does not currently meet the criteria for a public company due to insufficient dispersed shareholding. These events are administrative and do not immediately impact operational performance.",
+      "bullPoints": [
+        "Management transition is a routine event.",
+        "Company is transparent about its public company status."
+      ],
+      "bearPoints": [
+        "The company's failure to meet public company criteria suggests a lack of broad investor interest or potential challenges in attracting diverse shareholders.",
+        "The retirement of a Deputy General Director, while normal, could lead to a temporary disruption in leadership or strategy execution."
+      ],
+      "riskFlags": [
+        "regulatory risk: Failure to meet public company criteria may have implications for future fundraising or listing requirements.",
+        "governance risk: The composition of the shareholder base might indicate concentrated ownership, potentially limiting independent decision-making."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:25"
+    },
+    {
+      "ticker": "HDC",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "bf9bf00f4bf2f5cf5a1bb9fe02280405f90c66399253cfb1940216d886612bbc",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Hodeco (HDC) has announced a record date of June 22, 2026, for its 2025 dividend payment, which will be distributed in shares at a 15% ratio. This means approximately 30 million new shares will be issued to shareholders.",
+      "bullPoints": [
+        "Dividend payment indicates company profitability and commitment to shareholder returns.",
+        "Stock dividend can increase liquidity and potentially attract new investors."
+      ],
+      "bearPoints": [
+        "The issuance of new shares will dilute existing shareholders' ownership.",
+        "The market may have already priced in a dividend, limiting upside surprise.",
+        "A stock dividend does not provide immediate cash to shareholders."
+      ],
+      "riskFlags": [
+        "dilution risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:30"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-05",
+      "articleCount": 8,
+      "newsInputHash": "137d1f25e0375641692c5d711d440c21ab6bdc4f3d020520a452abe2e13b6d03",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level news items were released, including updates on infrastructure projects like the North-South Expressway expansion and a specific high-profile road project. Regulatory news includes planned administrative procedure cuts by the tax department and changes to health insurance co-payments. Economic indicators and sector-specific operational news were also published.",
+      "bullPoints": [
+        "Infrastructure development, such as the North-South Expressway expansion, could indirectly benefit construction and related sectors.",
+        "Planned reduction in tax administrative procedures may improve business efficiency.",
+        "Changes to health insurance co-payments could increase accessibility to healthcare services."
+      ],
+      "bearPoints": [
+        "The news is entirely macro-level and does not provide specific information about ticker MACRO's operations or financial performance.",
+        "The operational halt of 10 biomass power plants suggests potential challenges within the energy or agricultural sectors that could have broader economic implications.",
+        "Questions raised about the cost and feasibility of a subway project could indicate potential mismanagement or inefficient capital allocation in large-scale public works."
+      ],
+      "riskFlags": [
+        "Macroeconomic factors and sector-specific operational issues (like biomass power plant shutdowns) can create headwinds for the broader market.",
+        "Large-scale infrastructure projects, while potentially beneficial, carry execution risks and can be subject to delays or cost overruns.",
+        "Regulatory changes, even those intended to simplify processes, can sometimes introduce unforeseen compliance burdens or shifts in market dynamics."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:41"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "c6978e7e93b1138c05510e02854ae79bc29b68aa057a477e48b81f7f724e99b7",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Dragon Capital plans to significantly increase its investment in MWG's DMX value chain. This move is seen as part of their broader strategy for the entire MWG ecosystem. The increased allocation suggests confidence in MWG's retail segment.",
+      "bullPoints": [
+        "Increased investment from a major fund like Dragon Capital.",
+        "Positive signal for MWG's DMX retail segment.",
+        "Integration into MWG's broader ecosystem strategy."
+      ],
+      "bearPoints": [
+        "The news is a statement of intent, not a completed transaction, so actual deployment is uncertain.",
+        "Increased allocation could be a response to existing positive sentiment, not a driver of new upside.",
+        "Focus on DMX might overshadow other MWG segments if DMX faces headwinds."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The retail sector in Vietnam can be sensitive to consumer spending fluctuations and competition.",
+        "Valuation: While not explicitly stated, increased investor interest could push MWG's valuation higher, potentially making it less attractive.",
+        "Execution risk: The success of increased investment depends on MWG's ability to effectively utilize the capital and execute its strategy."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:46"
+    },
+    {
+      "ticker": "PDR",
+      "analysisDate": "2026-06-05",
+      "articleCount": 2,
+      "newsInputHash": "2d8878d46c0ac4eb35a1f518ae1af8c8601bec0007d75fc1895e3b593bffd8d6",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Phát Đạt (PDR) has approved the divestment of its entire stake in Serenity Investment. This move is part of PDR's strategy to restructure its projects and finances, aiming to concentrate resources on key projects in 2026. The transaction value is not disclosed but could be significant, potentially up to VND 3,000 billion.",
+      "bullPoints": [
+        "Divestment aligns with strategic restructuring and focus on core projects.",
+        "Potential for significant capital inflow from the transaction.",
+        "Signals management's intent to optimize asset allocation."
+      ],
+      "bearPoints": [
+        "The value of the divestment is not disclosed, creating uncertainty.",
+        "The market may have already priced in such strategic moves.",
+        "The success of the restructuring depends on the effective deployment of freed-up resources."
+      ],
+      "riskFlags": [
+        "Valuation risk: The actual sale price might be lower than anticipated.",
+        "Execution risk: Challenges in identifying and executing new key projects.",
+        "Financial risk: Uncertainty regarding the impact on PDR's overall financial health until the deal is finalized and proceeds are utilized."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:53"
+    },
+    {
+      "ticker": "PET",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "add05887da9b1d07e1d0d0ce9764b2b0e37db050bc43ce236892268f6dbd7215",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Petrosetco (PET) has announced plans to issue over 48 million shares. This includes more than 5.3 million shares for a 2025 dividend and nearly 42.7 million bonus shares for existing shareholders. The issuance is expected to occur between the second and third quarters of 2026.",
+      "bullPoints": [
+        "Potential for increased shareholder value through bonus shares.",
+        "Dividend payout in shares can be seen as a sign of company confidence in future earnings."
+      ],
+      "bearPoints": [
+        "Significant share dilution from the planned issuance will likely put downward pressure on the stock price.",
+        "The market may have already priced in this type of capital raise, limiting upside surprise.",
+        "The timing of the issuance (Q2-Q3 2026) is relatively far out, reducing immediate impact."
+      ],
+      "riskFlags": [
+        "Dilution risk from significant share issuance.",
+        "Potential for share price pressure due to increased supply.",
+        "Execution risk related to the planned share issuance timeline."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:30:58"
+    },
+    {
+      "ticker": "PLX",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "f864da2d1ddd1345ecb76ad3094c446e5297fbf0a43fcbfd5d33e7218696f52a",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Petrolimex (PLX) experienced a surge, hitting the upper limit of its trading band following the announcement of a plan to sell all treasury shares. This news comes amidst a broader market recovery after a seven-day decline. Foreign investors were net sellers, with VIC being a focal point.",
+      "bullPoints": [
+        "Planned sale of treasury shares could unlock value or signal confidence.",
+        "Stock price hit the upper trading limit, indicating strong immediate investor interest.",
+        "Occurred during a broader market rebound, potentially benefiting from positive sentiment."
+      ],
+      "bearPoints": [
+        "The market may have already priced in the potential benefits of selling treasury shares.",
+        "The surge could be a short-term reaction, with sustainability uncertain.",
+        "Significant foreign selling in other stocks (VIC) suggests potential broader market concerns."
+      ],
+      "riskFlags": [
+        "Potential for dilution if treasury shares are sold to new investors at a favorable price.",
+        "The timing of the treasury share sale could be interpreted as a move to support the stock price.",
+        "The broader market context shows significant foreign outflows, indicating potential systemic risks."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:04"
+    },
+    {
+      "ticker": "STB",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "c1af529d50052f20f88589e9d9850dfd597dc7ded7ce1e66de7113d6fd8c656b",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Sacombank has appointed two children of its Standing Vice Chairman, Mr. Nguyen Duc Thuy, to positions within the Administration Office. Mr. Nguyen Xuan Thai and Ms. Nguyen Ngoc My Anh, born in 2003 and 2001 respectively, will serve as Assistants to the Board of Directors and Assistants to the General Director. This move introduces younger family members into key administrative roles within the bank.",
+      "bullPoints": [
+        "Potential for long-term family involvement and commitment to the bank's future.",
+        "Introduction of new perspectives and potentially modern management approaches."
+      ],
+      "bearPoints": [
+        "The appointments are of very young individuals, raising questions about their experience and readiness for such roles.",
+        "This could be perceived as nepotism, potentially impacting employee morale and external perceptions of meritocracy."
+      ],
+      "riskFlags": [
+        "Succession planning/nepotism concerns: While not directly a dilution or debt risk, the appointment of very young family members can signal potential future governance issues or a lack of focus on external talent, which can be a long-term risk for institutional investors."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:09"
+    },
+    {
+      "ticker": "VHM",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "9ee5346048aee6720012e6ae4d033874a66094b65f0ce997b17a49da12370271",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "VinaCapital notes that over 70% of stocks are trading at low valuations, similar to crisis periods.  However, the weighting of VIC, VHM, VRE, and VPL within the VN-Index has significantly increased to nearly 30% from 8% two years ago. This concentration could imply increased sector-specific risk.",
+      "bullPoints": [
+        "VHM is part of a group of stocks identified as being at historically low valuations.",
+        "Increased weighting in VN-Index could lead to greater investor attention and potential inflows."
+      ],
+      "bearPoints": [
+        "The significant increase in the weighting of VHM and its peers in the VN-Index suggests a concentration risk within the index.",
+        "The statement about low valuations could be a general market observation rather than specific to VHM's individual prospects.",
+        "The market may already be pricing in the low valuation narrative for these large-cap stocks."
+      ],
+      "riskFlags": [
+        "Sector concentration risk: A large portion of the VN-Index is now dominated by a few large-cap stocks, including VHM.",
+        "Valuation risk: While described as low, the sustainability of these valuations depends on future earnings and market conditions.",
+        "Market sentiment: The comparison to 'crisis periods' suggests underlying market fragility."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:22"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "35f228e104f25c50425e0225bd26ad0ff8ed2cce531cb7b340ac89dd9f6fab8e",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "VIB has launched a new banking product targeting children, aiming to educate them about personal finance from an early age. This initiative seeks to foster financial literacy and build long-term customer relationships. However, the actual impact on VIB's financials is uncertain and likely to be gradual.",
+      "bullPoints": [
+        "Launches a new product focused on financial education for children.",
+        "Aims to build early customer relationships and foster financial literacy.",
+        "Potentially taps into a new market segment for long-term growth."
+      ],
+      "bearPoints": [
+        "The direct financial impact of a children's banking product is likely to be minimal in the short to medium term.",
+        "Market adoption and effectiveness of financial education initiatives can be slow and difficult to measure.",
+        "This is a common marketing initiative for banks and may not represent a significant competitive advantage."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Banking regulations for products targeting minors need careful consideration.",
+        "Execution risk: Success depends on effective marketing and educational content.",
+        "Competition: Other banks may offer similar or more advanced financial education tools."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:36"
+    },
+    {
+      "ticker": "VIC",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "87953164f6b8ed2a64c279d92dc59019e0a62737f1d3a90db0245407fef30d71",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Domestic investors purchased nearly 5,000 billion VND of Vingroup shares, while foreign investors sold a similar amount, primarily through negotiated transactions. This significant shift in ownership between domestic and foreign entities warrants close observation.",
+      "bullPoints": [
+        "Strong domestic buying interest indicates confidence from local investors.",
+        "Significant capital inflow from domestic sources can provide price support."
+      ],
+      "bearPoints": [
+        "Large-scale selling by foreign investors suggests potential concerns or profit-taking.",
+        "The bulk of foreign selling occurred via negotiated deals, which can sometimes mask underlying sentiment or be driven by specific fund rebalancing."
+      ],
+      "riskFlags": [
+        "Foreign investor outflows can signal a loss of confidence in the Vietnamese market or specific sectors.",
+        "Large negotiated trades can sometimes precede or coincide with other market-moving events."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:46"
+    },
+    {
+      "ticker": "VJC",
+      "analysisDate": "2026-06-05",
+      "articleCount": 1,
+      "newsInputHash": "ab3fb0565cf22bca0449815a116db3bda32efb194de8ce3b09381d60b0a262e0",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.2,
+      "summary": "Vietjet's stock experienced a significant surge, reaching its upper price limit by the market close. This indicates strong positive momentum for the company's shares.",
+      "bullPoints": [
+        "Stock price reached the ceiling, indicating strong buying interest.",
+        "Positive price action suggests market confidence in Vietjet's current performance."
+      ],
+      "bearPoints": [
+        "The news is a price movement report, not an announcement of fundamental improvement.",
+        "Rapid price increases can be followed by corrections.",
+        "The market may have already priced in positive sentiment, making further gains difficult without new catalysts."
+      ],
+      "riskFlags": [
+        "High valuation risk: Rapid price appreciation without underlying fundamental news can lead to an overvalued stock.",
+        "Volatility risk: Stocks that move rapidly to the ceiling can also experience sharp declines."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-05 12:31:52"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "analysisDate": "2026-05-22",
+  "generatedAt": "2026-05-22T12:31:58Z",
+  "tickerCount": 8,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-22",
+      "articleCount": 3,
+      "newsInputHash": "60a6067b8cb53e22930258673afe1061b898058a48ff879c2177df9613c83355",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "A member of SCIC did not fully purchase the registered FPT shares due to market fluctuations. FPT is preparing to issue a large volume of ESOP shares to employees and leaders at a significantly discounted price. Separately, Vietnam's telecommunications sector is reportedly set to introduce a new mobile brand this year.",
+      "bullPoints": [
+        "Large ESOP issuance at a substantial discount to employees and leadership."
+      ],
+      "bearPoints": [
+        "SCIC member failed to complete the full purchase of registered FPT shares."
+      ],
+      "riskFlags": [
+        "Potential dilution from ESOP issuance.",
+        "Uncertainty regarding the impact of a new mobile brand on FPT's telecom segment."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:30:31"
+    },
+    {
+      "ticker": "HAH",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "17b4a21fc290d356e71a089250e5f16746d1b74f6a57bdc9648b1f1397dd0edd",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "HAH, the largest container vessel owner in Vietnam, is expected to experience strong growth in 2026. This optimism is driven by high charter rates for vessels. MBS forecasts a 17% increase in HAH's vessel charter revenue for 2026, reaching approximately 2,178 billion VND.",
+      "bullPoints": [
+        "High charter rates are driving strong growth expectations.",
+        "Projected 17% increase in vessel charter revenue for 2026.",
+        "HAH is the largest container vessel owner in Vietnam."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:30:38"
+    },
+    {
+      "ticker": "MBS",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "b9da48bcc710e3e259d4e444cb8d8b9401cc1b70938ceaf91d53072f37762008",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "MBS has successfully completed a share offering, increasing its charter capital to over VND 10,000 billion. This capital increase was achieved through the issuance of 333.64 million shares to existing shareholders. The event was finalized on May 21st.",
+      "bullPoints": [
+        "Increased charter capital to over VND 10,000 billion.",
+        "Successful completion of a share offering to shareholders."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:30:46"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-05-22",
+      "articleCount": 2,
+      "newsInputHash": "eed9edd3fb9d5f7b18f1aac4d14f059eb9a16ef807400059633a8089c23942b0",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "MWG's subsidiaries are now profitable, contributing positively to the parent company after a period of significant investment. This shift indicates a maturing business model for MWG. Additionally, a key executive sold MWG shares to participate in the IPO of its subsidiary, DMX, suggesting confidence in the subsidiary's future prospects.",
+      "bullPoints": [
+        "MWG's subsidiaries are now generating profits.",
+        "Key executive participation in DMX IPO signals confidence in subsidiary.",
+        "MWG has moved past its high-investment phase."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:31:00"
+    },
+    {
+      "ticker": "PDR",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "46ecfa1f082911164539c8d0813301bacbcc28caaf631d1119263ae2880feb87",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "Phát Đạt (PDR) is reportedly investing approximately 35% of its capital into the Thủ Thiêm Eco Smart City, a large-scale project valued at 50,000 billion VND in Ho Chi Minh City. This move follows their divestment of 30% of their stake in Công ty Tam Hiệp. The investment in a significant new project suggests strategic expansion and potential future growth.",
+      "bullPoints": [
+        "Significant investment in a large-scale super project in Thủ Thiêm.",
+        "Strategic move following divestment from another company."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:31:08"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "9875cd32b07efd1d4b27412798cd2ab7972f9ed929a06ddd9be9176ff0d17b2f",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.2,
+      "newsScore": 0.0,
+      "summary": "The Vice Chairman of SHB, Do Quang Vinh, performed for an audience in Shanghai. This event is attracting attention from many fans. The news does not provide any direct financial information about the bank.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:31:17"
+    },
+    {
+      "ticker": "TNG",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "59f2f7c401c6e65b3233992322f29c3900d611dc51801f5f7bba3be8da341a54",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "Forum One - VinaCapital Vietnam Fund has re-entered the ranks of major shareholders at TNG by acquiring 100,000 shares. This purchase increases the VinaCapital group's total ownership to 5.0165%. The move signals renewed investor confidence from a significant institutional player.",
+      "bullPoints": [
+        "VinaCapital group becomes a major shareholder again.",
+        "Increased institutional ownership indicates positive investor sentiment.",
+        "Acquisition of 100,000 TNG shares by Forum One - VinaCapital Vietnam Fund."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:31:27"
+    },
+    {
+      "ticker": "VND",
+      "analysisDate": "2026-05-22",
+      "articleCount": 1,
+      "newsInputHash": "9e01f1a6ec52e15df8c5bf65c05aef471d8a6808870872893974fc51f47af29f",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.8,
+      "newsScore": 0.7,
+      "summary": "The stock of VND experienced a significant surge, hitting the ceiling price following a statement from Chairwoman Pham Minh Huong indicating \"VNDirect is preparing for a comeback.\" Trading activity for VND was robust, with liquidity reaching its highest point in seven months.",
+      "bullPoints": [
+        "Stock price hit the ceiling.",
+        "Chairwoman's positive \"comeback\" statement.",
+        "Highest liquidity in 7 months."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-22 12:31:58"
+    }
+  ]
+}

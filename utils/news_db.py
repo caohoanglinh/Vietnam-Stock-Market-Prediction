@@ -19,9 +19,9 @@ CREATE TABLE IF NOT EXISTS stock_news (
     title       TEXT         NOT NULL,
     summary     TEXT,
     url         TEXT         UNIQUE,
-    published_at_raw VARCHAR(100),
+    published_at_raw TEXT,
     published_at TIMESTAMP,              -- parsed from published_at_raw
-    source      VARCHAR(100),
+    source      TEXT,
     crawled_at  TIMESTAMP    DEFAULT NOW(),
     sentiment   VARCHAR(20),   -- filled later by LLM pipeline
     llm_summary TEXT           -- filled later by LLM pipeline

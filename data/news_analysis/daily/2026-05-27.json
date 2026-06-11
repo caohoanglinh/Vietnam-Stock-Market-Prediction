@@ -1,0 +1,162 @@
+{
+  "analysisDate": "2026-05-27",
+  "generatedAt": "2026-05-27T12:30:52Z",
+  "tickerCount": 8,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-05-27",
+      "articleCount": 1,
+      "newsInputHash": "7aad70234ade43e406511e7f47bfb1c9e9f7ff911061cf0c86421325cce5efcb",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "ACB is injecting an additional VND 2,000 billion to increase the capital of its subsidiary, ACBS. This capital injection will raise ACBS's capital from VND 11,000 billion to VND 13,000 billion.",
+      "bullPoints": [
+        "Increased capital for ACBS by VND 2,000 billion.",
+        "ACBS's capital will reach VND 13,000 billion."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:00"
+    },
+    {
+      "ticker": "KDC",
+      "analysisDate": "2026-05-27",
+      "articleCount": 1,
+      "newsInputHash": "1a1144f03122d219c7dce1a12954223c7ed130f2b9d3110a5feee188d8b90050",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.5,
+      "summary": "A board member of Kido has registered to purchase an additional 1.5 million KDC shares for personal reasons. This insider buying activity suggests a positive outlook from management on the company's stock.",
+      "bullPoints": [
+        "Board member plans to buy 1.5 million KDC shares.",
+        "Insider buying indicates confidence in the stock."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:05"
+    },
+    {
+      "ticker": "MSB",
+      "analysisDate": "2026-05-27",
+      "articleCount": 2,
+      "newsInputHash": "03d97d82649a2395bc87ee7f9e2cd9a5c712ebf47b8b4a9739c16f86237c6cb5",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "MSB experienced a significant price increase, nearing its historical peak. This surge is attributed to a real estate company's intention to acquire 100 million shares for investment purposes. The transaction is estimated to cost approximately 1,500 billion VND.",
+      "bullPoints": [
+        "Significant stock price increase, approaching historical highs.",
+        "Large block purchase intention by a real estate company.",
+        "Substantial investment amount expected for the acquisition."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:12"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-05-27",
+      "articleCount": 1,
+      "newsInputHash": "9db95c760846100ad17dd4f77c1fffcd16645028482a4a7abead162d95ba765e",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "The CEO of Dien May Xanh revealed the reason for the IPO is to provide investors with a more accurate view of the growth in the electronics retail sector. This separation aims to clarify the performance of the mobile phone and electronics retail segments. The intention is to \"vindicate\" the electronics retail industry.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:25"
+    },
+    {
+      "ticker": "NKG",
+      "analysisDate": "2026-05-27",
+      "articleCount": 1,
+      "newsInputHash": "234d521e766663bfb5dd68d707fa7629b98866c5280f28b07bef05d1d4b96b98",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.4,
+      "summary": "Thép Nam Kim (NKG) is preparing to distribute a 10% stock dividend, which involves issuing an additional 44.7 million shares. This move indicates the company's intention to reward shareholders and potentially increase its capital. The news suggests a positive outlook for the company's financial health and shareholder returns.",
+      "bullPoints": [
+        "10% stock dividend planned.",
+        "Issuance of 44.7 million new shares.",
+        "Shareholder reward initiative."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:32"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-05-27",
+      "articleCount": 2,
+      "newsInputHash": "0d6ebf13aa36a1a1dd564e1a0aa1005464cf6e8eba9af8b87c6bb6526928e276",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "Novaland is experiencing positive developments with two key projects having their hurdles removed, bringing them closer to issuing pink books to residents. Additionally, the company is part of a broader trend in the real estate sector where leadership is transitioning to the second generation.",
+      "bullPoints": [
+        "Two important Novaland projects have had obstacles cleared.",
+        "The company is moving closer to delivering pink books to residents.",
+        "Novaland is undergoing a generational leadership transition."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:40"
+    },
+    {
+      "ticker": "PDR",
+      "analysisDate": "2026-05-27",
+      "articleCount": 2,
+      "newsInputHash": "7390761b727b70a8bc0eb2188c48692fda5cdc2776d4d36f705d836046b1e787",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "PDR shares experienced a significant surge on May 26th, hitting the upper trading limit with no sellers available. This positive momentum is likely influenced by the news on May 27th of a Memorandum of Understanding signed between Phát Đạt and Lotte for the Thu Thiem Eco Smart City project. This project is positioned as an iconic urban complex in Thu Thiem.",
+      "bullPoints": [
+        "PDR stock hit the upper trading limit with no sellers on May 26th.",
+        "Partnership with Lotte for the Thu Thiem Eco Smart City project announced.",
+        "Thu Thiem Eco Smart City is positioned as an iconic urban complex."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:46"
+    },
+    {
+      "ticker": "VGI",
+      "analysisDate": "2026-05-27",
+      "articleCount": 1,
+      "newsInputHash": "b3d620f528e53ee478b27250c1c77a7f3c44e78a28812f1d7dc1cbf3f2ecd377",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.8,
+      "newsScore": 0.7,
+      "summary": "Viettel Global is making a significant investment of $560 million in the Dominican Republic. This capital will be used to establish an economic entity focused on developing and operating telecommunications and digital technology infrastructure in the country. This expansion signals a strategic move into a new international market.",
+      "bullPoints": [
+        "Significant investment of $560 million in the Dominican Republic.",
+        "Expansion into a new international market.",
+        "Focus on telecommunications and digital technology infrastructure development."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-27 12:30:52"
+    }
+  ]
+}

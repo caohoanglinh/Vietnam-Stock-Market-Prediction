@@ -1,0 +1,171 @@
+{
+  "analysisDate": "2026-06-04",
+  "generatedAt": "2026-06-04T12:30:38Z",
+  "tickerCount": 6,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-06-04",
+      "articleCount": 1,
+      "newsInputHash": "cbc643c8d8dd395f26d8b205c06bac660fe5611493f65dc3c40962c18a2fcd7f",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "ACB is celebrating its 33rd anniversary, emphasizing \"responsible growth\" and a synchronized strategy for its C1425 plan. This milestone highlights the bank's long-term vision and operational alignment. However, the announcement is largely celebratory and lacks specific financial or strategic updates.",
+      "bullPoints": [
+        "Celebrates 33 years of operation, indicating stability and experience.",
+        "Highlights a \"responsible growth\" strategy and synchronized system for C1425 plan.",
+        "Implies a focus on long-term strategic execution."
+      ],
+      "bearPoints": [
+        "The news is primarily a celebratory announcement and lacks concrete financial or strategic details.",
+        "The C1425 strategy is mentioned but not elaborated upon, making its impact uncertain.",
+        "The market may have already priced in the bank's historical growth and stability."
+      ],
+      "riskFlags": [
+        "Strategic plans like C1425, while positive in intent, carry execution risks.",
+        "The emphasis on \"responsible growth\" could imply slower, more cautious expansion, potentially limiting upside.",
+        "Lack of specific forward-looking financial guidance in this announcement."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:04"
+    },
+    {
+      "ticker": "CMG",
+      "analysisDate": "2026-06-04",
+      "articleCount": 1,
+      "newsInputHash": "14a6c5c301b2cb0fd119232f819a81b02d9cabacaa190a65dd0f454527febb65",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Mr. Ho Thanh Tung has been relieved of his duties at CMC, having served as its leader from 2021 until the end of May 2026. This management change introduces uncertainty regarding future strategic direction and operational continuity.",
+      "bullPoints": [
+        "Potential for new leadership to bring fresh perspectives and strategies.",
+        "The outgoing leader served a significant term, suggesting a period of stability prior to this change."
+      ],
+      "bearPoints": [
+        "Management changes can lead to a period of uncertainty and potential disruption.",
+        "The market may react negatively to unexpected leadership transitions, especially without immediate clarity on succession."
+      ],
+      "riskFlags": [
+        "Management turnover",
+        "Uncertainty in strategic direction"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:10"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-04",
+      "articleCount": 1,
+      "newsInputHash": "0ab6ed1bcc7c9b519e13947349e8c6647c20ad0c5651376c0b8c587d2fa80ee7",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Despite a recent stock price decline, experts highlight FPT's strong position and advantages within the AI value chain.  The company is seen as having significant competitive standing in the market.",
+      "bullPoints": [
+        "FPT possesses strong advantages in the AI value chain.",
+        "The company holds a significant competitive position in the market.",
+        "Expert opinion suggests FPT is well-positioned to capitalize on AI trends."
+      ],
+      "bearPoints": [
+        "The article mentions a 'stock price decline' (lao dốc), indicating recent negative price momentum.",
+        "The 'AI fever' context suggests the stock might be experiencing speculative trading rather than fundamental re-rating.",
+        "The 'expert opinion' is a general statement and doesn't provide specific catalysts or quantitative upside."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While AI is a growth area, the broader tech sector can be volatile.",
+        "High valuation: The 'AI fever' could be inflating valuations, making the stock susceptible to corrections.",
+        "Market sentiment: A stock price decline suggests potential investor concerns or profit-taking, regardless of underlying fundamentals."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:20"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-04",
+      "articleCount": 8,
+      "newsInputHash": "d7c765aac0b7cb6a041ca3e50a9292269d2b24c6d6a143dbcf06f7f0d14c5bae",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Macroeconomic news for 2026-06-04 covers a range of topics including regional development challenges in Can Tho, proposed changes to minimum wage policies, and increased tax scrutiny. Additionally, there are updates on infrastructure projects and social policies like parental leave and pension adjustments.",
+      "bullPoints": [
+        "Potential for improved living standards with the proposed 'living wage' concept.",
+        "Progress on significant infrastructure projects could stimulate economic activity."
+      ],
+      "bearPoints": [
+        "Challenges in Can Tho regarding project delays and agricultural output bottlenecks indicate regional economic headwinds.",
+        "Increased tax supervision and potential referral to police suggest a tightening regulatory environment for businesses."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Increased tax scrutiny and potential criminal referrals.",
+        "Macro risk: Regional development challenges and potential labor cost increases.",
+        "Sector headwinds: Delays in projects and agricultural output issues could impact related sectors."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:26"
+    },
+    {
+      "ticker": "MBB",
+      "analysisDate": "2026-06-04",
+      "articleCount": 1,
+      "newsInputHash": "09bb43bf7e0746bd4a288ad77b379625b54f5f1e1a3a18e9d2c0bf92fcc2e384",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Agtex 28, a founding shareholder of MBB and an enterprise under the Ministry of National Defense, holds over 35 million MBB shares. The company is currently experiencing significant unrealized gains, reportedly ten times its original cost basis. This substantial holding was partly increased by a stock dividend received in 2025.",
+      "bullPoints": [
+        "Significant unrealized gains for a major shareholder suggest past performance and potential confidence in MBB's value.",
+        "Agtex 28's long-term holding and status as a founding shareholder indicate a vested interest in MBB's success.",
+        "Receipt of stock dividends in 2025 demonstrates MBB's ability to distribute value to shareholders."
+      ],
+      "bearPoints": [
+        "The news focuses on unrealized gains, which are not realized cash flow and are subject to market fluctuations.",
+        "The substantial holding by a state-affiliated entity could imply potential strategic considerations or future divestment plans that are not yet public.",
+        "The article does not provide any new operational or strategic information about MBB itself, making the news primarily about a shareholder's position."
+      ],
+      "riskFlags": [
+        "Valuation: While not explicitly stated, a 10x gain suggests a potentially high current valuation that could be susceptible to correction.",
+        "Concentration Risk: A large portion of MBB shares held by a single entity could lead to significant selling pressure if that entity decides to divest.",
+        "Regulatory/State Influence: As an enterprise under the Ministry of National Defense, Agtex 28's actions with MBB shares could be influenced by broader state policies or strategic directives."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:32"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-06-04",
+      "articleCount": 1,
+      "newsInputHash": "53d84212c5173a25c6adc48ea79da1b4be209a60e0816127259daaca92beb7e3",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Vietnamese spending on international travel and consumption has surged by over 60% in 2024, reaching $12.57 billion. This trend is driving rapid growth in cross-border card payments due to increased international tourism, global entertainment, and e-commerce.  The article discusses which bank cards are most beneficial for such spending.",
+      "bullPoints": [
+        "Increased international spending by Vietnamese consumers benefits banks with strong international payment capabilities.",
+        "Growing demand for cross-border transactions indicates a potential revenue stream for VIB.",
+        "The trend suggests a growing affluent segment in Vietnam with disposable income for international activities."
+      ],
+      "bearPoints": [
+        "The article is a general market overview and does not contain specific news or performance data for VIB.",
+        "Increased international spending could also lead to higher foreign currency exposure and potential hedging costs for banks.",
+        "Competition among banks for international transaction market share is likely to be intense, potentially pressuring margins."
+      ],
+      "riskFlags": [
+        "macro risks: Global economic slowdown or currency fluctuations could impact international travel spending.",
+        "sector headwinds: Increased competition in the banking sector for cross-border services.",
+        "regulatory risk: Potential changes in regulations related to foreign exchange or international transactions."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-04 12:30:38"
+    }
+  ]
+}

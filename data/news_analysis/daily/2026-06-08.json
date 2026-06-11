@@ -1,0 +1,358 @@
+{
+  "analysisDate": "2026-06-08",
+  "generatedAt": "2026-06-08T12:31:24Z",
+  "tickerCount": 13,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-06-08",
+      "articleCount": 4,
+      "newsInputHash": "78c9f15a070f42ef3ebc7c3406a9e0f8c553deccf421fdf6e8f441b5f7ea1087",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "ACB participated in the Digital Finance Day 2026, showcasing digital solutions for small businesses and attracting significant visitor numbers. The bank also continued its educational outreach by awarding scholarships to students from Vietnam National University Ho Chi Minh City, reinforcing its commitment to education. Separately, an article highlighted the educational backgrounds of the second-generation leaders at several banks, including ACB.",
+      "bullPoints": [
+        "ACB actively engages in digital finance initiatives, targeting the small business segment.",
+        "The bank demonstrates a commitment to social responsibility through educational scholarships.",
+        "Positive brand association through educational partnerships and highlighting leadership backgrounds."
+      ],
+      "bearPoints": [
+        "The Digital Finance Day participation is a routine marketing event, unlikely to drive significant immediate financial impact.",
+        "The scholarship program, while positive for brand image, represents a relatively small financial outlay for a large bank.",
+        "The article on 'F2' leaders is more of a lifestyle piece and does not offer direct financial insights into ACB's performance."
+      ],
+      "riskFlags": [
+        "Regulatory risk: The first article mentions a customer needing to report a transaction to the police, hinting at potential scrutiny of financial flows, though not directly linked to ACB's operations.",
+        "Sector headwinds: While not explicit in these articles, the broader banking sector could face challenges from economic shifts or regulatory changes.",
+        "Reputational risk: Any negative incident involving customer transactions, even if isolated, could indirectly affect public perception of a bank's security or compliance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:05"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-08",
+      "articleCount": 3,
+      "newsInputHash": "9d93874e6e3191936979f0e3cd8a9bf716b139272fd5e503b212c8ec7dd99c55",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": 0.4,
+      "summary": "FPT announced a significant AI breakthrough in collaboration with NVIDIA, developing a dataset tailored for Vietnamese characteristics. Additionally, FPT's operations in Japan were recognized by Deputy Prime Minister Le Tien Chau for contributing to Vietnam-Japan economic relations, with a special proposal made to the company.",
+      "bullPoints": [
+        "Strategic partnership with NVIDIA for AI development tailored to Vietnam.",
+        "Recognition of FPT's contribution to Vietnam-Japan economic ties by a high-ranking official.",
+        "Potential for new business opportunities stemming from the Deputy Prime Minister's special proposal."
+      ],
+      "bearPoints": [
+        "The AI breakthrough is a dataset development, not a direct product launch, so monetization and impact are not immediate.",
+        "The 'special proposal' to FPT by the Deputy Prime Minister is vague and its implications are unclear.",
+        "The news about Lupus treatment is unrelated to FPT's core business and is likely a distraction."
+      ],
+      "riskFlags": [
+        "High valuation: FPT is a growth stock and its valuation may already price in significant future success.",
+        "Execution risk: The success of the AI initiative depends on effective implementation and adoption.",
+        "Geopolitical risk: Dependence on international partnerships like NVIDIA can be subject to global economic and political shifts."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:12"
+    },
+    {
+      "ticker": "HPG",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "7340f37c412b67ac7a5b6e2a3db4f30a867efba38d623bbf4deec79e66c023a1",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "A senior leader at Hoa Phat Group has registered to sell 6.6 million HPG shares. This comes at a time when the stock price is trading at its lowest point of the year. The sale is scheduled to occur between June 10 and July 9, 2026.",
+      "bullPoints": [
+        "Insider selling may indicate a belief that the current price is a reasonable exit point for the executive.",
+        "The sale is a registration, not a completed transaction, allowing for flexibility."
+      ],
+      "bearPoints": [
+        "Insider selling, especially a large volume, can be interpreted as a lack of confidence in future price appreciation.",
+        "The sale occurs when the stock is at a year-to-date low, potentially signaling the insider's view that the price may not recover significantly in the short term.",
+        "The market may perceive this as a signal to protect existing gains or cut losses."
+      ],
+      "riskFlags": [
+        "Insider selling",
+        "Potential negative sentiment signal",
+        "Stock trading at a year-to-date low"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:18"
+    },
+    {
+      "ticker": "KDH",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "b68bb57124da2fd4df351a8ec646c7f17afb8b380c278ec8de1647265d85aa85",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Khang Điền plans to divest 51% of its stake in an indirect subsidiary for over VND 1,743 billion. This transaction is expected to be completed by the end of Q3 2026. While this could unlock capital, it also raises questions about the subsidiary's future performance and Khang Điền's strategic focus.",
+      "bullPoints": [
+        "Potential for significant capital inflow from the divestment.",
+        "Opportunity to streamline operations by focusing on core assets."
+      ],
+      "bearPoints": [
+        "The sale of a majority stake suggests potential underperformance or strategic shift away from the subsidiary's business.",
+        "The large transaction value might indicate a need for cash, potentially impacting future investment capacity."
+      ],
+      "riskFlags": [
+        "Divestment risk: The subsidiary's future performance post-sale is uncertain.",
+        "Valuation risk: The sale price may reflect market conditions or a need for liquidity rather than intrinsic value.",
+        "Strategic risk: The divestment could signal a change in Khang Điền's long-term strategy."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:24"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-08",
+      "articleCount": 8,
+      "newsInputHash": "419dcd5df19f6bee8b3ce7b8b856e02bae139ed8b4989ee71b29c32590468f79",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "Several macro-level developments were reported, including increased Vietnamese investment abroad and plans to expand the North-South expressway. There are also updates on urban railway projects in Ho Chi Minh City and the status of the Ring Road 3 project. Additionally, the Ministry of Industry and Trade issued new directives regarding E10 gasoline.",
+      "bullPoints": [
+        "Increased Vietnamese investment abroad suggests potential for international growth opportunities.",
+        "Expansion of the North-South expressway and urban railway projects indicate infrastructure development and potential economic stimulus."
+      ],
+      "bearPoints": [
+        "The news is purely macro-level and does not provide specific information relevant to ticker MACRO's business operations or financial performance.",
+        "The reported infrastructure projects are long-term in nature and their direct impact on any specific company is uncertain without further details.",
+        "Increased outbound investment could also imply capital outflow from domestic markets, potentially impacting overall investment sentiment."
+      ],
+      "riskFlags": [
+        "Macroeconomic shifts: Increased outbound investment could signal a shift in capital allocation away from domestic markets.",
+        "Infrastructure project timelines: Delays or changes in the execution of large infrastructure projects can impact related industries.",
+        "Regulatory changes: New directives on products like E10 gasoline could affect specific sectors within the broader economy."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:31"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "a6381c6b81b6af7fdb766c37e9b579be119de5553b15eef9c97b82380cb90407",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "The provided articles do not contain any specific news for ticker MWG on 2026-06-08. The only available article discusses the Vietnamese stock market's P/E ratio being low but not yet attractive due to projected profit slowdown and macroeconomic challenges in 2026. This general market commentary offers no direct insight into MWG's specific performance or outlook.",
+      "bullPoints": [
+        "No negative news specific to MWG was found."
+      ],
+      "bearPoints": [
+        "No specific positive news for MWG was provided to analyze.",
+        "The general market commentary suggests a challenging macroeconomic environment for 2026, which could impact MWG."
+      ],
+      "riskFlags": [
+        "Macroeconomic headwinds: The market commentary highlights potential profit slowdown and macroeconomic challenges in 2026, which could affect MWG's performance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:37"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "32727b823ad5cc357a2600097a5da4ec05edbc909736ee6df99d223c5c6df28a",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Novaland has received positive news as bondholders have agreed to waive outstanding payments on a $300 million bond issuance. This agreement allows Novaland to proceed with proposed amendments and waivers, which will be binding on all bondholders. This development provides some financial breathing room for the company.",
+      "bullPoints": [
+        "Bondholders agreed to waive outstanding payments on a $300 million bond.",
+        "This allows Novaland to implement proposed amendments and waivers.",
+        "The waivers are binding on all bondholders, regardless of their vote."
+      ],
+      "bearPoints": [
+        "While a waiver is positive, it doesn't eliminate the underlying debt obligation.",
+        "The market may have already priced in some form of debt restructuring or relief.",
+        "The news pertains to a specific bond, and Novaland may have other financial obligations."
+      ],
+      "riskFlags": [
+        "debt concerns",
+        "regulatory risk (bondholder agreements can be complex and subject to oversight)",
+        "sector headwinds (real estate sector in Vietnam can be volatile)"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:44"
+    },
+    {
+      "ticker": "PHR",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "178794895e342dc81b10173b39c4de08262a4fc59a14140c51d4766f387dc97a",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Phước Hòa (PHR) is expected to surpass its historical peak driven by its large rubber land bank with potential for industrial park conversion. High demand for industrial land in Binh Duong is a key supporting factor for this positive outlook.",
+      "bullPoints": [
+        "Significant rubber land bank with industrial park conversion potential.",
+        "Sustained high demand for industrial land in Binh Duong.",
+        "Analyst expectations for PHR to break historical price highs."
+      ],
+      "bearPoints": [
+        "The positive outlook might already be priced into the current stock valuation.",
+        "The conversion of rubber land to industrial parks is a complex and time-consuming process.",
+        "Future demand for industrial land is subject to broader economic conditions and government policies."
+      ],
+      "riskFlags": [
+        "Regulatory risk related to land use conversion and zoning.",
+        "Execution risk in developing industrial parks.",
+        "Sector headwinds if overall industrial demand falters."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:50"
+    },
+    {
+      "ticker": "SSI",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "bed36c4ae9f8894d2d18b7b05ec4fe34f1c180db9a6b57ae5b97cdb9175ce011",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.0,
+      "summary": "An SSI expert commented on the VN-Index falling below 1,800, stating that even if the market retreats today, no new buying opportunities will emerge. This suggests a cautious outlook from SSI's perspective on current market conditions.",
+      "bullPoints": [
+        "Expert opinion from a leading financial institution (SSI) provides market commentary.",
+        "The commentary indicates a lack of immediate buying opportunities, implying a potential for price stabilization or a cautious approach rather than a sharp downturn."
+      ],
+      "bearPoints": [
+        "The VN-Index has fallen below a significant psychological level (1,800), indicating market weakness.",
+        "The expert's statement suggests a lack of attractive entry points, implying that the market may not present immediate upside potential.",
+        "The commentary could be interpreted as a signal that current prices are not compelling, even for a retreat."
+      ],
+      "riskFlags": [
+        "Market downturn risk (VN-Index falling below 1,800).",
+        "Valuation risk: If there are no new buying points, it suggests current valuations may not be attractive.",
+        "Sector headwinds: The broad market decline could impact SSI's business operations."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:30:57"
+    },
+    {
+      "ticker": "STB",
+      "analysisDate": "2026-06-08",
+      "articleCount": 2,
+      "newsInputHash": "2466097ab1e39aa4306492482f74327de18ccca916eafc3a01950cd79d16bbed",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "Sacombank has appointed two young individuals to key assistant roles: a Gen Z female executive as Assistant to the General Director and the son of \"Bầu Thụy\" as Assistant to the Board of Directors. Both appointees have prior experience in significant business roles and hold substantial assets.",
+      "bullPoints": [
+        "New management appointments could bring fresh perspectives and energy.",
+        "Appointees have prior experience in large-scale businesses, suggesting capability.",
+        "Potential for increased investor confidence due to association with prominent business figures."
+      ],
+      "bearPoints": [
+        "The appointments are at assistant levels, suggesting limited immediate impact on core operations or strategy.",
+        "The individuals are very young, raising questions about their depth of experience in the banking sector.",
+        "The news focuses on personal backgrounds rather than concrete business strategies or financial performance improvements."
+      ],
+      "riskFlags": [
+        "Succession planning/management quality: The reliance on young, potentially inexperienced individuals in key roles could pose long-term risks.",
+        "Related party transactions: The involvement of individuals connected to major shareholders might raise concerns about governance and potential conflicts of interest.",
+        "Valuation: While not explicitly stated, any positive market reaction to these appointments could be based on speculation rather than fundamentals, potentially leading to overvaluation."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:31:04"
+    },
+    {
+      "ticker": "VHM",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "237fb71b0e799c2f32423f7e4276d9e345cfe85fbfad5e805878ce42eb4021f4",
+      "sentiment": "neutral",
+      "impactHorizon": "10d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vinhomes is making progress on its large-scale 59,000 billion VND project in Northwest Ho Chi Minh City. This development is anticipated to become a new symbol of a knowledge-tech urban area, accommodating approximately 135,000 residents and 60,000 students. The project's scale and ambition are notable.",
+      "bullPoints": [
+        "Significant progress on a major, large-scale real estate project.",
+        "Project aims to be a landmark urban development for knowledge and technology.",
+        "Large projected resident and student population indicates potential demand."
+      ],
+      "bearPoints": [
+        "The news describes ongoing development rather than a new, concrete revenue-generating event.",
+        "The sheer scale of the project implies a long development timeline and significant capital expenditure.",
+        "Market sentiment may already price in the company's ability to execute large projects."
+      ],
+      "riskFlags": [
+        "Large capital expenditure required for such a massive project could strain finances.",
+        "Regulatory approvals and execution risks are inherent in large-scale urban developments.",
+        "The macro context mentions increased Vietnamese investment abroad, which could indicate capital outflow pressures."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:31:11"
+    },
+    {
+      "ticker": "VIC",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "6c54f55713043b1abe30af98a89397054d75a7b8e3f25c36e866a0aefb3e4195",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vingroup has been granted the right to receive capital transfers from Chairman Pham Nhat Vuong, potentially increasing its ownership in GSM and VinEnergo. The execution of this right is contingent on Vingroup's capital allocation strategy and no payment has been made yet. This move could signal a strategic consolidation of assets within the group.",
+      "bullPoints": [
+        "Potential for increased ownership in key subsidiaries (GSM, VinEnergo).",
+        "Chairman's strategic involvement and potential capital injection.",
+        "Flexibility for Vingroup to execute based on its capital strategy."
+      ],
+      "bearPoints": [
+        "The transfer is a right, not a completed transaction, with no immediate financial impact.",
+        "The actual execution depends entirely on Vingroup's future capital allocation decisions.",
+        "Market may have already priced in potential future consolidation or strategic moves."
+      ],
+      "riskFlags": [
+        "Capital allocation strategy is key, implying potential delays or no execution.",
+        "No immediate financial commitment suggests the move is not urgent or fully committed.",
+        "Lack of immediate payment could indicate underlying capital constraints or prioritization elsewhere."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:31:17"
+    },
+    {
+      "ticker": "VJC",
+      "analysisDate": "2026-06-08",
+      "articleCount": 1,
+      "newsInputHash": "d61c2b972735c484c95b197eb73c3eacde3ac062986b6e6604e5d2b77e440837",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Vietjet Aviation Joint Stock Company (VJC) has announced June 17, 2026, as the record date for shareholders entitled to receive its 2025 dividend. This is a routine administrative announcement for dividend distribution.",
+      "bullPoints": [
+        "Confirms dividend payment for 2025, providing a tangible return to shareholders.",
+        "Dividend payment can signal financial health and management's confidence in future earnings."
+      ],
+      "bearPoints": [
+        "The news is a routine administrative event and does not indicate any new operational or financial performance improvements.",
+        "The market may have already priced in the expectation of a dividend payment for 2025."
+      ],
+      "riskFlags": [
+        "Dividend payout is subject to the company's financial performance and cash flow availability."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-08 12:31:24"
+    }
+  ]
+}

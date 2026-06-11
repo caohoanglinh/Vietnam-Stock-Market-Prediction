@@ -1,0 +1,150 @@
+{
+  "analysisDate": "2026-05-21",
+  "generatedAt": "2026-05-21T12:32:07Z",
+  "tickerCount": 8,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "BID",
+      "analysisDate": "2026-05-21",
+      "articleCount": 2,
+      "newsInputHash": "f4b06df2798e50df94aac585a45277ee4909807eb6f8e8fa93e5ddbf499a43dd",
+      "sentiment": "positive",
+      "impactHorizon": "mixed",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "BID is preparing to issue nearly 500 million bonus shares to existing shareholders, aiming to increase its charter capital by nearly VND 5,000 billion. The bank also has ambitious long-term goals, targeting to become a leading financial-banking group in Southeast Asia and among the top 100 strongest banks in Asia by 2030.",
+      "bullPoints": [
+        "Planned issuance of nearly 500 million bonus shares.",
+        "Targeting significant charter capital increase.",
+        "Long-term vision to be a top Asian bank by 2030."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:30:22"
+    },
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-05-21",
+      "articleCount": 1,
+      "newsInputHash": "82e025104a653347c6e486ce75c4af4224a1ee1554930a8d637f8c93cc997a46",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "HoSE has revised its decision regarding the trading of Duc Giang Chemical (DGC) shares. The stock will still be available for trading throughout the day, but with a restriction to block-lot orders executed via periodic matching. This change allows for continued trading but introduces a specific method for transactions.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Trading restricted to block-lot orders via periodic matching"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:30:40"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-21",
+      "articleCount": 3,
+      "newsInputHash": "358e07fbe391877f08efdc9271c391cc3697a90c160223368590f58416f3de0f",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "FPT has appointed a Group AI Transformation Director and launched a new AI transformation framework, CASAN. This move aligns with the broader trend of AI becoming a key growth pillar for Vietnam and the global technology landscape. The company's strategic focus on AI is further highlighted by related news about educational institutions preparing for the AI era.",
+      "bullPoints": [
+        "FPT appoints Group AI Transformation Director (CAIXO).",
+        "FPT launches CASAN, a global AI transformation framework.",
+        "Strategic focus on AI aligns with national and global tech trends."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:30:56"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-05-21",
+      "articleCount": 1,
+      "newsInputHash": "94b0d639aabb49e6db9774104dc77ba0bda5448b96670f4def82a21091d105f7",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.5,
+      "newsScore": 0.0,
+      "summary": "A major shareholder of Novaland has sold millions of NVL shares. This sale occurred as the stock price experienced a significant increase of 80%. Following the transaction, the shareholder's remaining stake in NVL is over 168 million units, representing 7.54% of the capital.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Major shareholder selling shares."
+      ],
+      "riskFlags": [
+        "Significant price increase preceding the sale could indicate profit-taking."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:31:08"
+    },
+    {
+      "ticker": "OCB",
+      "analysisDate": "2026-05-21",
+      "articleCount": 1,
+      "newsInputHash": "ab4b5bbebe963133683d27a0c0ae37452a2cd7bdf56978c842afdd9a6fc7850f",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Ngân hàng TMCP Phương Đông (OCB) đã bổ nhiệm ông Chris Shayan làm Phó Tổng Giám đốc, có hiệu lực từ ngày 01/6/2026.  Việc bổ nhiệm này nhằm kiện toàn đội ngũ lãnh đạo cấp cao cho giai đoạn chiến lược 2026-2030. Thông tin này không cung cấp chi tiết về tác động tài chính hoặc hoạt động cụ thể.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:31:20"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-05-21",
+      "articleCount": 2,
+      "newsInputHash": "d262a12df8b4994699fbc55e938d212532af027cdde0ac65dd233e779f9e489f",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Phó Chủ tịch HĐQT SHB Đỗ Quang Vinh đã tham dự sự kiện quốc tế Huawei Intelligent Finance Summit 2026 để học hỏi về chuyển đổi số trong kỷ nguyên AI. Thông tin này cho thấy sự quan tâm của ban lãnh đạo SHB đến các xu hướng công nghệ mới. Tuy nhiên, không có thông tin trực tiếp về tác động tài chính hoặc hoạt động kinh doanh của ngân hàng.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:31:38"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-05-21",
+      "articleCount": 1,
+      "newsInputHash": "4cf8699959ba18d64345f24d0e1df65f6cd742113e0a29ae1c1162df772efa01",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.2,
+      "newsScore": 0.0,
+      "summary": "This news item discusses a collaboration involving Max Card, RHYDER, and Ánh Sáng AZA, focusing on how bank cards are evolving into lifestyle statements. It highlights the trend of personalized and stylish bank cards. The article does not provide specific financial information or performance indicators for VIB.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:31:55"
+    },
+    {
+      "ticker": "VIC",
+      "analysisDate": "2026-05-21",
+      "articleCount": 1,
+      "newsInputHash": "1b2b34e5aea2e80d68fac36a890a2894405a0cb984f004b9e0a4812da38bf7e3",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Vinpearl has transferred ownership of nearly 15 million VIC shares, completing its bond obligations. Following this transaction, the organization retains direct ownership of 69.7 million shares, representing 0.90% of VIC's capital. The news indicates a shift in shareholding related to debt settlement.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-21 12:32:07"
+    }
+  ]
+}

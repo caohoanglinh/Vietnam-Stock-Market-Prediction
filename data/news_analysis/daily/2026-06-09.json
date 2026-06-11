@@ -1,0 +1,225 @@
+{
+  "analysisDate": "2026-06-09",
+  "generatedAt": "2026-06-09T12:30:51Z",
+  "tickerCount": 8,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "5f387d9a8b40372d4641ca9eb2a47f567bf07b0e8dcdeb708399b5f9ddb4a16c",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "A former ACB employee has been prosecuted for leaking operational secrets and involvement in forging checks to embezzle over VND 1 billion from the bank. This incident highlights internal control weaknesses and potential operational risks within ACB.",
+      "bullPoints": [
+        "ACB is taking action against internal fraud."
+      ],
+      "bearPoints": [
+        "The incident suggests potential weaknesses in ACB's internal controls and operational security.",
+        "Embezzlement of over VND 1 billion indicates a significant financial loss and reputational damage."
+      ],
+      "riskFlags": [
+        "Regulatory risk (prosecution implies potential scrutiny)",
+        "Operational risk (internal fraud, control failures)",
+        "Reputational risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:03"
+    },
+    {
+      "ticker": "DIG",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "8cffac349c002a68782a732fd68ca051a119f5e85810464b9cfb36231966a252",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.6,
+      "summary": "A significant number of DIG shares, totaling 1,787,000, were sold off by MBS due to margin calls for Mr. Nguyen Hung Cuong and two other individuals. This forced selling occurred at the end of May 2026.",
+      "bullPoints": [
+        "The forced sale might clear out some overhang in the short term.",
+        "Potential for new investors to acquire shares at a lower price point."
+      ],
+      "bearPoints": [
+        "Forced selling indicates a lack of liquidity or inability to meet margin obligations, suggesting financial distress for the involved parties.",
+        "The scale of the sale could put downward pressure on the stock price.",
+        "This event raises concerns about the financial health of major shareholders."
+      ],
+      "riskFlags": [
+        "Insider selling (indirectly, via forced liquidation of shares linked to an insider)",
+        "High valuation (potential for margin calls if stock price falls)",
+        "Market sentiment (forced selling can trigger negative sentiment)"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:29:48"
+    },
+    {
+      "ticker": "DPM",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "f4fee4706ab6f096582d8ef3cfd165a6c2af2f76ccc18371ab782e245a04338c",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Phú Mỹ (DPM) được vinh danh trong Top 10 Đại hội đồng cổ đông tiêu biểu 2026. Sự kiện này ghi nhận kết quả kinh doanh quý 1 vượt kế hoạch và chiến lược chuyển đổi mô hình kinh doanh.  ĐHĐCĐ cũng cho thấy sự đối thoại cởi mở với cổ đông trước các yếu tố vĩ mô.",
+      "bullPoints": [
+        "Kết quả kinh doanh quý 1 vượt kế hoạch.",
+        "Chiến lược dịch chuyển mô hình sang trục phân bón - hóa chất.",
+        "Đối thoại trực diện với cổ đông về biến số vĩ mô."
+      ],
+      "bearPoints": [
+        "Việc được vinh danh có thể đã được thị trường định giá trước.",
+        "Kết quả kinh doanh quý 1 vượt kế hoạch có thể là yếu tố nhất thời.",
+        "Chiến lược chuyển đổi mô hình có thể đối mặt với rủi ro triển khai."
+      ],
+      "riskFlags": [
+        "Biến số vĩ mô có thể ảnh hưởng đến hoạt động kinh doanh.",
+        "Rủi ro cạnh tranh trong ngành phân bón và hóa chất.",
+        "Khả năng triển khai chiến lược chuyển đổi mô hình mới."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:29:54"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-09",
+      "articleCount": 2,
+      "newsInputHash": "704305e201eca9585fbf4aa18f0ad763c1fb5372c9045698d905ac24723346b4",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "FPT has signed strategic cooperation agreements with two leading Asian partners, Charoen Pokphand Foods Public Company Limited (CPF) and Amata Corporation. This move follows a meeting between FPT's Chairman and the Prime Minister of Thailand. The partnerships are expected to drive FPT's growth in the region.",
+      "bullPoints": [
+        "Secures strategic partnerships with major Asian conglomerates (CPF and Amata).",
+        "Demonstrates FPT's expanding regional influence and business development capabilities.",
+        "Potential for new revenue streams and market penetration through these collaborations."
+      ],
+      "bearPoints": [
+        "The actual financial impact and timeline of these partnerships are not yet detailed.",
+        "The market may have already priced in FPT's ongoing expansion efforts.",
+        "Execution risk exists for integrating and realizing value from these new collaborations."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While not directly mentioned, the tech and IT services sector can be sensitive to global economic slowdowns.",
+        "Execution risk: The success of these partnerships hinges on effective implementation and synergy realization.",
+        "Geopolitical risk: Expanding into new Asian markets can expose FPT to regional political and economic uncertainties."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:00"
+    },
+    {
+      "ticker": "HDB",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "244fcceec27a876cf18f2ac2ac18f5e0cbf8e39d0d26fa69dc36d8ce4b3a919a",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "The banking sector faces challenges in the second half of 2026, including narrowing NIM and rising bad debt. However, strong differentiation will create opportunities for banks with superior funding and risk management capabilities. HDB, as a bank, will be subject to these sector-wide trends.",
+      "bullPoints": [
+        "Potential for selective opportunities in banks with strong risk management.",
+        "Focus on cost efficiency and risk absorption could benefit well-managed institutions."
+      ],
+      "bearPoints": [
+        "Industry-wide pressure from narrowing NIM.",
+        "Expectation of increasing non-performing loans (NPLs) across the sector."
+      ],
+      "riskFlags": [
+        "Sector headwinds: Narrowing NIM and rising NPLs are systemic risks for all banks.",
+        "Macroeconomic risks: General economic conditions can impact loan quality and profitability."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:07"
+    },
+    {
+      "ticker": "KBC",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "5fea4e11077faa58eccca38a2cf4a40a6d8488ac7dd75c7a9ded770fc5c0e0a5",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Kinh Bac City Development (KBC) is set to develop a new urban area in Lien Phuong commune, with an estimated investment of over VND 15,200 billion. This project will cover approximately 97.97 hectares and is expected to house nearly 20,000 residents. The development is located in a province adjacent to Hanoi, attracting other major real estate developers.",
+      "bullPoints": [
+        "Significant new urban development project with substantial investment.",
+        "Project located in a strategic area near Hanoi, attracting other major developers.",
+        "Potential for future growth and revenue generation from the new urban area."
+      ],
+      "bearPoints": [
+        "The large scale of the project implies a long development timeline and potential for cost overruns.",
+        "Market may have already priced in such large-scale real estate developments in the region.",
+        "Execution risk associated with managing a project of this magnitude."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Large-scale real estate projects can face complex approval processes and potential changes in regulations.",
+        "Financing risk: Securing the substantial VND 15,200 billion investment may present challenges.",
+        "Execution risk: Delays or cost overruns in large infrastructure and urban development projects are common."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:13"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-09",
+      "articleCount": 8,
+      "newsInputHash": "ead55eadf0a91971e43509b3c9b0d0207ed8fe10a7966e5646122bd2020651ac",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level developments were reported, including a tax exemption for electric vehicle buyers until 2030 and record-breaking power generation in the Central-Highlands. Additionally, a Chinese firm proposed significant investment in a series of projects in Vietnam's largest province, while a major highway project faced challenges. Discussions around gold reserves and tax evasion also surfaced.",
+      "bullPoints": [
+        "EV tax exemption until 2030 could boost demand for related industries.",
+        "Record power generation suggests robust economic activity in certain regions.",
+        "Large-scale Chinese investment proposals indicate potential for infrastructure development."
+      ],
+      "bearPoints": [
+        "The highway project facing difficulties highlights execution risks in large infrastructure endeavors.",
+        "Discussions on gold reserves and tax evasion could signal increased regulatory scrutiny on capital flows.",
+        "The macro news is broad and does not directly impact specific companies without further context."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Increased focus on tax evasion and capital flows.",
+        "Execution risk: Challenges in large infrastructure projects.",
+        "Sectoral headwinds: The EV tax break is positive but depends on the company's exposure to this sector."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:20"
+    },
+    {
+      "ticker": "PET",
+      "analysisDate": "2026-06-09",
+      "articleCount": 1,
+      "newsInputHash": "e64d38403369b5c496337cb4560b079802e88475b436dcd4b2dd41f77fdad055",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "VietinBank Capital has become a major shareholder in Petrosetco (PET) by acquiring 9.35 million shares, increasing its stake to 13.45%. This move indicates increased institutional interest in the company.",
+      "bullPoints": [
+        "Increased institutional ownership by a reputable entity.",
+        "Potential for enhanced corporate governance and strategic direction.",
+        "Signals confidence from VietinBank Capital in PET's future prospects."
+      ],
+      "bearPoints": [
+        "The acquisition might be a routine portfolio adjustment rather than a strong conviction play.",
+        "The market may have already priced in increased institutional interest.",
+        "No specific strategic initiatives or operational improvements were announced alongside the share purchase."
+      ],
+      "riskFlags": [
+        "No immediate operational or financial risks are apparent, but the long-term impact of this ownership change is yet to be seen.",
+        "Potential for future share price volatility if VietinBank Capital decides to divest.",
+        "The macro context of potential tax evasion investigations could indirectly affect investor sentiment across the market."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-09 12:30:50"
+    }
+  ]
+}

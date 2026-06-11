@@ -1,0 +1,170 @@
+{
+  "analysisDate": "2026-05-29",
+  "generatedAt": "2026-05-29T12:30:46Z",
+  "tickerCount": 6,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-05-29",
+      "articleCount": 1,
+      "newsInputHash": "5dea066c1da1dff40f6ffae00cd56450ec4726c8d6de39c7b863277fa8e1a5ca",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Significant volumes of ACB shares have been registered for purchase by the company and its leadership. This activity involves hundreds of millions of shares across several major banks, including ACB. The market is observing this trend to understand the underlying reasons and implications.",
+      "bullPoints": [
+        "Insider buying can signal confidence in the company's future prospects.",
+        "Increased buying activity may indicate a belief that the stock is undervalued.",
+        "Leadership commitment can be a positive signal for long-term investors."
+      ],
+      "bearPoints": [
+        "Insider buying registrations can sometimes precede periods of price defense or a need to support the stock.",
+        "The sheer volume could be a pre-planned capital management strategy rather than a pure conviction buy.",
+        "The market may have already priced in such insider activity, limiting immediate upside."
+      ],
+      "riskFlags": [
+        "Insider buying registration: While often positive, it can also be a signal of insiders protecting price before potential headwinds.",
+        "Sector headwinds: The banking sector is subject to regulatory changes and economic cycles.",
+        "Valuation: The current valuation of ACB needs to be considered in light of this buying activity."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:05"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-29",
+      "articleCount": 1,
+      "newsInputHash": "8f96c2cc0f810bd4911a4e769018c6ec9dd7a07c9ee028ba32d7ab956d33d4dd",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "FPT's Chairman, Truong Gia Binh, has announced a potential bonus of up to 500 million VND per employee, contingent on achieving specific, undisclosed conditions. This initiative aims to incentivize performance and align employee efforts with company goals.",
+      "bullPoints": [
+        "Potential for significant employee motivation and alignment with strategic objectives.",
+        "Chairman's direct involvement signals strong commitment to performance-driven culture."
+      ],
+      "bearPoints": [
+        "The conditions for receiving the bonus are not specified, creating uncertainty about achievability.",
+        "The substantial bonus amount could be a signal of pressure to meet ambitious targets, potentially leading to burnout or unsustainable practices.",
+        "This is a motivational announcement, not a direct financial or operational update for the company's fundamentals."
+      ],
+      "riskFlags": [
+        "Performance targets are undisclosed, creating uncertainty about future financial impact.",
+        "Potential for increased operational pressure on employees to meet the unspecified conditions."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:11"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-05-29",
+      "articleCount": 8,
+      "newsInputHash": "72eb0b300985129edbb23196981a727c2d912c040d630bf60188f0773be2ea76",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level developments were reported, including efforts to resolve land clearance issues in HCMC and progress on major infrastructure projects like National Highway 13. There's also news regarding new momentum for Vietnam's solar power sector and a unique global initiative undertaken by Vietnam. Additionally, tax authorities are issuing notices for bank account deductions, and a specific growth model for Nghe An was highlighted.",
+      "bullPoints": [
+        "Government initiatives to resolve land clearance issues could benefit real estate and construction sectors.",
+        "Significant infrastructure investments like the National Highway 13 expansion signal economic development.",
+        "Positive developments for the solar power sector may attract investment and drive growth in renewable energy."
+      ],
+      "bearPoints": [
+        "The tax authority's announcement about bank account deductions could indicate increased scrutiny and potential financial pressure on individuals and businesses.",
+        "The broad nature of the macro news provides little specific insight into MACRO's direct business operations or financial performance.",
+        "The 'unique global initiative' is vague and its impact on the broader economy or specific sectors is unclear."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Tax authorities are taking action on account deductions, suggesting a tightening regulatory environment.",
+        "Macroeconomic risk: While infrastructure spending is positive, broader economic stability and tax enforcement can impact business operations.",
+        "Sectoral risk: The solar power news is positive, but the overall energy sector can be subject to policy changes and market volatility."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:19"
+    },
+    {
+      "ticker": "OCB",
+      "analysisDate": "2026-05-29",
+      "articleCount": 1,
+      "newsInputHash": "03f500cb8c02c9d34e9a2544efbefbcf41f695635738c1cc94740e214394c077",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "OCB has appointed Mr. Chris Shayan as Acting General Director, effective June 1, 2026. This leadership change comes as the bank navigates its operational landscape. The market will be watching to see how this new leadership impacts OCB's strategic direction and performance.",
+      "bullPoints": [
+        "New leadership may bring fresh perspectives and strategies.",
+        "Appointment of an acting CEO indicates a proactive approach to management transition."
+      ],
+      "bearPoints": [
+        "The appointment is for an 'Acting' General Director, suggesting the position is not yet permanent.",
+        "A change in top leadership can introduce uncertainty and potential disruption to ongoing strategies.",
+        "The market may have already priced in routine management changes."
+      ],
+      "riskFlags": [
+        "Management transition risk: New leadership may not align with existing strategies or may face challenges in execution.",
+        "Uncertainty regarding long-term leadership stability."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:26"
+    },
+    {
+      "ticker": "SSI",
+      "analysisDate": "2026-05-29",
+      "articleCount": 1,
+      "newsInputHash": "7a7d135523e6ba702656f3d566bed32990fdeedf215ec3d6be40a05bac954462",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "SSI's Board of Directors has approved amendments to the details concerning the issuance of 10 million ESOP shares. This adjustment pertains to the employee stock option program. The specific changes to the ESOP issuance terms are not detailed in the provided summary.",
+      "bullPoints": [
+        "ESOP issuance can be a positive signal for employee motivation and retention.",
+        "Amendments suggest a structured approach to corporate actions."
+      ],
+      "bearPoints": [
+        "The news is a procedural update on an existing ESOP plan, not a new strategic development.",
+        "The market may have already priced in the ESOP issuance, making the impact minimal.",
+        "The lack of detail on the specific changes leaves room for potential negative interpretations."
+      ],
+      "riskFlags": [
+        "Dilution risk: Issuance of new shares, even through ESOP, can dilute existing shareholders' ownership.",
+        "Regulatory risk: Any changes to share issuance plans are subject to regulatory approval and scrutiny."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:39"
+    },
+    {
+      "ticker": "VHM",
+      "analysisDate": "2026-05-29",
+      "articleCount": 1,
+      "newsInputHash": "d4663b75df3e6780277ccd581a86fddad5618ba5061767d52600f605607fd87f",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vinhomes' stock price saw a significant increase, reportedly driven by the company's announcement of a revised program allowing the conversion of idle gold into cash for property purchases. This initiative aims to tap into a unique asset class for real estate transactions.",
+      "bullPoints": [
+        "Potential to unlock new funding sources for property purchases.",
+        "Innovative approach to attract buyers by leveraging gold assets.",
+        "Positive market reaction to the stock price surge."
+      ],
+      "bearPoints": [
+        "The program's success is contingent on market participation and gold price stability.",
+        "The actual impact on sales volume and cash flow is yet to be determined.",
+        "The news is primarily a stock price reaction to a program announcement, not a fundamental operational change."
+      ],
+      "riskFlags": [
+        "Valuation: The stock price surge may outpace fundamental improvements.",
+        "Execution Risk: The effectiveness of the gold conversion program is unproven.",
+        "Market Volatility: Dependence on gold prices introduces external risk."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-29 12:30:46"
+    }
+  ]
+}

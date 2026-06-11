@@ -1,0 +1,229 @@
+{
+  "analysisDate": "2026-05-19",
+  "generatedAt": "2026-05-19T12:32:23Z",
+  "tickerCount": 11,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "9981f4ecfa70c16162ce3bad4a46eefb865ff643bb491092a5d8b96d5b4fb7ea",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "FPT Corporation has partnered with Genfarma, a new biopharmaceutical company in Vietnam, to implement the SAP S/4HANA Public Cloud enterprise management system. This system was deployed in just two months, aiming to enhance Genfarma's high-tech pharmaceutical management capabilities. The collaboration highlights FPT's role in digital transformation for businesses.",
+      "bullPoints": [
+        "FPT is involved in a digital transformation project for a biopharmaceutical company.",
+        "The implementation of SAP S/4HANA Public Cloud was rapid, indicating efficiency."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:30:11"
+    },
+    {
+      "ticker": "GAS",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "0ca5ddca43a350645601b1c93c1acccba7f31b115670c273c8cfd21b9ccd85dd",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": -0.6,
+      "summary": "On May 19, 2026, the Vietnamese stock market experienced a significant decline, with the VN-Index dropping 15 points. The oil and gas sector, including GAS, was heavily impacted by strong selling pressure, leading to several stocks in the group hitting their floor prices. This broad sell-off in the energy sector contributed to the overall market downturn.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Oil and gas stocks experienced strong selling pressure.",
+        "GAS was part of a sector that saw significant price declines.",
+        "The sell-off in the oil and gas group contributed to the broader market drop."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:30:20"
+    },
+    {
+      "ticker": "HCM",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "7dec98b32dbf011d8deb1255f25847feafc6d043f33fb73430056a2d57168ae5",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "HSC has approved a credit line of up to VND 10,000 billion from BIDV. The purpose of this borrowing is for investment and business activities, including trading bonds, stocks, and fund certificates. This move indicates a potential expansion of HSC's investment activities.",
+      "bullPoints": [
+        "Secured a significant credit line of VND 10,000 billion.",
+        "Funds are designated for investment and business activities."
+      ],
+      "bearPoints": [
+        "Increased leverage could introduce financial risk."
+      ],
+      "riskFlags": [
+        "Increased debt levels."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:30:37"
+    },
+    {
+      "ticker": "HPG",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "179eef166083aa65551c63d861d9c4c51cff6dc70934732a5f60c68fd4ff9cd1",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "Hoa Phat Group's chairman, Tran Dinh Long, is reportedly interested in expanding into new sectors. These include electricity distribution, car retail, and furniture. The group is also looking to add technology and digital infrastructure services.",
+      "bullPoints": [],
+      "bearPoints": [],
+      "riskFlags": [
+        "Diversification into unrelated sectors may dilute focus and strain resources."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:30:44"
+    },
+    {
+      "ticker": "MBS",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "2336ba36652dcfae86c9bea49da8ec1f1a52f5692dbc2a72c36862ef188cd792",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "MB has approved a plan to repurchase over 5 million MBS shares that were not sold in MBS's 2026 capital increase offering. This buyback action by MB is a positive development for MBS.",
+      "bullPoints": [
+        "MB is repurchasing over 5 million MBS shares.",
+        "The shares are from an unsold portion of MBS's 2026 capital increase.",
+        "This indicates support from MB for MBS."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:30:55"
+    },
+    {
+      "ticker": "POW",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "ad32c6c6ad2d5141d464c8ae96572a1f5a52aafd263468d06897c673c8fe47b4",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.5,
+      "newsScore": 0.0,
+      "summary": "PV Power has proposed not to distribute dividends, despite reporting a profit of over 1,300 billion VND in the first quarter. This decision comes amidst the company's business growth.",
+      "bullPoints": [
+        "Strong Q1 profit of over 1,300 billion VND.",
+        "Business is experiencing growth."
+      ],
+      "bearPoints": [
+        "No dividend distribution proposed."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:31:05"
+    },
+    {
+      "ticker": "SJS",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "e43c7b9ad24d3ff24e408148e85bd78d0666f8ddc10e3bef7030ab986b74c606",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "A major shareholder, An Phat Investment, sold 5 million SJS shares of SJ Group on May 13th. The stated reason for the sale was portfolio restructuring. This significant sell-off by a large investor may put downward pressure on the stock price.",
+      "bullPoints": [],
+      "bearPoints": [
+        "Major shareholder sold 5 million SJS shares."
+      ],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:31:18"
+    },
+    {
+      "ticker": "VHC",
+      "analysisDate": "2026-05-19",
+      "articleCount": 2,
+      "newsInputHash": "76aa6c0b8302c229521724bc9ed7f578a3fef08ae372ca48edf51716ee237fc5",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.8,
+      "newsScore": 0.7,
+      "summary": "Vĩnh Hoàn has announced a significant share buyback program, spending nearly 1,000 billion VND to repurchase 15 million VHC shares. This action represents approximately 6.7% of the company's outstanding shares. The buyback is intended to reduce charter capital and/or increase benefits for existing shareholders.",
+      "bullPoints": [
+        "Significant share buyback program initiated.",
+        "Repurchase aims to enhance shareholder value.",
+        "Buyback represents a notable portion of outstanding shares."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:31:37"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-05-19",
+      "articleCount": 2,
+      "newsInputHash": "79a887a06b9d9ec230f8eff9375ea36a678de91460e2fed640768f2af1ccca28",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.5,
+      "newsScore": 0.0,
+      "summary": "VIB has announced a strategic personnel change, moving its CFO, Ho Van Long, to a senior strategic role. Additionally, VIB is running a promotion for its Visa cardholders, offering a chance to win a trip to the BTS World Tour in Los Angeles with spending over 3 million VND.",
+      "bullPoints": [
+        "VIB Visa promotion offers a chance to win a trip to BTS World Tour.",
+        "CFO's move to a senior strategic role could indicate a focus on long-term planning."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:32:04"
+    },
+    {
+      "ticker": "VIC",
+      "analysisDate": "2026-05-19",
+      "articleCount": 1,
+      "newsInputHash": "780259c84727a1e0dd574779d3165c8b10e5910d65a7b245f344ce9cad85c861",
+      "sentiment": "positive",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.4,
+      "summary": "On May 19, 2026, foreign investors showed significant buying interest in VIC, acquiring approximately 155 billion VND. This purchase contributed to a broader trend of foreign net buying observed in the market. The news indicates positive investor sentiment towards VIC.",
+      "bullPoints": [
+        "Foreign investors net bought VIC with 155 billion VND.",
+        "Positive foreign investor activity observed on May 19."
+      ],
+      "bearPoints": [],
+      "riskFlags": [],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:32:17"
+    },
+    {
+      "ticker": "VND",
+      "analysisDate": "2026-05-19",
+      "articleCount": 2,
+      "newsInputHash": "e0a559a528ff017f90e8dc88a428bf4c0e70475d9d0ea4c62ac26b9daef51dbd",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.6,
+      "summary": "VNDirect's Chairwoman, Ms. Pham Minh Huong, acknowledges past naivety regarding talent acquisition but expresses optimism about the company's future. She highlights unprecedented opportunities in the financial and capital markets, signaling a strong \"comeback\" for VNDirect. The company is preparing to re-establish itself after the 2024 system hack.",
+      "bullPoints": [
+        "VNDirect preparing for a significant \"comeback\".",
+        "Unprecedented opportunities seen in the financial and capital markets.",
+        "Increased recognition of securities companies' roles by businesses, investors, and regulators."
+      ],
+      "bearPoints": [
+        "Past challenges in attracting top talent are acknowledged."
+      ],
+      "riskFlags": [
+        "System hack incident in 2024."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-05-19 12:32:23"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "analysisDate": "2026-06-03",
+  "generatedAt": "2026-06-03T12:30:31Z",
+  "tickerCount": 5,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "CTS",
+      "analysisDate": "2026-06-03",
+      "articleCount": 1,
+      "newsInputHash": "d9384cd5cb9aca32cb8dd250df45a72b3a58c3bbed42161e5c481127b7c4156e",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Chứng khoán VietinBank (CTS) sẽ chốt danh sách cổ đông vào ngày 15/6 để phát hành gần 60 triệu cổ phiếu trả cổ tức năm 2025. Việc này nhằm mục đích tăng vốn cho công ty.",
+      "bullPoints": [
+        "Cổ đông sẽ nhận cổ tức bằng cổ phiếu, tăng tỷ lệ sở hữu.",
+        "Việc phát hành cổ phiếu giúp tăng vốn cho công ty, có thể hỗ trợ hoạt động kinh doanh."
+      ],
+      "bearPoints": [
+        "Việc phát hành cổ phiếu trả cổ tức sẽ làm tăng số lượng cổ phiếu lưu hành, có khả năng pha loãng giá trị cổ phiếu hiện tại.",
+        "Thị trường có thể đã định giá trước thông tin này, do đây là kế hoạch trả cổ tức đã được công bố."
+      ],
+      "riskFlags": [
+        "Dilution risk: The issuance of new shares can dilute the ownership percentage and earnings per share for existing shareholders.",
+        "Valuation: While not explicitly stated, a large stock dividend can sometimes be a signal of a company's inability to pay cash dividends, or a way to manage expectations around future earnings growth."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-03 12:30:05"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-03",
+      "articleCount": 8,
+      "newsInputHash": "fa2c6750964eb80ec264f6f450bd2e5a054ae62fdbeb3daa515a26a1e36a1e13",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietnam's economy shows strong performance in the first five months of 2026, with record-breaking indicators and increased FDI interest in several localities. International tourist arrivals also continue to set new records, signaling a positive trend in the services sector. However, rising CPI due to 10 product groups and ongoing infrastructure project delays present potential headwinds.",
+      "bullPoints": [
+        "Record-breaking economic indicators in the first five months of 2026.",
+        "Increased FDI interest in various localities.",
+        "Continued record growth in international tourist arrivals."
+      ],
+      "bearPoints": [
+        "CPI increased by 0.29% in May, driven by 10 product groups, indicating inflationary pressures.",
+        "A significant infrastructure project (220 billion VND bridge) has been under construction for 7 years without completion, highlighting potential execution and efficiency issues.",
+        "The government is focusing on provinces with growth below potential, suggesting some regions may be lagging."
+      ],
+      "riskFlags": [
+        "Inflationary pressures (CPI increase).",
+        "Infrastructure project delays and potential mismanagement.",
+        "Macroeconomic policy focus on underperforming regions could imply broader economic challenges."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-03 12:30:11"
+    },
+    {
+      "ticker": "MSN",
+      "analysisDate": "2026-06-03",
+      "articleCount": 1,
+      "newsInputHash": "5722036123b53dc3b4a872d9496ed7193e607ceb8c36538fda6f41a1cfa373eb",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Masan's market capitalization has fallen to its lowest point since late March, now standing at nearly VND 106 trillion. This decline in valuation is the primary news item for the ticker MSN on this date. Despite the drop, the company's market cap remains above VND 100 trillion.",
+      "bullPoints": [
+        "Market capitalization remains above VND 100 trillion, indicating substantial underlying value.",
+        "The recent price drop could present a buying opportunity for investors who believe in the company's long-term prospects."
+      ],
+      "bearPoints": [
+        "The stock has experienced a significant decline, reaching a multi-month low, suggesting negative market sentiment or underlying concerns.",
+        "The news is purely descriptive of a price movement, offering no new fundamental information or catalysts for recovery."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While not explicitly stated for MSN, the general economic context mentions potential price adjustments in electricity, education, and healthcare, which could indirectly impact consumer spending and corporate costs.",
+        "High valuation: Despite the recent drop, the current market cap might still be considered high relative to its earnings or growth prospects, especially if the decline is a precursor to further downward adjustments.",
+        "Market sentiment: The price decline itself is a risk flag, indicating that the market is currently valuing the company lower, potentially due to broader economic concerns or specific company issues not detailed in the article."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-03 12:30:18"
+    },
+    {
+      "ticker": "OCB",
+      "analysisDate": "2026-06-03",
+      "articleCount": 1,
+      "newsInputHash": "f62d4554b99d23872c7fd49eb037d40294dbe4f404498db13ef462be8726ba0f",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "OCB has received approval from the State Bank of Vietnam to increase its charter capital by nearly VND 3,995 billion. This capital increase, funded by equity, will raise OCB's charter capital from VND 26,631 billion to over VND 30,625 billion upon completion. The move aims to strengthen the bank's financial foundation.",
+      "bullPoints": [
+        "Increased charter capital enhances OCB's financial capacity and regulatory compliance.",
+        "Strengthened capital base can support future lending growth and risk absorption.",
+        "Approval from the State Bank of Vietnam indicates regulatory confidence in OCB's stability."
+      ],
+      "bearPoints": [
+        "The news is an approval for a planned capital increase, not an immediate injection of new funds or a surprise event.",
+        "The market may have already priced in this expected capital raise.",
+        "The source of the capital is from equity, which does not bring in new external investment."
+      ],
+      "riskFlags": [
+        "dilution risk",
+        "regulatory risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-03 12:30:24"
+    },
+    {
+      "ticker": "PNJ",
+      "analysisDate": "2026-06-03",
+      "articleCount": 1,
+      "newsInputHash": "8e9bce82d6476fd7abf58374ae59b6cd3038fde28f8c733c59ed3e0323a7e9a1",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "The provided article indicates that 43 funds invested in a particular stock prior to the VN-Index reaching a new peak in April 2026. This suggests increased institutional interest in the market. However, the article does not specify which stock was targeted or provide details on PNJ's specific involvement.",
+      "bullPoints": [
+        "Increased institutional investment activity in the market.",
+        "Potential for broader market sentiment to benefit PNJ."
+      ],
+      "bearPoints": [
+        "The article does not mention PNJ directly, making its relevance speculative.",
+        "The investment occurred in April, and the news is published in June, suggesting the market may have already priced in this activity.",
+        "The general market rally could be driven by factors unrelated to PNJ's specific fundamentals."
+      ],
+      "riskFlags": [
+        "Market sentiment can be volatile and influenced by macroeconomic factors not detailed here.",
+        "Lack of specific information on PNJ's direct participation in the mentioned investment."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-03 12:30:31"
+    }
+  ]
+}
