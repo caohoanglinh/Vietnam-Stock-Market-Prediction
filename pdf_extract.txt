@@ -1,0 +1,933 @@
+=== PAGE 9 ===
+Chapter 1
+Introduction
+1.1
+Background
+Vietnam is a country rich in history, culture, and natural beauty — home to stunning
+destinations like Ha Long Bay, the ancient city of Hue, and countless hidden gems tucked
+away in bustling cities and remote villages. Each year, millions of tourists are drawn to
+explore these diverse landmarks. As tourism continues to thrive, so does the need for
+smart technologies that can enhance how travelers discover and engage with the places
+they visit.
+One promising area of innovation is landmark recognition: the ability for a system to
+identify landmarks from photos and provide relevant information. Imagine being able to
+snap a photo of a temple or statue and instantly learn about its history, significance, or lo-
+cation. This kind of experience not only makes traveling more convenient and interactive,
+but also encourages deeper cultural appreciation.
+However, building a system that can accurately recognize landmarks — especially
+in a place like Vietnam — isn’t easy. Many landmarks may look visually similar or
+have limited online documentation. Solving this problem calls for advanced computer
+vision methods that go beyond general-purpose image recognition, with a specific focus
+on local, domain-specific knowledge.
+1.2
+Problem statement
+As more travelers explore Vietnam, the demand for quick and easy access to reliable
+landmark information grows. However, many tourists, particularly international visitors,
+often struggle to identify unfamiliar sites or find trustworthy details in real time. While
+traditional travel apps and guidebooks are helpful, they don’t always offer the precision or
+immediacy needed when navigating a complex, visually rich environment like Vietnam.
+Current image recognition tools are typically built on broad, global datasets and
+aren’t optimized for local nuances. Landmarks that look similar or are poorly docu-
+mented can confuse even state-of-the-art systems. Moreover, these models usually re-
+quire large amounts of labeled training data — something not always available for every
+Vietnamese landmark. This creates a gap between what existing technology can offer
+and what tourists actually need on the ground.
+1
+
+=== PAGE 10 ===
+CHAPTER 1. INTRODUCTION
+2
+1.3
+Solution approach
+To bridge this gap, I propose a landmark recognition system tailored specifically for
+Vietnamese tourism. I explore a range of approaches — from traditional CNNs to Few-
+Shot Learning, and ultimately, a landmark retrieval system using a vector database —
+enabling fast and accurate similarity searches based on image content.
+To ensure the system performs well even with limited data, I apply FSL techniques.
+This allows the model to recognize new landmarks from just a handful of support images,
+making it more adaptable and scalable. Additionally, the system supports multimodal
+inputs — combining image and text embeddings — so users can search by either taking
+a photo or describing the landmark, offering greater flexibility.
+The end goal is to provide travelers with a simple, intuitive tool: take a photo of a
+landmark and instantly receive rich, contextual information — without relying on GPS or
+manually searching online. By combining advanced AI with practical travel needs, this
+solution aims to make exploring Vietnam smarter, easier, and more enriching.
+1.4
+Motivation and Objectives
+Motivation
+While landmark recognition has been widely explored in global contexts, there is still a
+noticeable lack of research and practical applications focused specifically on Vietnam.
+As someone passionate about both artificial intelligence and Vietnamese culture, I am
+personally motivated to contribute to this underexplored area. By developing a system
+that can effectively recognize landmarks in Vietnam, I hope to support both local tourism
+and technological advancement, making cultural exploration more accessible to domestic
+and international travelers alike.
+Objectives
+The main objective of this project is to develop an intelligent landmark recognition sys-
+tem tailored for Vietnamese tourism. This includes exploring different approaches—from
+CNN to FSL and landmark retrieval—to find the optimal solution, and then integrating
+the recognition system into a user-friendly chatbot powered by an LLM.
+1.5
+Structure of the Report
+This report is structured as follows:
+• Chapter 1: Introduction
+Provides background, motivation, objective, and an overview of the report.
+• Chapter 2: Dataset
+Describes how the dataset was collected and preprocessed to prepare it for experi-
+mentation.
+
+=== PAGE 11 ===
+CHAPTER 1. INTRODUCTION
+3
+• Chapter 3: Methodology
+Details the different methods and approaches experimented with during the project.
+• Chapter 4: Results and Comparison
+Presents the experimental results, including comparisons between the tested meth-
+ods as well as with related work.
+• Chapter 5: Discussion
+Analyzes the strengths and limitations of the developed system.
+• Chapter 6: Conclusion and Future Work
+Summarizes the main findings and outlines potential directions for future research.
+
+=== PAGE 12 ===
+Chapter 2
+Dataset
+2.1
+Overview
+This chapter provides an overview of the dataset used in the Vietnam Landmark Recogni-
+tion project during my internship. The dataset serves as the basis for training and evaluat-
+ing computer vision and multimodal models aimed at identifying Vietnamese landmarks
+from images and text queries. It consists of images representing 45 notable landmarks
+across various cities in Vietnam, along with metadata including landmark names, city
+locations, and textual descriptions.
+During the early stage of the project, a smaller dataset was used specifically for train-
+ing and evaluating CNN models in a standard image classification setup. This dataset
+allowed me to observe and validate the effectiveness of using deep learning techniques
+for landmark recognition.
+The final, larger dataset was carefully curated and preprocessed to ensure high-quality
+and diverse inputs suitable for few-shot learning and retrieval-augmented generation
+(RAG) systems. It was used for training few-shot learning models, generating image
+and text embeddings, and indexing vectors into a vector database. This dataset played
+a crucial role in building the Vietnam Landmark Recognition system, enabling robust
+retrieval and recognition capabilities.
+2.2
+Data collection
+The data used in this project was collected through two main approaches: self-capturing
+and online sourcing.
+Self-captured data: In the early stage of the project, images were collected man-
+ually by visiting landmark locations and capturing photos or recording videos on-site.
+However, the process was time-consuming and resource-intensive, particularly due to the
+need to travel to each location and preprocess the video data into usable image frames.
+As a result, this approach was discontinued after the initial five landmarks.
+Online data collection: To scale the dataset more efficiently and improve its general-
+izability, I shifted to downloading publicly available images from the internet. These im-
+ages were sourced from travel websites, image search engines, and open-source datasets.
+This approach enabled a broader and faster accumulation of high-quality images repre-
+4
+
+=== PAGE 13 ===
+CHAPTER 2. DATASET
+5
+senting various landmarks across different cities in Vietnam.
+Figure 2.1: Self-take images (left) and online sources (right)
+2.3
+Data Preprocessing
+To ensure consistency and quality, all collected images underwent a preprocessing pipeline
+based on specific criteria. These requirements were designed to create a high-quality
+dataset suitable for training deep learning models and supporting reliable landmark recog-
+nition.
+Table 2.1: Summary of Data Preprocessing Steps and Requirements
+Requirement
+Description
+Minimum resolution
+Images must have a resolution of at least 300×300
+pixels.
+Image format
+All images were converted and saved in PNG format.
+Viewpoint diversity
+Images should provide 360-degree coverage from var-
+ious distances and angles.
+Lighting variation
+Include both daytime and nighttime images to im-
+prove model generalization.
+Centered landmark
+Landmarks should be clearly visible and centered in
+the image whenever possible.
+Extract images from videos
+For self-captured data, frames were extracted from
+videos at intervals to collect static images.
+
+=== PAGE 14 ===
+CHAPTER 2. DATASET
+6
+Requirement
+Description
+Center cropping
+Each image was cropped to ensure the landmark is in
+the center of the frame.
+Remove redundant images
+Duplicate, irrelevant, or overly similar images were
+removed to increase diversity.
+Label verification
+Each class was manually verified by comparing im-
+ages with reliable travel sources to ensure correct la-
+beling.
+Resize
+Images were resized to match the input size required
+by the model.
+Normalization
+Images were normalized using ImageNet settings.
+This preprocessing pipeline resulted in a high-quality, consistent, and diverse dataset.
+It provided a strong foundation for training CNN models in the early stages and few-shot
+learning models in the final system, as well as for generating embeddings to be indexed
+in the vector database.
+2.4
+Dataset
+Two versions of the dataset were developed during the course of the project to support
+different phases of model development and experimentation.
+Dataset v1 was created during the early stage of the project and was primarily used
+for training and evaluating CNN models in a standard image classification setting. It
+contains a total of 1,679 images across 5 classes, corresponding to the first five landmarks,
+which were collected through a combination of self-captured data (1271 images) and
+publicly available images from online sources (408 images).
+Figure 2.2: Data distribution of Dataset v1
+Dataset v2 represents the final and more comprehensive version used in the later
+stages of the project. It includes 3,163 images covering 45 landmark classes across vari-
+
+=== PAGE 15 ===
+CHAPTER 2. DATASET
+7
+ous cities in Vietnam. This dataset incorporates data from Dataset v1 (after refinement)
+and additional images collected entirely from online sources. Since Dataset v2 was not
+used for standard classification tasks, class imbalance was not a major concern. During
+refinement, about half of the self-captured images from Dataset v1 were removed due to
+high similarity, especially among frames extracted from videos. This step helped reduce
+redundancy and improved the quality of the final dataset.
+Figure 2.3: Data distribution of Dataset v2
+To explore the structure and separability of Dataset V1 and Dataset V2, I used UMAP
+[1], a non-linear dimensionality reduction method that preserves both local and global re-
+lationships. I first extracted high-dimensional image embeddings using the CLIP model,
+which leverages a Vision Transformer to produce semantically rich representations. These
+embeddings were then projected into 2D space using UMAP for visualization. I chose
+CLIP [2] over CNN-based models due to its superior ability to capture global context
+and align visual and semantic features, an advantage for complex tasks like landmark
+recognition.
+For Dataset V1 (5 classes, 1,679 images), I used UMAP with 30 neighbors and a
+minimum distance of 0.5 to emphasize class separation. As shown in Figure 2.4, the
+five classes form clear, compact clusters, indicating that CLIP embeddings effectively
+distinguish between them.
+
+=== PAGE 16 ===
+CHAPTER 2. DATASET
+8
+Figure 2.4: Data visualization of Dataset v1
+For Dataset V2 (45 classes, 3,163 images), I applied the same UMAP settings. De-
+spite the increased number of classes, most landmarks formed distinct and dense clusters,
+as shown in Figure 2.5. Some overlap appears, particularly in the left and upper regions,
+where visually similar landmarks are embedded closely. This is primarily due to visual
+similarity—many Vietnamese landmarks, such as pagodas and temples, share common
+architectural features. Additionally, intra-class variability from differing viewpoints or
+lighting conditions can cause embeddings to scatter, increasing inter-class overlap. Still,
+overall class separability remains strong. The visualization reflects both the distinctive-
+ness of individual landmarks and broader category groupings, offering useful insights
+into the challenges and opportunities in large-scale visual landmark recognition.
+Figure 2.5: Data visualization of Dataset v2
+
+=== PAGE 17 ===
+Chapter 3
+Methodology
+3.1
+Overview
+This chapter outlines the experimental methods explored in the development of the Viet-
+nam Landmark Recognition system. The goal was to identify the most effective approach
+for accurately recognizing Vietnamese landmarks from images. A series of experiments
+were conducted, each building on the insights of the previous, to evaluate the strengths
+and limitations of various techniques in landmark classification.
+The methodology followed a progressive exploration of the following approaches:
+1. CNN Classification: As a baseline, a standard CNN was trained to classify Viet-
+namese landmarks using supervised learning. This provided an initial performance
+benchmark and highlighted the challenges of traditional classification with limited
+data per class.
+2. Few-Shot Learning: To improve generalization with scarce training data, a Proto-
+typical Network was implemented. This method enabled classification by compar-
+ing image embeddings to class prototypes in an embedding space, offering better
+adaptability to unseen classes.
+3. LLM Classification with Prompts: Gemini [3], a multimodal foundation model,
+was tested with prompt-based classification. This experiment leveraged Gemini’s
+ability to understand both images and text, aiming to improve recognition using
+high-level semantic prompts.
+4. Landmark Retrieval using Vector Database : Inspired by the prototypical net-
+work concept, this experiment stored image and text embeddings in a vector database.
+Cosine similarity was used for retrieval, allowing flexible and scalable classifica-
+tion based on similarity search rather than fixed labels.
+5. LLM Integration: In the final stage, Gemini was integrated as a chatbot interface
+to verify and explain retrieval results from the vector database. This added a con-
+versational layer that enhances user interaction and trust through natural language
+explanations and broader contextual knowledge.
+9
+
+=== PAGE 18 ===
+CHAPTER 3. METHODOLOGY
+10
+3.2
+Models
+3.2.1
+Convolutional Neural Networks
+CNNs are a class of deep learning models particularly effective for processing and an-
+alyzing visual data. They operate by applying convolutional filters to input images to
+automatically learn hierarchical features, starting from low-level edges and textures to
+high-level semantic representations. A typical CNN architecture consists of convolu-
+tional layers, pooling layers to reduce dimensionality, and fully connected layers for
+classification or embedding generation [4].
+In this project, several CNN architectures were utilized to extract image features:
+• VGG16 [5]: A deep network with 16 layers, VGG16 is known for its simplicity
+and uniform architecture, using small 3×3 filters across the convolutional layers.
+Although computationally heavy, it provides strong performance on image classi-
+fication tasks and serves as a solid baseline for feature extraction.
+• ResNet18 and ResNet50 [6]: These are residual networks that incorporate short-
+cut connections to allow gradients to flow directly across layers, addressing the
+vanishing gradient problem in deep networks. ResNet18 is a lighter version with
+18 layers, suitable for lower-resource environments, while ResNet50 is deeper and
+more powerful, providing richer representations.
+• EfficientNet-B1 [7]: This is a more recent architecture that scales model depth,
+width, and resolution in a balanced way. EfficientNet-B1 offers a good trade-off
+between accuracy and efficiency, making it suitable for applications that require
+both high performance and fast inference times.
+3.2.2
+Few-Shot Learning
+FSL is a paradigm in machine learning that aims to enable models to recognize new
+categories from only a small number of examples. This is particularly valuable in real-
+world scenarios where collecting and annotating large amounts of data is impractical.
+Figure 3.1: An illustration of the Prototypical Network, demonstrating how a
+query data point is classified based on its distance to the class prototypes.
+
+=== PAGE 19 ===
+CHAPTER 3. METHODOLOGY
+11
+The model employed for FSL in this project is the ProtoNet [8]. This method assumes
+that each class can be represented by a prototype, which is the mean of the support
+samples in an embedding space. During inference, query images are embedded into the
+same space, and classification is performed by finding the nearest class prototype using
+a distance metric, typically Euclidean or cosine similarity. This approach is simple yet
+effective, especially in few-shot settings where data is limited.
+3.2.3
+Vision Transformer
+The ViT [9] is a model architecture that adapts the transformer structure, originally de-
+veloped for natural language processing, to visual data. Instead of processing the image
+as a whole or through convolutions, ViT splits an image into fixed-size patches, flat-
+tens them, and treats each patch as a token. These tokens are passed through multiple
+transformer layers, allowing the model to capture long-range dependencies and contex-
+tual relationships between different regions of the image. ViT has demonstrated strong
+performance, especially when trained on large datasets, by leveraging global attention
+mechanisms instead of local convolutions.
+Figure 3.2: An illustration of the ViT, demonstrating how an image is classi-
+fied through the Transformer Encoder layers.
+3.2.4
+Contrastive Language–Image Pre-training
+CLIP [2], developed by OpenAI, is a multimodal model designed to learn visual concepts
+from natural language supervision. It consists of two separate encoders: one for images
+(in this project, a ViT backbone is used) and one for text. Both inputs are encoded into
+a shared embedding space where their similarity can be directly computed. The model
+is trained using a contrastive loss that aligns matching image-text pairs and separates
+non-matching pairs. The similarity function used is:
+cosine_similarity(u,v) =
+u·v
+∥u∥∥v∥
+
+=== PAGE 20 ===
+CHAPTER 3. METHODOLOGY
+12
+where:
+• u,v are the image and text embedding vectors.
+• u·v denotes the dot product of the two vectors.
+• ∥u∥and ∥v∥are the Euclidean norms (magnitudes) of the vectors.
+By embedding both images and text in the same vector space, CLIP enables zero-shot
+and few-shot capabilities for various visual tasks, such as classification and retrieval. In
+this project, CLIP is leveraged for generating embeddings of both landmark images and
+their textual descriptions, facilitating robust multimodal search and recognition.
+Figure 3.3: An illustration of CLIP, demonstrating how the model aligns im-
+ages and text in a shared embedding space using contrastive learning: pulling
+relevant pairs closer and pushing irrelevant ones apart. Adapted from (cite).
+3.2.5
+Large Language Model
+Gemini Flash 2.0, developed by Google, is a lightweight yet high-performance large lan-
+guage model (LLM) optimized for fast inference and low latency. It supports multimodal
+inputs, including text and images, and is designed to power interactive applications such
+as chatbots and virtual assistants. In this project, Gemini Flash 2.0 serves as the con-
+versational layer that interacts with users, interprets their queries, and retrieves relevant
+information by integrating with the image retrieval system. Its efficiency and contex-
+tual understanding make it ideal for real-time deployment in intelligent travel assistant
+applications.
+3.3
+Experiments
+3.3.1
+CNN Classification
+This is the early stage of the project. The goal is to establish a baseline using standard
+supervised classification. The dataset used is Dataset v1, which contains 1,679 images
+
+=== PAGE 21 ===
+CHAPTER 3. METHODOLOGY
+13
+across 5 classes. The testing scenario is as follows: apply transfer learning with a data
+split of 70% training and 30% validation on self-taken data, then test on internet-sourced
+data. Another setup involves mixing self-taken and internet data, with a split of 60%
+(with and without augmentation), 20% validation, and 20% testing.
+3.3.2
+Few-Shot Learning with ProtoNet
+This is the next stage after I found many disadvantages of CNN, which will be discussed
+more in Chapter 4. FSL is adapted due to the data-hungry nature of CNNs and the low
+quantity of images in my dataset. My thought is that although a landmark can be captured
+from many directions and angles, they should form a cluster, and the mean vector helps
+ensure that if the query image is from a different angle, it can still be recognized. My
+preprocessing requirements (Table 2.1) helped ensure a quality embedding space, and
+the dataset visualization (Figure 2.4) proved my thought.
+I tested with 4 backbones: EfficientNet-B1, ResNet-18, ResNet-50, and ViT. Episodic
+training is used for this type of model. I set up 200 tasks per epoch; each task contains
+n ways and k shots, which means each task has n classes and k examples per class. For
+each task, a random support set and query set are fed to the model. Due to this special
+training method, the dataset needs to have more classes, which is why Dataset v2 is used:
+29 classes for finetuning and 16 classes for testing. During finetuning, the backbone is
+frozen and only the embedding space is trained. The loss function used is softmax over
+the negative L2 distances between a query embedding and class prototypes:
+L = −log
+exp
+ −∥f(xq)−cy∥2
+∑N
+k=1 exp
+ −∥f(xq)−ck∥2
+• L: Loss for a single query sample.
+• f(xq): Embedding of the query image xq produced by the encoder network.
+• cy: Prototype (mean embedding) of the true class y.
+• ck: Prototype of class k (for all k = 1,...,N).
+• N: Number of classes (ways) in the current episode.
+• ∥·∥2: Squared Euclidean distance in the embedding space.
+Evaluation is performed on 200 tasks with 5 ways and 15 ways, 1 shot and 5 shots;
+the query set contains 20 images.
+
+=== PAGE 22 ===
+CHAPTER 3. METHODOLOGY
+14
+Figure 3.4: ProtoNet training for each task
+3.3.3
+LLM Classification with Prompts
+I tested Gemini Flash 2.0 to see how well the LLM can directly classify from a single
+image and a prompt. I did this by calling the Gemini API and sending both the prompt
+and the image to it. For this method, I used 20% of Dataset v1 (336 images) due to the
+API quota. I tested with 3 different prompts:
+• Prompt 1: You are a Hanoi tour guide. You only need to give the name of the
+location, no additional information is required. For example, if the user wants to
+know the place in the image and the image is of Hoan Kiem Lake, just answer
+"Hoan Kiem Lake.". What is this place in the image?
+• Prompt 2: You are a Hanoi tour guide. You only need to give the name of the
+location, no additional information is required. All locations in the images are
+within ["Thang Long Imperial Citadel", "St. Joseph’s Cathedral", "Hoan Kiem
+Lake", "Temple of Literature", "Ho Chi Minh Mausoleum"]. For example, if the
+user wants to know the place in the image and the image is of Hoan Kiem Lake,
+just answer "Hoan Kiem Lake.". What is this place in the image?
+• Prompt 3: You are a Hanoi tour guide. You only need to give the name of the
+location, no additional information is required. All locations in the images are
+within ["Thang Long Imperial Citadel", "St. Joseph’s Cathedral", "Hoan Kiem
+Lake", "Temple of Literature", "Ho Chi Minh Mausoleum"]. For example, if the
+user wants to know the place in the image and the image is of Hoan Kiem Lake,
+just answer "Hoan Kiem Lake." If you do not know the place or think it is not
+in ["Thang Long Imperial Citadel", "St. Joseph’s Cathedral", "Hoan Kiem Lake",
+"Temple of Literature", "Ho Chi Minh Mausoleum"], answer "Other". What is this
+place in the image?
+
+=== PAGE 23 ===
+CHAPTER 3. METHODOLOGY
+15
+All the results are stored in 3 different CSV files corresponding to each prompt for further
+analysis.
+3.3.4
+Landmark Retrieval with Vector Database
+This is the classification system that I designed for scalability. It applies the concept of
+ProtoNet, but its embedding space is replaced by a vector database. After the image is
+embedded, a mean vector is calculated to represent the class. It is then stored in a vector
+database instead of an embedding space.
+The database I used is Milvus, which is an open-source, high-performance vector
+database built for scale. I also create a text description for each landmark to enable later
+implementations. I used ChatGPT to generate text descriptions that are best suited for
+cosine similarity. Then I verified all the texts by comparing side-by-side the text and
+the image of the same landmark, and I also ensured that the text description for each
+landmark is unique. Both the images and text are encoded by CLIP, then the encoded
+data along with metadata — landmark name and city — are inserted into the database.
+Figure 3.5: An illustration of how the data is inserted to the database.
+For the retrieval task, approximate nearest neighbor (ANN) search with a cosine sim-
+ilarity metric is used. The ANN search algorithm uses an index file that records the
+sorted order of vector embeddings to quickly locate a subgroup probably containing vec-
+tor embeddings most similar to the query vector. From that, four searching methods are
+implemented:
+• Search with image: The query image is encoded by CLIP, then an ANN search is
+performed and returns the top 5 landmark names.
+• Search with text: Similar to image search, but the input is replaced by text.
+
+=== PAGE 24 ===
+CHAPTER 3. METHODOLOGY
+16
+Figure 3.6: An illustration of how search with image/text is perform.
+• Hybrid search: Uses both image and text to query, then applies a reranking strat-
+egy to return the final top 5 landmark names. There are two reranking strategies in
+Milvus: Weighted Ranker and RRFRanker. The Weighted Ranker strategy merges
+results by calculating a weighted score of similarity scores from different vector
+searches, and the RRFRanker combines results based on ranking that balances the
+ranks of results from different searches. The default rerank method in my imple-
+mentation is RRFRanker.
+Figure 3.7: An illustration of how hybrid search is perform.
+• Filtered search: Filters the database using metadata (city), then performs one of
+the three search methods above. The default search method here is search with
+image.
+These search methods help enhance the accuracy of the system while maintaining
+speed. For the support set, I created two variants: 10 support images per class and 20
+images per class, to evaluate how the size of the support set affects system performance.
+The query set contains 2,264 images from 45 non-overlapping classes. This helps me
+assess how the number of support images influences performance.
+I also performed repeated sampling with evaluation, which means that from the orig-
+inal dataset, I randomly selected 10 or 20 support images per class, then used the remain-
+ing images as the query set. This allows me to observe how the quality and variability of
+the support set affect performance.
+3.3.5
+LLM Integration
+To make the system more user-friendly, I designed it as a chatbot with RAG. The LLM
+used is Gemini Flash 2.0. Although all search methods are available, the chatbot only
+
+=== PAGE 25 ===
+CHAPTER 3. METHODOLOGY
+17
+uses image search since it requires function calling to decide which search method to
+use.
+After querying the database and getting the results, both the results and the image
+are put into a prompt template and sent to the LLM. The LLM will look at the image,
+compare its knowledge with the database results, and provide the final answer. This
+utilizes the reasoning ability and broad knowledge of the LLM to verify all information
+before giving the final answer. The chatbot also has a context window to remember the
+chat history, but it can only store the 10 most recent messages.
+Figure 3.8: An illustration of how LLM is integrated.
+
+=== PAGE 26 ===
+Chapter 4
+Results and Comparisons
+4.1
+Experiment results
+4.1.1
+CNN Classification
+Below are the results. Dataset v1 has separate self-taken images for training and val-
+idation, and internet-sourced images for testing, while the mixed Dataset v1 combines
+both sources and is split into 60-20-20. The results demonstrate the strong impact of
+domain shift in image classification. Models trained only on self-taken images (Dataset
+v1) performed poorly on online images, with ResNet18, ResNet50, and EfficientNet-
+B1 showing the largest drops—likely due to overfitting on limited, less diverse data. In
+contrast, VGG16 achieved a much higher accuracy (83.8%), possibly due to its simpler
+architecture and reliance on more generalizable features like texture. When training on
+the mixed dataset of self-taken and online images, all models exceeded 95% accuracy,
+confirming that exposure to diverse data effectively mitigates domain shift and enhances
+model generalization.
+Table 4.1: CNN classification results. Accuracy (Acc) is reported, where
+higher is better (↑).
+Model
+Dataset v1
+Mixed Dataset v1
+Acc ↑
+Acc ↑
+VGG16
+83.82
+96.73
+EfficientNet-B1
+37.25
+98.51
+ResNet 18
+31.13
+95.83
+ResNet 50
+45.59
+97.32
+4.1.2
+Few-shot Learning with ProtoNet
+Below are the results of ProtoNet with n-way k-shot tasks. The ProtoNet results show
+a clear drop in accuracy as the task complexity increases from 5-way 5-shot to 15-way
+1-shot, which is expected in few-shot learning. Notably, ViT consistently outperforms
+18
+
+=== PAGE 27 ===
+CHAPTER 4. RESULTS AND COMPARISONS
+19
+EfficientNet-B1 across all settings, with a significant margin especially in the hardest
+scenario (15-way 1-shot), achieving 56.3% vs. 48.1%. EfficientNet-B1 also demon-
+strates strong performance, surpassing the ResNets, thanks to its efficient feature ex-
+traction. When more examples are available, EfficientNet-B1 can compete with ViT
+due to its lighter weight and faster inference. These results highlight that both ViT and
+EfficientNet-B1 are well-suited for few-shot tasks, with ViT’s attention-based architec-
+ture providing an edge in low-data, high-class settings.
+Table 4.2: Performance comparison of different models across various set-
+tings. Accuracy (Acc) is reported, where higher is better (↑). The results in
+this table are shown as decimals because of a formatting mistake. This is the
+only table with that format.
+Model
+5-way 5-shot
+15-way 5-shot
+5-way 1-shot
+15-way 1-shot
+Acc ↑
+Acc ↑
+Acc ↑
+Acc ↑
+Resnet 18
+0.830
+0.680
+0.587
+0.415
+Resnet 50
+0.850
+0.721
+0.623
+0.465
+EfficientNet B1
+0.882
+0.748
+0.639
+0.481
+ViT
+0.905
+0.772
+0.726
+0.563
+4.1.3
+LLM Classification with Prompts
+Below are the results of the LLM with different prompts. We can see that providing a
+well-defined answer space (Prompt 2) strongly boosts performance. Adding a fallback
+“Other” label (Prompt 3) helps handle unknowns but can slightly reduce accuracy. The
+open-ended prompt (Prompt 1) performs worst due to the large, unconstrained answer
+space. This highlights the heavy dependence on the quality of the prompt.
+Table 4.3: LLM classification results with different prompts. Accuracy (Acc)
+is reported, where higher is better (↑).
+Prompt ID
+Prompt Description
+Acc ↑
+1
+No label constraint, answer with landmark name only
+46.43
+2
+Restricted to 5 specific landmarks
+70.83
+3
+Same as Prompt 2, but includes "Other" option if not in list
+66.96
+4.1.4
+Landmark Retrieval with Vector Database
+Below are the results of the landmark retrieval evaluation. The system demonstrates
+strong performance despite the challenging 45-way setup. As the support set size in-
+creases from 10 to 20 images per class, the Top-1 accuracy improves from 70.27% to
+
+=== PAGE 28 ===
+CHAPTER 4. RESULTS AND COMPARISONS
+20
+Table 4.4: Landmark retrieval results. Accuracy (Acc) is reported, where
+higher is better. (↑).
+Support Set
+Top-1 Acc ↑
+Top-5 Acc ↑
+10 images/class
+70.27
+90.86
+20 images/class
+72.88
+91.39
+72.88%, and the Top-5 accuracy from 90.86% to 91.39%. This indicates that a larger and
+more representative support set can enhance retrieval accuracy, although the improve-
+ments diminish as more samples are added. Since the support images were selected
+randomly, these results suggest that using more diverse and carefully chosen examples
+could lead to even better performance.
+Table 4.5: Results from repeated random sampling. Accuracy (Acc) is re-
+ported, where higher is better (↑).
+Support Set
+Mean Top-1 Acc ↑
+Max Top-1 Acc ↑
+Mean Top-5 Acc ↑
+Max Top-5 Acc ↑
+10 images/class
+69.69 ± 1.31
+73.46
+90.13 ± 1.04
+92.19
+20 images/class
+73.29 ± 0.88
+75.12
+92.16 ± 0.88
+93.77
+The system achieves a mean Top-1 accuracy of 73.29%, with a standard deviation
+of only 0.88% across 50 trials, indicating highly stable performance despite variation in
+support set sampling. The Top-5 accuracy reaches 92.16%, further demonstrating strong
+recognition and retrieval capabilities. This level of stability suggests that the system is
+robust to changes in support set composition, making it well-suited for real-world few-
+shot deployment scenarios.
+4.2
+Comparisons
+4.2.1
+Comparison of tested methods
+In the early stage of the project, I evaluated CNN models using Dataset V1, which was
+limited to 5 classes with a relatively balanced number of images. This allowed for con-
+trolled experiments in supervised classification. However, once Dataset V2 was com-
+pleted—with 45 classes and a significant class imbalance (ranging from 30 to 153 images
+per class)—I did not re-evaluate CNNs on this larger dataset. CNNs typically require bal-
+anced and abundant training data to perform well, and applying them directly to Dataset
+V2 would risk biased learning toward majority classes.
+More importantly, Dataset V2 reflects a realistic real-world scenario, where some
+landmarks are well documented while others have only a few available images. This
+highlights the need for methods that are inherently more robust to data imbalance and
+scalable without retraining. Based on its strong performance in the experiments, the
+Landmark Retrieval system using a Vector Database was selected as the final solution.
+
+=== PAGE 29 ===
+CHAPTER 4. RESULTS AND COMPARISONS
+21
+Table 4.6: Comparison of tested methods. Accuracy (Acc) is reported, where
+higher is better (↑).
+Method
+Best Accuracy ↑
+Pros
+Cons
+CNN Classifica-
+tion
+98.51 (EfficientNet-
+B1, Mixed Dataset)
+Fast, lightweight, accurate
+Data-hungry
+Requires retraining for new
+classes
+Few-Shot Learn-
+ing (ProtoNet)
+0.905 (ViT, 5-way 5-
+shot)
+Works with few images,
+solves data-hungry issue
+Limited scalability
+Requires retraining for new
+classes
+LLM Classifica-
+tion (Gemini)
+70.83 (Prompt 2)
+Wide knowledge base
+Slow, unstable results
+Depends heavily on prompt
+quality
+Limited by API usage
+Landmark
+Re-
+trieval
+75.12 Top-1 / 93.77
+Top-5 accuracy with
+20
+support
+images
+per class
+Scalable, efficient, no re-
+training
+Fast inference, multimodal
+support
+Solves data-hungry issue
+Performance depends on
+embedding quality
+This system effectively integrates the strengths of all the tested methods: it offers
+fast inference similar to CNNs, works well with few images like Few-Shot Learning,
+and enhances interpretability and verification through integration with a Large Language
+Model. It also supports multimodal (image/text) and filtered search, providing flexibility
+and improved accuracy. However, its overall performance depends heavily on the quality
+of the embedding model.
+4.2.2
+Comparison of related projects
+This comparison highlights how my Vietnam Landmark Recognition system fits within
+the broader landscape of image-based location intelligence, particularly against G3 for
+its advanced geo-localization capabilities and TraveLLaMA for its urban scene under-
+standing. It is important to note that these systems, including my own, were developed
+and evaluated on distinct datasets, which precludes direct quantitative performance com-
+parisons. My main focus is on demonstrating a scalable and efficient landmark recogni-
+tion system that enhances accuracy and trustworthiness through LLM-based verification
+(RAG). While G3 aims for precise global coordinates and TraveLLaMA offers compre-
+hensive travel assistance, my project carves out a niche by leveraging a vector database
+for rapid image retrieval and integrating Gemini’s vast knowledge for robust result vali-
+dation, offering a practical and novel approach to specialized landmark identification.
+
+=== PAGE 30 ===
+CHAPTER 4. RESULTS AND COMPARISONS
+22
+Table 4.7: Comparison of Related Projects.
+Aspect
+Vietnam
+Landmark
+Recognition (mine)
+G3 (Geo-Localization
+with Multi-Modality)
+[10]
+TraveLLaMA (LLM
+for Travel Assistant)
+[11]
+Main Task
+Landmark
+recognition
+and
+verification
+using
+image
+retrieval
+and
+LLM-based RAG
+Worldwide image ge-
+olocalization using mul-
+timodal learning and
+prompt ensembling
+Urban scene understand-
+ing and travel-related
+question answering us-
+ing vision-language
+models
+Input
+Query image (optionally
+text)
+Query image (optionally
+with text and/or GPS
+metadata)
+Textual question and/or
+image of a scene or
+place
+Output
+Top-5
+predicted
+land-
+marks with verification
+via Gemini (LLM)
+Predicted geolocation
+coordinates (latitude/-
+longitude)
+Travel-related answers
+(recommendations,
+identifications, routes)
+Pros
+Scalable via vector DB
+Efficient retrieval with-
+out retraining
+LLM
+verification
+im-
+proves trust
+Supports
+hybrid
+(im-
+age+text) search
+High geo-localization
+accuracy
+Combines multi-modal
+alignment and prompt
+ensembling
+Effective for globally
+diverse image queries
+Travel-specific knowl-
+edge base
+Excels in understanding
+urban scenes
+Context-aware re-
+sponses and good visual
+grounding
+Cons
+Dependent on embed-
+ding and support image
+quality
+LLM
+verification
+cost/API usage
+High system complexity
+Heavy reliance on large-
+scale training data
+Inference may require
+significant compute
+Not optimized for pre-
+cise localization
+Limited performance
+on unseen or remote
+regions
+Requires heavy compu-
+tation and fine-tuning
+
+=== PAGE 31 ===
+Chapter 5
+Conclusions and Future Work
+5.1
+Conclusion
+Throughout this internship, I created a Vietnam Landmark dataset. Although the dataset
+is imbalanced, it remains a valuable custom resource that supported the development
+of the system. After testing various methods, I successfully implemented a Vietnam
+Landmark Recognition system that leverages the strengths of CNNs (speed), FSL (data
+efficiency), and LLMs (reasoning and broad knowledge). The system is scalable thanks to
+the use of a vector database instead of storing embeddings directly in memory. Although
+only image-based search is currently integrated into the chatbot, the system also supports
+text-based, city-filtered, and hybrid search through the database. This demonstrates the
+flexibility and extensibility of the architecture.
+However, while the integration of the LLM helps verify answers, it also increases
+latency. This represents a trade-off between speed and accuracy. To address this, I plan
+to increase the amount of data so the system becomes less reliant on the LLM.
+5.2
+Reflection
+I started from scratch—beginning with CNNs, identifying their limitations such as being
+data-hungry, and applying FSL to address those issues. Although FSL helped mitigate
+the data scarcity problem, challenges like the need for retraining when introducing new
+classes and limited scalability remained. To overcome this, I replaced the embedding
+space with a vector database, which made the system more scalable. I also leveraged the
+knowledge of a LLM to improve accuracy and handle queries involving images that are
+not related or out of the database.
+This project gave me hands-on experience with deep learning, vector databases, and
+LLM integration in a real-world application. Tackling challenges such as handling im-
+balanced data and aligning multimodal embeddings provided valuable learning opportu-
+nities.
+5.3
+Future work
+There are several directions for improving and expanding my system:
+23
+
+=== PAGE 32 ===
+CHAPTER 5. CONCLUSIONS AND FUTURE WORK
+24
+• Expand the dataset: Increasing the number of landmarks and images will improve
+the system’s retrieval performance, especially for less popular locations.
+• Enrich landmark metadata: Currently, the system still relies on the LLM to
+provide much of the contextual information. Adding structured metadata such as
+historical background, opening hours, ticket prices, and user reviews would make
+responses more accurate and informative.
+• Fine-tune the embedding model: Fine-tuning the model on a landmark-specific
+dataset will make it more robust for landmark-related tasks.
+• Implement function calling: Enabling function calling will allow the chatbot to
+perform dynamic actions—such as triggering searches or filtering results—based
+on user intent.
+• Integrate external APIs: Incorporating services like Google Maps for navigation
+and weather APIs for real-time forecasts would enhance the user experience and
+provide more personalized travel recommendations.
+
+=== PAGE 33 ===
+References
+[1] L. McInnes, J. Healy, and J. Melville, “UMAP: Uniform manifold approximation
+and projection for dimension reduction,” arXiv preprint arXiv:1802.03426v3, 2018.
+[2] A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sas-
+try, A. Askell, P. Mishkin, J. Clark, G. Krueger, and I. Sutskever, “Learning
+transferable visual models from natural language supervision,” arXiv preprint
+arXiv:2103.00020v1, 2021.
+[3] G. Team and G. DeepMind, “Gemini: A family of highly capable multimodal mod-
+els,” arXiv preprint arXiv:2312.11805v5, 2023.
+[4] K. O’Shea and R. Nash, “An introduction to convolutional neural networks,” arXiv
+preprint arXiv:1511.08458v2, 2023.
+[5] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale
+image recognition,” arXiv preprint arXiv:1409.1556v6, 2014.
+[6] K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recogni-
+tion,” arXiv preprint arXiv:1512.03385, 2015.
+[7] M. Tan and Q. V. Le, “Efficientnet: Rethinking model scaling for convolutional
+neural networks,” arXiv preprint arXiv:1905.11946v5, 2019.
+[8] J. Snell, K. Swersky, and R. S. Zemel, “Prototypical networks for few-shot learn-
+ing,” arXiv preprint arXiv:1703.05175v2, 2017.
+[9] A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner,
+M. Dehghani, M. Minderer, G. Heigold, S. Gelly, J. Uszkoreit, and N. Houlsby, “An
+image is worth 16x16 words: Transformers for image recognition at scale,” arXiv
+preprint arXiv:2010.11929v2, 2020.
+[10] P. Jia, Y. Liu, X. Li, Y. Wang, Y. Du, X. Han, X. Wei, S. Wang, D. Yin, and X. Zhao,
+“G3: An effective and adaptive framework for worldwide geolocalization using
+large multi-modality models,” arXiv preprint arXiv:2405.14702v2, 2024.
+[11] M. Chu, Y. Chen, H. Gui, S. Yu, Y. Wang, and J. Jia, “Travellama: Facilitating
+multi-modal large language models to understand urban scenes and provide travel
+assistance,” arXiv preprint arXiv:2504.16505v1, 2025.
+25

@@ -4,6 +4,10 @@ import sys
 import logging
 from datetime import timedelta
 
+import pendulum
+
+LOCAL_TZ = pendulum.timezone("Asia/Ho_Chi_Minh")
+
 from airflow.decorators import dag, task
 
 logger = logging.getLogger(__name__)
@@ -38,7 +42,8 @@ TICKER_BATCHES = [
 @dag(
     dag_id="vnstock_news_crawl",
     description="Crawl daily stock news from CafeF for all 99 tickers (parallel batches)",
-    schedule="0 12 * * 1-5",   # Every weekday at 19:00 ICT (UTC+7 = UTC+7, server UTC)
+    schedule="0 18 * * 1-5",   # Every weekday at 18:00 ICT
+    start_date=pendulum.datetime(2026, 4, 17, tz=LOCAL_TZ),
     catchup=False,
     default_args=DEFAULT_ARGS,
     tags=["news", "crawl"],

@@ -28,7 +28,7 @@ DEFAULT_ARGS = {
 @dag(
     dag_id="vnstock_news_llm_analysis",
     description="Analyze daily stock news with Gemini and export dashboard snapshots",
-    schedule="30 19 * * 1-5",
+    schedule="30 18 * * 1-5",
     start_date=datetime(2026, 5, 18, tzinfo=LOCAL_TZ),
     catchup=False,
     default_args=DEFAULT_ARGS,
@@ -167,9 +167,24 @@ def vnstock_news_llm_analysis_dag():
     def log_summary(summary: dict) -> None:
         logger.info("[GEMINI NEWS SUMMARY] %s", summary)
 
+    from airflow.sensors.external_task import ExternalTaskSensor
+    from airflow.utils.state import DagRunState
+
+    wait_for_crawl = ExternalTaskSensor(
+        task_id="wait_for_news_crawl",
+        external_dag_id="vnstock_news_crawl",
+        external_task_id=None,
+        execution_delta=timedelta(minutes=30),
+        timeout=7200,
+        allowed_states=[DagRunState.SUCCESS],
+        failed_states=[DagRunState.FAILED],
+        mode="reschedule",
+    )
+
     init_task = init_analysis_tables()
     summary_task = analyze_daily_news()
-    init_task >> summary_task
+    
+    wait_for_crawl >> init_task >> summary_task
     log_summary(summary_task)
 
 

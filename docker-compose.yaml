@@ -33,6 +33,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
       - ./:/opt/airflow/project
+      - vnstock-cache-volume:/home/airflow/.vnstock
     command: version
 
   airflow-apiserver:
@@ -53,6 +54,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
       - ./:/opt/airflow/project
+      - vnstock-cache-volume:/home/airflow/.vnstock
     ports:
       - "8080:8080"
     command: api-server
@@ -77,6 +79,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
       - ./:/opt/airflow/project
+      - vnstock-cache-volume:/home/airflow/.vnstock
     command: scheduler
     restart: always
 
@@ -98,6 +101,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
       - ./:/opt/airflow/project
+      - vnstock-cache-volume:/home/airflow/.vnstock
     command: dag-processor
     restart: always
 
@@ -119,8 +123,10 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
       - ./:/opt/airflow/project
+      - vnstock-cache-volume:/home/airflow/.vnstock
     command: triggerer
     restart: always
 
 volumes:
   postgres-db-volume:
+  vnstock-cache-volume:

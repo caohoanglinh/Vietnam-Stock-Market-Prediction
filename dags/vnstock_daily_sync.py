@@ -11,7 +11,7 @@ from airflow.sdk import DAG, task
 LOCAL_TZ = pendulum.timezone("Asia/Ho_Chi_Minh")
 BASE_COLUMNS = ["date", "open", "high", "low", "close", "volume", "ticker", "ticker_id"]
 FULL_HISTORY_START = "2000-01-01"
-REQUEST_SLEEP_SECONDS = 1.0
+REQUEST_SLEEP_SECONDS = 5.0
 VNSTOCK_SOURCE = "VCI"
 
 # This is the current intended 100-stock universe from collect_data.ipynb.
