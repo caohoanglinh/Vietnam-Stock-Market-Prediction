@@ -1,0 +1,33 @@
+{
+  "analysisDate": "2026-06-25",
+  "generatedAt": "2026-06-25T16:07:03Z",
+  "tickerCount": 1,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "BMP",
+      "analysisDate": "2026-06-25",
+      "articleCount": 1,
+      "newsInputHash": "04ca3d9e3cd7577b556810d50f3b3b2874bf2e2581091de0d8c74038575bb9e0",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietcap suggests that PVC prices may enter a recovery cycle, with a major plastic company maintaining high profit margins in Q2. However, the pace of recovery is expected to be slow due to weak demand in China and ample market supply.",
+      "bullPoints": [
+        "Potential for PVC price recovery.",
+        "Major plastic company maintaining high Q2 profit margins."
+      ],
+      "bearPoints": [
+        "Recovery pace is likely to be slow.",
+        "Weak demand in China is a limiting factor.",
+        "Ample market supply of PVC."
+      ],
+      "riskFlags": [
+        "Sector headwinds (PVC price sensitivity, demand weakness)."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-25 16:00:11"
+    }
+  ]
+}

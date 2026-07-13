@@ -1,0 +1,140 @@
+{
+  "analysisDate": "2026-07-02",
+  "generatedAt": "2026-07-02T11:34:28Z",
+  "tickerCount": 5,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "HAH",
+      "analysisDate": "2026-07-02",
+      "articleCount": 1,
+      "newsInputHash": "0947de5fd56913d638c42dd0970bd2509673570a00812810ba5430c1ebe67594",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Xếp dỡ Hải An (HAH) has announced its record date for dividend payment on July 15th. The company will distribute a cash dividend for the year 2025 at a rate of 20%. This is a routine shareholder return event.",
+      "bullPoints": [
+        "Shareholders will receive a 20% cash dividend for 2025.",
+        "The company is returning capital to investors."
+      ],
+      "bearPoints": [
+        "Dividend payment is a standard practice and not indicative of exceptional performance.",
+        "The market may have already priced in this expected dividend payout."
+      ],
+      "riskFlags": [
+        "Dividend payout reduces cash on hand, potentially limiting future investment or operational flexibility."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-02 11:32:09"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-07-02",
+      "articleCount": 8,
+      "newsInputHash": "45cdb309c6b7c5f2554f0bf9f9981be62e1ed6e40196b294f46233665c8c96d4",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level announcements were made on July 2nd, including free services in Ho Chi Minh City and special incentives for the Hai Phong free trade zone. Infrastructure development is progressing in Hanoi with a major road project aiming for completion by September 2nd. However, a tax authority notice highlights potential legal risks for non-compliant taxpayers.",
+      "bullPoints": [
+        "Potential economic stimulus from special incentives in Hai Phong's free trade zone.",
+        "Infrastructure development in Hanoi could improve logistics and connectivity."
+      ],
+      "bearPoints": [
+        "The free services and event-related transport boosts are likely temporary and may not translate to sustained economic growth.",
+        "The tax authority's warning suggests increased regulatory scrutiny and potential compliance burdens for businesses."
+      ],
+      "riskFlags": [
+        "regulatory risk",
+        "macro risks"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-02 11:32:19"
+    },
+    {
+      "ticker": "OCB",
+      "analysisDate": "2026-07-02",
+      "articleCount": 1,
+      "newsInputHash": "40d637dc0c3b2b1c8bfcab92f4b7d2a8cbe9c5bdc7f525f8d89d944919e43e17",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "OCB is focusing on technology, data, and AI as key drivers for its next growth phase. This strategic emphasis aims to optimize operations and unlock new growth avenues amidst a rapidly evolving banking landscape. The bank is adapting to changing customer behaviors and increasing digital competition.",
+      "bullPoints": [
+        "OCB is strategically investing in technology, data, and AI for future growth.",
+        "Focus on digital transformation can lead to operational efficiencies.",
+        "Adapting to changing customer behavior and digital competition is a positive sign of forward-thinking."
+      ],
+      "bearPoints": [
+        "The news is a statement of strategy, not a concrete achievement or financial result.",
+        "Significant investment in technology and AI carries execution risk and may not yield immediate returns.",
+        "Competitors are also likely investing heavily in similar technologies, limiting OCB's unique advantage."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The banking sector is undergoing rapid digital transformation, requiring continuous and substantial investment.",
+        "Execution risk: Implementing new technologies and AI effectively can be challenging and costly.",
+        "Competitive pressure: Other banks are also likely pursuing similar digital strategies, intensifying competition."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-02 11:33:45"
+    },
+    {
+      "ticker": "PVT",
+      "analysisDate": "2026-07-02",
+      "articleCount": 1,
+      "newsInputHash": "bab9a60ab04fae6f9b20f9b0643639b81b6ba7bed5be3470158af50e5340c233",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "The CEO of an oil and gas enterprise, Mr. Tran Ngoc Nguyen, has requested to resign. He was appointed to this position in late April 2026. This news is a significant management change within the sector.",
+      "bullPoints": [
+        "Potential for new leadership to bring fresh perspectives and strategies.",
+        "Market may react positively if the departing CEO was perceived as a drag on performance."
+      ],
+      "bearPoints": [
+        "Sudden resignation of a CEO shortly after appointment suggests potential internal issues or dissatisfaction.",
+        "Management instability can create uncertainty and negatively impact investor confidence.",
+        "The market may have already priced in some level of uncertainty given the short tenure."
+      ],
+      "riskFlags": [
+        "Management turnover risk",
+        "Sector headwinds (oil and gas sector can be volatile)",
+        "Uncertainty regarding future strategic direction"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-02 11:34:14"
+    },
+    {
+      "ticker": "VHM",
+      "analysisDate": "2026-07-02",
+      "articleCount": 1,
+      "newsInputHash": "58fadb1f6164560cd688fa980765e4c0731043d29838a1de029de90925039304",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "Vinhomes has secured contracts to participate in the design and construction of two railway lines, valued at VND 117.139 trillion. This expands their involvement beyond just investment to active construction roles. The company will partner with CTCP Đầu tư và Xây dựng SGC for these projects.",
+      "bullPoints": [
+        "Secures significant new construction contracts worth over VND 117 trillion.",
+        "Expands Vinhomes' role from investment to active participation in infrastructure development.",
+        "Demonstrates continued large-scale project pipeline and execution capability."
+      ],
+      "bearPoints": [
+        "The news focuses on construction contracts, not necessarily direct revenue realization in the short term.",
+        "The large value of the contracts could imply significant capital expenditure or financing needs.",
+        "The market may have already priced in Vinhomes' involvement in large infrastructure projects."
+      ],
+      "riskFlags": [
+        "Debt concerns: Large infrastructure projects often require substantial financing, potentially increasing debt levels.",
+        "Execution risk: Managing and completing projects of this magnitude can be complex and subject to delays or cost overruns.",
+        "Regulatory risk: Large infrastructure projects are subject to various permits and approvals, which can be subject to change or delays."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-02 11:34:28"
+    }
+  ]
+}

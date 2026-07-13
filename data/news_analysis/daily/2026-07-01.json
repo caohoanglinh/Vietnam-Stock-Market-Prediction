@@ -1,0 +1,190 @@
+{
+  "analysisDate": "2026-07-01",
+  "generatedAt": "2026-07-01T12:25:28Z",
+  "tickerCount": 7,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-07-01",
+      "articleCount": 2,
+      "newsInputHash": "e19de92cf14aa1876b907ac661333e3eff0c8f351f62525b4c7470add8382124",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "FPT is advancing its significant VND 53 trillion digital technology and mixed-use park project in Bac Ninh, focusing on land clearance to meet development timelines. Separately, Sendo Farm, a subsidiary of Sendo (which is associated with FPT), will cease operations on July 10th, with assurances for customer and partner rights. The Sendo Farm closure introduces a minor negative element to the otherwise neutral news regarding FPT's core project.",
+      "bullPoints": [
+        "Progress on FPT's large-scale VND 53 trillion digital technology park project in Bac Ninh.",
+        "Focus on land clearance indicates commitment to project timeline."
+      ],
+      "bearPoints": [
+        "The closure of Sendo Farm, an FPT-associated entity, signals potential operational challenges or strategic shifts within its ecosystem.",
+        "The significant capital investment in the Bac Ninh project carries inherent execution risks and long payback periods."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While not directly stated, the Sendo Farm closure could hint at broader challenges in e-commerce or related digital services.",
+        "Execution risk: Large-scale infrastructure projects like the Bac Ninh park are subject to delays and cost overruns.",
+        "Associated business performance: The closure of Sendo Farm, even if a separate entity, can cast a shadow on the overall group's operational efficiency or strategic direction."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:23:06"
+    },
+    {
+      "ticker": "KDC",
+      "analysisDate": "2026-07-01",
+      "articleCount": 1,
+      "newsInputHash": "c889f84c7e904abebe6b0ddc27aea07b34ce916616b881855ba954a9829ad7a5",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "A Kido board member, Ms. Vuong Buu Linh, did not complete her registered purchase of 1.5 million KDC shares. She only acquired 334,500 shares between June 1st and June 29th, 2026. This indicates a partial execution of the planned transaction.",
+      "bullPoints": [
+        "Board member still acquired a significant number of shares.",
+        "The partial purchase might suggest a strategic entry at a specific price point."
+      ],
+      "bearPoints": [
+        "The board member failed to complete the full intended purchase, raising questions about conviction or available capital.",
+        "The market may interpret this as a lack of strong confidence from management to fully support the stock price."
+      ],
+      "riskFlags": [
+        "Insider transaction incomplete",
+        "Potential signal of price defense rather than strong conviction"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:23:18"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-07-01",
+      "articleCount": 8,
+      "newsInputHash": "a1134af7cbe02e2c94384a13065893bf5158e29ba8374f00438080e996517b98",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level developments are occurring in Vietnam, including the implementation of low-emission zones in Hanoi and the recognition of Bac Ninh as a Type I urban area. A nationwide increase in salaries is effective immediately, and new benefits for health insurance holders are set to be introduced. Discussions around urban restructuring in Hanoi, including the potential relocation of Hanoi Railway Station, are also ongoing.",
+      "bullPoints": [
+        "Increased public spending due to salary hikes could boost domestic consumption.",
+        "Development of urban infrastructure and potential international financial center could attract investment.",
+        "New health insurance benefits may improve public welfare and potentially reduce out-of-pocket healthcare expenses."
+      ],
+      "bearPoints": [
+        "The low-emission zone initiative in Hanoi could negatively impact logistics and transportation costs for businesses operating in the city.",
+        "The proposed relocation of Hanoi Railway Station is a long-term project with uncertain execution and potential disruption.",
+        "The news is entirely macro-level and does not provide specific insights into the performance or prospects of ticker MACRO."
+      ],
+      "riskFlags": [
+        "Regulatory risk: New environmental regulations (low-emission zones) could impact businesses.",
+        "Macro risk: Urban restructuring plans are complex and may face implementation challenges.",
+        "Sector headwinds: The impact of these macro changes on specific sectors is unclear and could be varied."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:23:54"
+    },
+    {
+      "ticker": "MBS",
+      "analysisDate": "2026-07-01",
+      "articleCount": 1,
+      "newsInputHash": "123754145fb4dd18aac2eb10c48101d97be9eb5206c913d175ebefc8ceb1d83e",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "MBS has set August 18th as the record date for its 2025 dividend payment. The company plans to distribute over 1,000 billion VND to shareholders. This dividend payout is a routine event for established companies.",
+      "bullPoints": [
+        "Shareholders will receive a significant dividend payment.",
+        "Indicates company profitability and commitment to returning value to investors."
+      ],
+      "bearPoints": [
+        "Dividend payment is a standard corporate action, not indicative of new growth.",
+        "The large payout could represent a portion of retained earnings that could otherwise be reinvested for future growth.",
+        "The market may have already priced in this expected dividend."
+      ],
+      "riskFlags": [
+        "Dividend payout is a distribution of existing profits, not a sign of new revenue generation.",
+        "No information provided on the dividend yield or its sustainability."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:24:18"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-07-01",
+      "articleCount": 1,
+      "newsInputHash": "9a1e349300795b26dc68bcf68cf4f415a7d9f0c115c6706a154f07bfc1bcf455",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Thế giới Di động (MWG) has announced the issuance of over 7.3 million ESOP shares to 66 employees, with the subscription period from July 1st to July 10th, 2026. This move aims to retain key personnel by offering shares at a favorable price. However, it also represents a potential dilution for existing shareholders.",
+      "bullPoints": [
+        "ESOP issuance to retain key talent and incentivize employees.",
+        "Offers shares at a favorable price, potentially boosting employee morale and commitment."
+      ],
+      "bearPoints": [
+        "ESOP issuance will lead to dilution of existing shareholder equity.",
+        "The 'favorable price' implies a discount to current market value, which could be seen as a cost to existing shareholders."
+      ],
+      "riskFlags": [
+        "Dilution risk from ESOP issuance.",
+        "Potential for insider selling post-ESOP vesting if the price is artificially supported."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:24:39"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-07-01",
+      "articleCount": 1,
+      "newsInputHash": "f006de7e6bb2f3e85905d2625378c2f98719f7d023015805d40d2f7b293758dd",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "SHB has been recognized in the top 200 of Fortune Southeast Asia and ranked among the top 10 reputable commercial banks. These accolades highlight the bank's strong position and competitiveness in Vietnam's financial sector. The recognitions are expected to bolster investor confidence and potentially attract further capital.",
+      "bullPoints": [
+        "Recognition in Fortune Southeast Asia top 200 enhances brand prestige.",
+        "Top 10 ranking among reputable commercial banks signals strong market standing.",
+        "Positive external validation can improve investor sentiment and attract capital."
+      ],
+      "bearPoints": [
+        "These are rankings and awards, not direct financial performance improvements.",
+        "The market may have already priced in such reputational gains.",
+        "The actual impact on earnings or market share is not immediately quantifiable."
+      ],
+      "riskFlags": [
+        "Reputational awards do not guarantee future financial performance.",
+        "No specific financial metrics or strategic changes are detailed in the news.",
+        "The Vietnamese banking sector faces ongoing regulatory scrutiny and competition."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:25:17"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-07-01",
+      "articleCount": 1,
+      "newsInputHash": "ba5d086f53c14ee18436c847ea5d13ffe9db60c06b89d4f30d62af57570ae1bc",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "VIB is actively participating with the Ministry of Public Security in initiatives related to data, digital identification, and combating high-tech crime. These efforts aim to enhance customer protection throughout their banking relationship and daily transactions. While positive for security, this news is largely operational and expected.",
+      "bullPoints": [
+        "Enhanced customer protection through collaboration on digital identification and crime prevention.",
+        "Proactive engagement with law enforcement agencies demonstrates corporate responsibility."
+      ],
+      "bearPoints": [
+        "The news describes ongoing operational efforts rather than a significant new development or financial impact.",
+        "The market may have already priced in such collaborations as standard practice for a financial institution."
+      ],
+      "riskFlags": [
+        "Regulatory risk: While collaborative, increased involvement with law enforcement could lead to unforeseen regulatory scrutiny or compliance burdens."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-01 12:25:28"
+    }
+  ]
+}

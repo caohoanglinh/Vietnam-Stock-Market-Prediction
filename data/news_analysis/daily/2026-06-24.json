@@ -1,0 +1,270 @@
+{
+  "analysisDate": "2026-06-24",
+  "generatedAt": "2026-06-24T11:32:10Z",
+  "tickerCount": 10,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "BMP",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "77610a757f924ec3a41456c696f6d900fe53e8775e72817a6093c20c513cc9ab",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "A decision by China to shut down old factories is seen as a structural turning point that could lead to a recovery in PVC prices due to capacity cuts. While this could benefit some Vietnamese businesses, one specific company is reportedly feeling anxious about the situation.",
+      "bullPoints": [
+        "Potential for PVC price recovery due to Chinese capacity cuts.",
+        "Structural shift in the industry could create new opportunities."
+      ],
+      "bearPoints": [
+        "The news explicitly mentions one Vietnamese company is 'anxious', indicating potential negative impact.",
+        "The benefit of PVC price recovery is not guaranteed for all players, and depends on their specific situation and cost structure."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The news highlights a significant regulatory action in a major producing country (China) that directly impacts the industry.",
+        "Company-specific risk: The anxiety of a specific Vietnamese company suggests potential operational or financial vulnerabilities."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:30:09"
+    },
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "b630918f95c0910819e5b1dde59f58a518586f1c6d0b7987ea3189668a3b1ba2",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Hóa chất Đức Giang's stock experienced an initial positive reaction to its audited financial statements. However, the stock price has reversed course in the last three trading sessions. This suggests that the initial positive reaction may have been short-lived.",
+      "bullPoints": [
+        "Audited financial statements were released, providing updated company performance data.",
+        "Initial positive market reaction to the financial statement release."
+      ],
+      "bearPoints": [
+        "Stock price has reversed course in the last three trading sessions after an initial positive reaction.",
+        "The market may have already priced in the positive aspects of the financial statements.",
+        "The positive reaction was not sustained, indicating potential underlying concerns."
+      ],
+      "riskFlags": [
+        "Stock price volatility suggests potential market uncertainty or negative sentiment.",
+        "The reversal in stock price could indicate that the positive news was not strong enough to sustain momentum."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:30:19"
+    },
+    {
+      "ticker": "DIG",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "6b67d0f9f3bf98d98f3eabb18407b9a561605be42c229120dbfe0812ca65a78d",
+      "sentiment": "negative",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": -0.3,
+      "summary": "DIC Corp has canceled its plan to contribute capital to a company developing the Nam Tien 2 Urban Area project in Thai Nguyen. This decision means the company will not proceed with establishing Saigonres Van Xuan Real Estate Co., Ltd. for this specific project.",
+      "bullPoints": [
+        "Avoids potential capital commitment to a project that may not be viable.",
+        "Allows management to reallocate resources to more promising opportunities."
+      ],
+      "bearPoints": [
+        "Indicates potential issues or reassessment of the Nam Tien 2 project's viability.",
+        "Suggests a lack of confidence in the project's future prospects or DIC Corp's ability to execute it.",
+        "May signal internal strategic shifts or challenges in project development."
+      ],
+      "riskFlags": [
+        "Project development risk",
+        "Strategic execution risk",
+        "Capital allocation uncertainty"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:30:38"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "aa06ceaf20384bc18ada472ed86f89e09b9b49409558f90eae439d40afe5376e",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "FPT University has been ranked 87th globally and first in Vietnam in a specific category, demonstrating its educational quality and contributions. This recognition highlights the university's strengths in education and its impact on student development.",
+      "bullPoints": [
+        "Positive international and domestic recognition for FPT University.",
+        "Demonstrates quality of education and contribution to student development."
+      ],
+      "bearPoints": [
+        "The news pertains to FPT University, not directly to the core technology or retail businesses of FPT Corporation, limiting its immediate financial impact.",
+        "The specific ranking category is not detailed, making it difficult to assess its strategic importance or competitive advantage.",
+        "Such rankings are often subjective and may not directly translate to increased revenue or market share for the parent company."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While not directly mentioned, the broader tech and education sectors can face evolving market demands and competition.",
+        "Valuation: The market may have already priced in positive brand recognition for FPT's educational arm.",
+        "Execution risk: Sustaining such a high ranking requires continuous investment and adaptation, which carries inherent execution risks."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:08"
+    },
+    {
+      "ticker": "LPB",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "b9362444e74e85d7348c926115697b425be23534a663d31d2706550f2f71f096",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.2,
+      "summary": "LPBank (LPB) has reached a historic peak, contributing positively to the overall market's green performance. This suggests strong investor sentiment and potential for continued upward momentum.",
+      "bullPoints": [
+        "LPB stock reached a historic peak.",
+        "LPB contributed positively to the market's green performance.",
+        "Indicates strong investor sentiment and potential upward momentum."
+      ],
+      "bearPoints": [
+        "Reaching a historic peak can lead to profit-taking, potentially capping further immediate gains.",
+        "The news is a general market observation, not specific to LPB's fundamental performance.",
+        "The market may have already priced in this positive momentum."
+      ],
+      "riskFlags": [
+        "High valuation: Stocks reaching historic peaks can become overvalued.",
+        "Market sentiment risk: Any negative shift in overall market sentiment could impact LPB.",
+        "Sector headwinds: While not explicitly mentioned, the banking sector can face regulatory changes or economic downturns."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:16"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-24",
+      "articleCount": 8,
+      "newsInputHash": "aa0340f22adcb213199585a3da69e56774f29975b65bb9d997af9bcaf850fa53",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Several macro-level news items were released, including progress on infrastructure projects like the Ben Nha Rong - Khanh Hoi park and a significant tunnel project. Vietnam is also noted for a unique economic record and a surge in international tourism. However, there are also regulatory and enforcement-related items concerning traffic fines and tax account blockages.",
+      "bullPoints": [
+        "Infrastructure development is progressing, potentially boosting economic activity.",
+        "Record international tourist arrivals signal a strong recovery and growth in the tourism sector.",
+        "Vietnam's unique economic achievement could attract further investment and attention."
+      ],
+      "bearPoints": [
+        "The news is entirely macro-level and does not provide specific information about ticker MACRO's operations or performance.",
+        "The mention of tax account blockages and traffic fines suggests increased regulatory scrutiny and enforcement, which could indirectly impact businesses.",
+        "The 'unique economic record' is vague and its direct benefit to MACRO is unclear."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Increased enforcement on tax and traffic violations could signal a broader tightening of regulations.",
+        "Macroeconomic uncertainty: While tourism is up, other economic indicators are not detailed, leaving room for broader market risks.",
+        "Lack of company-specific information: The absence of news directly related to MACRO makes it difficult to assess its individual prospects."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:28"
+    },
+    {
+      "ticker": "MSB",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "e878058a5f316f15803542138f4e3de41520123aa45c40ac1d00bb079111be54",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "MSB received an award from the Ministry of Public Security for its contributions to combating high-tech crime. This recognition highlights the bank's efforts in developing and testing solutions against online fraud. While positive for reputation, it does not directly impact financial performance.",
+      "bullPoints": [
+        "Positive recognition for cybersecurity efforts.",
+        "Enhances bank's reputation in combating online fraud."
+      ],
+      "bearPoints": [
+        "The award is a non-financial recognition and does not directly translate to revenue or profit growth.",
+        "The market may have already priced in the bank's efforts in cybersecurity as a standard operational practice."
+      ],
+      "riskFlags": [
+        "Regulatory risk: While this is a positive award, the broader context of combating online fraud implies ongoing regulatory scrutiny and potential future compliance costs for banks."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:35"
+    },
+    {
+      "ticker": "MWG",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "639dd796a5e7d8517ad334c21ef3e9b9cf9370ecded09ec3f04612cec15a4699",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Thế giới Di Động plans to issue over 7.3 million ESOP shares to 66 employees at a price of VND 10,000 per share. This issuance is intended to incentivize key personnel within the company and its subsidiaries.",
+      "bullPoints": [
+        "ESOP issuance can incentivize and retain key employees, potentially boosting future performance.",
+        "The low exercise price of VND 10,000 suggests a significant discount to current market price, reflecting management's confidence in future growth."
+      ],
+      "bearPoints": [
+        "The issuance of over 7.3 million shares will dilute existing shareholders' ownership.",
+        "The market may have already priced in this routine ESOP issuance, limiting immediate upside."
+      ],
+      "riskFlags": [
+        "Dilution risk from new share issuance.",
+        "Potential for insider selling after ESOP vesting periods, especially if market conditions deteriorate."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:43"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-06-24",
+      "articleCount": 2,
+      "newsInputHash": "8ec9232d36ff7e9ad3e67e5918959a61bbf8996fc4c5e39774ac0112f4f5c2c4",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "VIB is launching \"Maxtopia,\" an educational game for children to learn financial concepts as part of its \"VIB Junior Banking\" solution. This initiative aligns with the growing demand for integrated and personalized financial experiences, particularly in bancassurance, as Vietnamese consumers pursue multiple financial goals.",
+      "bullPoints": [
+        "Innovative approach to financial education for younger generations.",
+        "Addresses evolving customer expectations for seamless financial experiences.",
+        "Potential to attract and retain customers by offering value-added services."
+      ],
+      "bearPoints": [
+        "The impact of a children's financial education game on VIB's core business and profitability is likely to be marginal in the short to medium term.",
+        "The success of Maxtopia depends on user adoption and engagement, which are not guaranteed.",
+        "The bancassurance market is competitive, and customer experience is a broad trend, not a unique differentiator for VIB."
+      ],
+      "riskFlags": [
+        "Sector headwinds: Increased competition in the banking and financial services sector.",
+        "Execution risk: The effectiveness of the Maxtopia platform and its integration into VIB's offerings.",
+        "Macro risks: General economic conditions in Vietnam could impact consumer spending on financial products."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:31:54"
+    },
+    {
+      "ticker": "VJC",
+      "analysisDate": "2026-06-24",
+      "articleCount": 1,
+      "newsInputHash": "c82857c8c3c03beebf8f32af6af88c64a70af65901976976368ef8c8ac3b73a0",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietjet has increased its charter capital to nearly VND 7,700 billion following a stock dividend distribution. This move involved the allocation of over 177 million shares to shareholders.",
+      "bullPoints": [
+        "Increased charter capital provides a stronger financial base.",
+        "Stock dividend distribution can be seen as a reward to shareholders."
+      ],
+      "bearPoints": [
+        "The increase in capital is a result of a stock dividend, not new equity injection, so it doesn't bring in fresh funds.",
+        "Issuing more shares can lead to dilution of existing shareholders' ownership percentage."
+      ],
+      "riskFlags": [
+        "dilution risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-24 11:32:10"
+    }
+  ]
+}

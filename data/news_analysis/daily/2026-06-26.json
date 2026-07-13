@@ -1,0 +1,145 @@
+{
+  "analysisDate": "2026-06-26",
+  "generatedAt": "2026-06-26T14:38:18Z",
+  "tickerCount": 5,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-26",
+      "articleCount": 2,
+      "newsInputHash": "56e8b43b426b1f17aa08b770ce6c1d45954cd2dce3a23ff1fe0a59aa23883f74",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "FPT has been granted permission to operate 6,000 UAV flights in Dien Bien as part of a low-altitude economic development sandbox. Additionally, the CEO of FPT emphasized Vietnam's strength in international partnerships and rapid technology deployment for AI, rather than solely focusing on owning the largest AI models.",
+      "bullPoints": [
+        "FPT is participating in an innovative UAV sandbox for economic development.",
+        "The company's CEO highlights strategic advantages in AI development through partnerships and rapid deployment.",
+        "This suggests potential for new revenue streams and technological advancement in emerging sectors."
+      ],
+      "bearPoints": [
+        "The UAV project is a sandbox, implying early-stage development and uncertain commercial viability.",
+        "The CEO's comments on AI might indicate a defensive strategy if FPT is not leading in large model development.",
+        "The scale of 6,000 UAV flights is not specified in terms of duration or frequency, making its immediate impact unclear."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Sandbox environments, while innovative, can face evolving regulations.",
+        "Execution risk: Successfully scaling UAV operations and integrating AI partnerships requires significant execution capability.",
+        "Competition: The AI sector is highly competitive, and FPT's strategy relies on effective partnerships."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-26 14:11:43"
+    },
+    {
+      "ticker": "KBC",
+      "analysisDate": "2026-06-26",
+      "articleCount": 1,
+      "newsInputHash": "c2bdafd95c2700d3c0c6e9181a52a8b0c58edd0acb52b6ade923f7bba526570e",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.4,
+      "newsScore": 0.15,
+      "summary": "Vinatex - Tân Tạo, a company linked to Dang Thanh Tam, has registered to purchase 10 million KBC shares between June 30 and July 29, 2026. This acquisition aims to increase their stake to 5.22% of Kinh Bac's total capital. While this signals insider confidence, it could also be interpreted as an effort to support the stock price.",
+      "bullPoints": [
+        "Insider-related entity intends to increase shareholding.",
+        "Potential for increased demand in the open market."
+      ],
+      "bearPoints": [
+        "The purchase is a registration, not a completed transaction, and could be withdrawn.",
+        "The stated intention could be to defend the stock price rather than purely for investment upside.",
+        "The increase in ownership is relatively small, from an unspecified current holding to 5.22%."
+      ],
+      "riskFlags": [
+        "insider buying registration",
+        "potential price defense strategy"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-26 14:12:03"
+    },
+    {
+      "ticker": "PDR",
+      "analysisDate": "2026-06-26",
+      "articleCount": 1,
+      "newsInputHash": "b7c3fb5933d8db215e9d0a9376904f0f95bb404a9c0b5863efccdec82dae779d",
+      "sentiment": "positive",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": 0.4,
+      "summary": "Phát Đạt (PDR) has officially signed an investment cooperation agreement with Lotte for the Lotte Eco Smart City Thu Thiem project. This project is strategically located in the core of Thu Thiem New Urban Area, a planned international financial and commercial hub for the city.",
+      "bullPoints": [
+        "Secures a significant partnership with Lotte for a prime real estate project.",
+        "Project is located in a highly strategic and developing area (Thu Thiem).",
+        "Potential for future revenue generation from a large-scale development."
+      ],
+      "bearPoints": [
+        "The news is a formal agreement signing, not yet indicative of project commencement or revenue realization.",
+        "The market may have already priced in the expectation of such a partnership given the strategic location.",
+        "Execution risk remains for a large-scale international project."
+      ],
+      "riskFlags": [
+        "Sector headwinds: Real estate sector in Vietnam can be subject to regulatory changes and market sentiment shifts.",
+        "Execution risk: Large international projects face complexities in development and approvals.",
+        "Debt concerns: PDR's financial health and debt levels should be monitored in relation to project funding."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-26 14:15:52"
+    },
+    {
+      "ticker": "SHS",
+      "analysisDate": "2026-06-26",
+      "articleCount": 1,
+      "newsInputHash": "19e001e2397748dce6e05418d68a4c44f5a5fa3dec0a81a582419966a1e973f7",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.3,
+      "summary": "A large investor, described as a \"shark\" with assets of 26,000 billion VND, has unexpectedly re-entered the market to accumulate shares of a Vietnamese securities company. This investor reportedly spent nearly 9.5 billion VND to complete their recent transactions.",
+      "bullPoints": [
+        "Significant investor confidence indicated by large-scale buying.",
+        "Potential for increased liquidity and price support due to institutional interest.",
+        "Positive signal for the broader Vietnamese securities sector."
+      ],
+      "bearPoints": [
+        "The term 'shark' is vague and could refer to a single entity or a group, making the true impact uncertain.",
+        "The reported purchase amount (9.5 billion VND) is relatively small compared to the investor's total assets, suggesting it might be a test buy or a minor rebalancing.",
+        "The news is framed as 'unexpected,' implying it wasn't anticipated by the market, which could mean current valuations don't fully reflect this buying pressure."
+      ],
+      "riskFlags": [
+        "Market concentration risk: Reliance on a single large investor's actions.",
+        "Valuation risk: The stock may already be priced for such positive developments.",
+        "Information asymmetry: The market may not have full details on the investor's strategy or intentions."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-26 14:35:37"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-06-26",
+      "articleCount": 1,
+      "newsInputHash": "21c3371dfb3d8c56e02ded5243eadf9f9fe058d1ebcab323a2eb8ce34db531fa",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "VIB has received approval from the State Bank of Vietnam to increase its charter capital by over VND 3,300 billion. This capital increase will be achieved through issuing shares from its equity and through an ESOP program. The approval allows the bank to strengthen its financial position.",
+      "bullPoints": [
+        "Increased charter capital enhances VIB's financial strength and regulatory compliance.",
+        "Capital injection can support future loan growth and business expansion.",
+        "ESOP issuance can incentivize and retain key management personnel."
+      ],
+      "bearPoints": [
+        "The news is an approval for a planned capital raise, not an immediate infusion of funds, and the market may have already priced this in.",
+        "Issuing shares from equity can be a signal of needing to bolster capital rather than organic growth.",
+        "ESOPs can lead to dilution if not managed carefully and may be used to offset potential future share price weakness."
+      ],
+      "riskFlags": [
+        "dilution risk",
+        "regulatory risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-26 14:38:18"
+    }
+  ]
+}

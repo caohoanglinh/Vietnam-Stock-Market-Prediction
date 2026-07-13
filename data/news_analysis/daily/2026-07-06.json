@@ -1,0 +1,330 @@
+{
+  "analysisDate": "2026-07-06",
+  "generatedAt": "2026-07-06T11:34:33Z",
+  "tickerCount": 12,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-07-06",
+      "articleCount": 3,
+      "newsInputHash": "65246fcb737db98f8bace3dad743778724e9104c4291208eaf0b47599444424d",
+      "sentiment": "negative",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "DGC's stock has been placed on HoSE's warning list starting July 9, 2026, due to failing to hold its annual general meeting within six months of the fiscal year-end. This follows previous warnings for disclosure and auditing violations. While the company's significant bauxite project in Dak Nong remains in the revised mineral plan, its scale and timeline may need reconsideration.",
+      "bullPoints": [
+        "The company's large-scale bauxite project in Dak Nong is still included in the revised mineral planning.",
+        "The company's stock is not delisted, indicating potential for recovery."
+      ],
+      "bearPoints": [
+        "The stock is officially on the HoSE warning list, signaling increased scrutiny and potential trading restrictions.",
+        "Failure to hold the AGM on time points to potential internal governance issues.",
+        "The bauxite project's future scale and timeline are uncertain, requiring recalculation."
+      ],
+      "riskFlags": [
+        "regulatory risk",
+        "governance risk",
+        "operational risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:30:15"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "9dd438521c284abfcca6946608369d7df1377fa7fa264ac25200f101f0938046",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "FPT Telecom, along with Vinamilk and Sabeco, contributed over 1,000 billion VND in dividends to SCIC. This dividend payout is a routine event for established companies and reflects their profitability.",
+      "bullPoints": [
+        "Significant dividend payment to state shareholder (SCIC).",
+        "Demonstrates FPT Telecom's continued profitability and cash generation."
+      ],
+      "bearPoints": [
+        "Dividend payout is a standard financial event, not a surprise growth driver.",
+        "The market likely already prices in such regular dividend distributions."
+      ],
+      "riskFlags": [
+        "Routine dividend payment, not indicative of new growth catalysts.",
+        "No information provided on FPT Corporation (FPT) itself, only FPT Telecom."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:30:26"
+    },
+    {
+      "ticker": "HDG",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "2d77e044bb3447e6ff64a3a2b4108ab9d627402876031bf32cc5f00819b6f940",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "The stock of Ha Do Group (HDG) experienced a significant decline, losing approximately 875 billion VND in market capitalization over two trading sessions. This drop brought its total market value below 7.6 trillion VND. The sharp sell-off suggests potential investor concerns or a market reaction to undisclosed factors.",
+      "bullPoints": [
+        "Potential for a rebound if the sell-off is overdone.",
+        "Lowered valuation may attract bargain hunters."
+      ],
+      "bearPoints": [
+        "Significant market cap erosion indicates strong selling pressure.",
+        "The rapid decline suggests underlying negative sentiment or news not yet fully disclosed.",
+        "The market may be pricing in future headwinds for HDG."
+      ],
+      "riskFlags": [
+        "Sector headwinds (though not explicitly stated for HDG, general market sentiment can impact real estate)",
+        "High valuation (if the previous price was unsustainable)",
+        "Market sentiment shift"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:30:43"
+    },
+    {
+      "ticker": "HPG",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "896abcfe314b9e0d191e63a8a6fdce9384b300eafd66fc46c7ab05c320afcb27",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.2,
+      "summary": "Hòa Phát is expected to supply steel for several major infrastructure projects, including the Hanoi Ring Road 4. This indicates strong demand for their products in the growing infrastructure sector. The company's prestressed steel is already being utilized in other significant national projects.",
+      "bullPoints": [
+        "Secures supply contracts for major infrastructure projects.",
+        "Demonstrates demand for Hòa Phát's prestressed steel.",
+        "Positive outlook for the infrastructure sector benefiting steel demand."
+      ],
+      "bearPoints": [
+        "The news is a projection of future supply, not a confirmed order with specific volumes or pricing.",
+        "The market may have already priced in expected infrastructure project demand.",
+        "Competition in the steel sector could impact Hòa Phát's market share and margins."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While infrastructure is growing, overall construction activity and steel demand can be cyclical.",
+        "Macro risks: Economic slowdowns or changes in government infrastructure spending priorities could impact future demand.",
+        "Execution risk: Delays or cost overruns in these large infrastructure projects could indirectly affect Hòa Phát's supply commitments."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:31:01"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-07-06",
+      "articleCount": 8,
+      "newsInputHash": "4426a20d6d14803a253741f8e7ed0559601b822b440c0e9a11dd14d084328d00",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Vietnam's economy shows positive growth across most sectors, supported by infrastructure investments like the Dung Quat - Sa Huynh coastal road and the Can Gio urban area project. Recent tax collection efforts in Ho Chi Minh City and changes in personal income tax deductions are also noted. However, the impact of these developments on specific companies like MACRO is unclear.",
+      "bullPoints": [
+        "Positive economic growth across most sectors indicates a generally favorable business environment.",
+        "Significant infrastructure investments, such as the Dung Quat - Sa Huynh coastal road, could boost regional development and logistics.",
+        "The ongoing development of the Can Gio urban area project signals potential for future economic activity and real estate opportunities."
+      ],
+      "bearPoints": [
+        "The news provides a broad overview of the Vietnamese economy and infrastructure projects, lacking specific details directly impacting MACRO's business or financial performance.",
+        "While tax collection is highlighted, it could imply increased scrutiny and potential pressure on corporate profitability.",
+        "The positive economic sentiment might already be priced into the market, limiting further upside potential."
+      ],
+      "riskFlags": [
+        "Macroeconomic risks: While overall growth is positive, specific sector performance or unforeseen economic downturns could impact companies.",
+        "Regulatory risk: Changes in tax regulations or increased enforcement (e.g., tax collection in HCMC) could affect corporate finances.",
+        "Infrastructure project execution risk: Large-scale projects, while promising, face potential delays, cost overruns, or changes in scope."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:31:19"
+    },
+    {
+      "ticker": "MBB",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "95ef4b2fa4dabf2ac4de15b2af5b06a17f1e5077aa2722dbddfdafbe6b739c66",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.7,
+      "newsScore": 0.1,
+      "summary": "MB Bank (MBB) is scheduled to finalize its record date for a significant cash dividend payment to its shareholders next week. This dividend distribution is noted as one of the largest in the banking sector for 2026. While a dividend payment is generally positive for shareholders, it also represents a cash outflow for the bank.",
+      "bullPoints": [
+        "Significant cash dividend payment to shareholders.",
+        "Indicates strong profitability and cash generation by MBB.",
+        "Positive signal for retail investor sentiment."
+      ],
+      "bearPoints": [
+        "Dividend payment reduces the bank's cash reserves, potentially limiting future lending or investment capacity.",
+        "The market may have already priced in this expected dividend payment.",
+        "The size of the dividend is relative to the bank's overall capital and profitability, not necessarily a sign of exceptional performance."
+      ],
+      "riskFlags": [
+        "Dividend payout reduces capital available for growth or unexpected needs.",
+        "Sector headwinds: While not directly mentioned, the banking sector is sensitive to macroeconomic conditions and regulatory changes.",
+        "Valuation: The news does not provide information on MBB's current valuation, which could be a risk if it's already high."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:31:30"
+    },
+    {
+      "ticker": "NLG",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "1d74f352fbc9e03bca3d29559fdf32a7c70049c7ad8efbaf360aee46eaaee703",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.4,
+      "newsScore": 0.15,
+      "summary": "The son of Nam Long's Chairman has registered to buy an additional 1 million NLG shares. This purchase is intended for investment purposes, aiming to increase his stake in the real estate company. The news comes as the stock has fallen to a 3-year low.",
+      "bullPoints": [
+        "Insider buying can signal confidence in the company's future prospects.",
+        "Increased ownership by a related party may indicate a belief in undervaluation."
+      ],
+      "bearPoints": [
+        "The purchase registration occurs when the stock is at a 3-year low, suggesting insiders may be attempting to support the share price.",
+        "The amount purchased is relatively small compared to the total outstanding shares, potentially having limited impact on the stock price."
+      ],
+      "riskFlags": [
+        "Insider buying registration can sometimes precede periods of difficulty or be a tactic to stabilize a falling stock price.",
+        "The stock's decline to a 3-year low suggests underlying issues or market sentiment that could persist."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:31:41"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "1863fbc8e842951f819a3c44d4bdec1449589dbd3215475be81047d1108c2542",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Novaland (NVL) plans to issue over 1.7 billion new shares, potentially increasing its charter capital to over VND 41 trillion. This move is intended to raise significant capital for the company's operations and development. The plan has already been approved by shareholders.",
+      "bullPoints": [
+        "Significant capital raise to strengthen financial position.",
+        "Shareholder approval indicates support for the capital increase plan.",
+        "Potential for future growth and project development with new funds."
+      ],
+      "bearPoints": [
+        "Issuance of over 1.7 billion shares will lead to substantial dilution for existing shareholders.",
+        "The market may have already priced in the need for capital raising, limiting immediate upside.",
+        "The success of the capital raise depends on market conditions and investor appetite."
+      ],
+      "riskFlags": [
+        "dilution risk",
+        "debt concerns (implied by need for capital raise)",
+        "sector headwinds (real estate sector sensitivity to economic conditions)"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:32:10"
+    },
+    {
+      "ticker": "PNJ",
+      "analysisDate": "2026-07-06",
+      "articleCount": 8,
+      "newsInputHash": "c0103301cb74bc28e09a5023703344cc93e85b2b6875cf0a7a81d933ed60c1f4",
+      "sentiment": "negative",
+      "impactHorizon": "10d",
+      "confidence": 0.8,
+      "newsScore": -0.7,
+      "summary": "PNJ's market capitalization has significantly decreased due to a diamond smuggling case involving a subsidiary, P-Lab. The company's chair has stated that the 28,000 diamonds in question were not sold through PNJ's official system. Despite this, the stock has experienced substantial losses, and the market anticipates continued volatility.",
+      "bullPoints": [
+        "PNJ's chair has clarified that the smuggled diamonds were not part of the company's official sales channels.",
+        "The company's core operations are reportedly maintained, and 2026 business plans are proceeding.",
+        "Major institutional investors like Dragon Capital and VinaCapital continue to hold significant stakes in PNJ."
+      ],
+      "bearPoints": [
+        "The smuggling scandal involving a subsidiary (P-Lab) has led to a significant drop in PNJ's market value, erasing billions of VND.",
+        "The arrest of a former P-Lab director for diamond smuggling creates reputational damage and raises questions about internal controls.",
+        "The market sentiment is negative, with the stock experiencing sharp declines and further volatility expected."
+      ],
+      "riskFlags": [
+        "Regulatory risk: The smuggling case could lead to further investigations and potential penalties.",
+        "Reputational risk: The scandal directly impacts consumer trust and brand image in the jewelry sector.",
+        "Sector headwinds: The diamond industry itself can be subject to price volatility and ethical sourcing concerns, which are now amplified by this incident."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:32:24"
+    },
+    {
+      "ticker": "SSI",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "8557ad880b86db82b7054c97c1d0a259831d0b2693953b88619d1007267bce60",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "SSI and TCBS are gaining market share in HoSE brokerage for Q2 2026, closing the gap with leading firms. This comes as VPS experiences a significant decline in its market share. The shift indicates increased competition and potential for SSI to solidify its position.",
+      "bullPoints": [
+        "SSI is gaining market share in HoSE brokerage.",
+        "Increased competition could lead to improved services and innovation.",
+        "Potential for SSI to capture market share from declining competitors."
+      ],
+      "bearPoints": [
+        "The news primarily reflects a shift in market share among competitors, not necessarily a direct increase in SSI's absolute business volume.",
+        "VPS's decline might be due to specific internal issues rather than a broad market trend favoring SSI.",
+        "The market share gains are incremental and may not translate into significant profit growth immediately."
+      ],
+      "riskFlags": [
+        "Sector headwinds: Increased competition can lead to margin compression.",
+        "Regulatory risk: Changes in brokerage regulations could impact market dynamics.",
+        "Market concentration: Reliance on HoSE market share can be volatile."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:32:47"
+    },
+    {
+      "ticker": "TCB",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "d4e17001f73b2066aa32ccce6ea61dd1264bd2da8db5ff019a3da34d054cd162",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Techcombank is among several Vietnamese banks planning significant capital increases through share issuances in 2026. This move is expected to add over 12 billion bank shares to the market. While this can provide banks with more capital, it also introduces potential dilution for existing shareholders.",
+      "bullPoints": [
+        "Techcombank is planning a large capital increase, potentially strengthening its financial position.",
+        "The capital raise could fund future growth initiatives and expansion."
+      ],
+      "bearPoints": [
+        "The planned share issuance will lead to dilution for existing shareholders.",
+        "A large influx of bank shares could put downward pressure on stock prices across the sector."
+      ],
+      "riskFlags": [
+        "dilution risk",
+        "sector headwinds"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:33:09"
+    },
+    {
+      "ticker": "VCB",
+      "analysisDate": "2026-07-06",
+      "articleCount": 1,
+      "newsInputHash": "602a0138b1b429116353fea88d56b73bb290651a54d7814f5cff6a5990ef52cc",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietcombank successfully issued its second batch of bonds in 2026, raising 100 billion VND with a 4-year maturity. This issuance adds to the bank's capital base.",
+      "bullPoints": [
+        "Successful bond issuance increases bank's capital.",
+        "Demonstrates continued market access for funding."
+      ],
+      "bearPoints": [
+        "The amount raised (100 billion VND) is relatively small compared to the bank's overall size.",
+        "Bond issuance is a routine funding activity, not a significant strategic development."
+      ],
+      "riskFlags": [
+        "Debt concerns: While a funding tool, increased debt levels need monitoring.",
+        "Interest rate risk: Future interest payments on these bonds could be impacted by market rate fluctuations."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-06 11:33:18"
+    }
+  ]
+}

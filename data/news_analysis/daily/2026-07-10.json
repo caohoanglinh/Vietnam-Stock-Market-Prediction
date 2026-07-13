@@ -1,0 +1,323 @@
+{
+  "analysisDate": "2026-07-10",
+  "generatedAt": "2026-07-10T11:32:14Z",
+  "tickerCount": 12,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "a3340c8ed5acac3081001b41cc0df97b428c9a42293302d5ab98723d9443c06a",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "ACB is launching a new installment payment program using credit cards, offering 0% interest rates with partner merchants and low conversion fees. This initiative aims to provide customers with greater flexibility in managing their spending plans, both domestically and internationally. The program will also extend to foreign partners starting July 16th.",
+      "bullPoints": [
+        "Enhanced customer spending flexibility through 0% installment plans.",
+        "Potential to attract new customers and increase credit card usage.",
+        "Competitive offering with low fees for domestic and international installments."
+      ],
+      "bearPoints": [
+        "This is a standard promotional offering for credit cards, not a groundbreaking development.",
+        "The success of the program depends on merchant adoption and customer uptake.",
+        "Increased credit card usage could lead to higher potential for non-performing loans if not managed carefully."
+      ],
+      "riskFlags": [
+        "Credit risk: Increased credit card spending could lead to higher default rates.",
+        "Competition: Other banks likely offer similar installment programs.",
+        "Execution risk: Success hinges on effective marketing and partner integration."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:30:10"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "cb7fd91a976f959b7a6c80ad4c48d0a52ea12f5ecd1557311e0f3aec5596e74c",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "FPT's community fund has contributed to the renovation of 15 school restrooms in Quang Tri province.  The initiative also included donations of teaching equipment and gifts for students. This CSR activity highlights FPT's social responsibility efforts.",
+      "bullPoints": [
+        "Positive corporate social responsibility (CSR) initiative.",
+        "Enhances FPT's brand image and community engagement.",
+        "Supports educational infrastructure and student welfare."
+      ],
+      "bearPoints": [
+        "This is a routine CSR activity and unlikely to have a material financial impact on FPT.",
+        "The scale of the initiative is small relative to FPT's overall operations.",
+        "The market likely already factors in such CSR activities as part of FPT's corporate profile."
+      ],
+      "riskFlags": [
+        "No direct financial or strategic risk identified, but the lack of significant news suggests a quiet period for the stock."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:30:16"
+    },
+    {
+      "ticker": "HPG",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "48cce0c38b58fedf701773dc8abd3d82bce45a317f3db17d4da65f09a2101bed",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "SSI Research has identified 8 companies with notable growth potential for the second half of the year, with opportunities expected to be concentrated in businesses demonstrating clear profit growth drivers. The market in July is anticipated to continue its differentiated performance. HPG is not explicitly mentioned in this article, making its inclusion speculative.",
+      "bullPoints": [
+        "SSI Research identifies companies with clear profit growth drivers.",
+        "Potential for market opportunities in the second half of the year."
+      ],
+      "bearPoints": [
+        "HPG is not explicitly named in the article, making its inclusion as a 'notable' company speculative.",
+        "The market is expected to continue its differentiated performance, implying selective opportunities rather than broad gains."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The steel sector is cyclical and sensitive to economic downturns and input cost fluctuations.",
+        "Macro risks: General market volatility and economic uncertainty can impact steel demand and profitability."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:30:22"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-07-10",
+      "articleCount": 8,
+      "newsInputHash": "cf564d5fb85d744501b1337c1178862f968a9381a21d18a6113fc86b85ced9bc",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "The provided articles offer a mixed bag of macro-level news with no direct impact on ticker MACRO. Several articles discuss infrastructure development, such as a new road connecting a highway to the coast in Ho Chi Minh City and a scenic train route. Other items touch on local administrative changes and tax regulations. There is also a mention of an unusual event at Sun PhuQuoc Airways.",
+      "bullPoints": [
+        "Infrastructure development, like the new road in HCMC, could indirectly support economic activity.",
+        "A scenic train route highlighted by a US magazine may boost tourism in the long term."
+      ],
+      "bearPoints": [
+        "The news is entirely macro-level and does not provide any specific information or catalysts for ticker MACRO.",
+        "The 'unusual event' at Sun PhuQuoc Airways is vague and could imply operational issues or regulatory scrutiny."
+      ],
+      "riskFlags": [
+        "Lack of company-specific news means no direct insight into MACRO's performance or outlook.",
+        "General regulatory discussions (e.g., forex tax) could signal a tightening environment for businesses.",
+        "The broad nature of the macro news makes it difficult to assess any specific impact on MACRO's sector."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:30:52"
+    },
+    {
+      "ticker": "PNJ",
+      "analysisDate": "2026-07-10",
+      "articleCount": 6,
+      "newsInputHash": "ac19e2b19021752b22b5ce4ef1c630eeb81e1cad9a3468c7c94011c85037cfcc",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "PNJ is facing significant selling pressure on its stock, with recent buyers potentially incurring losses. The company is exploring international expansion for jewelry processing amidst a domestic diamond market crisis and consumer trust issues. The CEO has addressed a personal misconduct issue involving a former employee, stating it was outside of work hours.",
+      "bullPoints": [
+        "PNJ is seeking international partnerships for jewelry processing, diversifying revenue streams.",
+        "The CEO has publicly addressed a personal misconduct issue, aiming to mitigate reputational damage.",
+        "The company continues to import diamonds from established markets like Hong Kong and Thailand."
+      ],
+      "bearPoints": [
+        "PNJ's stock is experiencing strong selling pressure, leading to losses for recent buyers.",
+        "The domestic diamond market is in crisis, with consumer trust severely shaken.",
+        "The company's international expansion strategy is being pursued in the context of these domestic challenges."
+      ],
+      "riskFlags": [
+        "Sector Headwinds: The domestic diamond market crisis and shaken consumer confidence pose significant risks.",
+        "Reputational Risk: The CEO's statement addresses a personal misconduct issue, which could still impact brand perception.",
+        "Market Volatility: The stock is experiencing strong selling pressure, indicating potential investor concern."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:30:58"
+    },
+    {
+      "ticker": "REE",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "cdf72f5bcf4b1f97a78ae3006b713d161c598f4f1204d9750475bafa5e3c1220",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Bà Nguyễn Thị Mai Thanh, người đứng đầu REE trong hơn ba thập kỷ, đã chính thức rời ghế Chủ tịch Hội đồng Quản trị để tuân thủ quy định quản trị doanh nghiệp. Tuy nhiên, bà sẽ tiếp tục đóng góp vào chiến lược của tập đoàn với vai trò Chủ tịch Ủy ban Chiến lược.",
+      "bullPoints": [
+        "Bà Thanh tiếp tục giữ vai trò quan trọng trong hoạch định chiến lược.",
+        "Việc tuân thủ quy định quản trị doanh nghiệp có thể cải thiện hình ảnh quản trị."
+      ],
+      "bearPoints": [
+        "Sự thay đổi lãnh đạo chủ chốt sau thời gian dài có thể tạo ra sự không chắc chắn ban đầu.",
+        "Thị trường có thể đã định giá sự thay đổi này, nên tác động tích cực có thể hạn chế."
+      ],
+      "riskFlags": [
+        "Regulatory risk: Thay đổi lãnh đạo để tuân thủ quy định quản trị doanh nghiệp."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:31:08"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "450e11650dc2bb5897cddf9c21b666e511a87f94b89c2bd29fd1886774e08e92",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "SHB has launched a new feature called \"Sinh lời nhàn tênh\" on its SHB SAHA digital banking app. This feature aims to help customers optimize idle cash and increase returns, offering potential earnings of up to 6% per year. The goal is to provide a smart financial solution for daily spending and management.",
+      "bullPoints": [
+        "New digital feature aims to attract and retain customers.",
+        "Potential to increase customer engagement and deposit base.",
+        "Offers a competitive interest rate of up to 6%."
+      ],
+      "bearPoints": [
+        "The 6% rate is a maximum and may not be guaranteed for all customers or balances.",
+        "The actual impact on SHB's profitability is unclear without more details on adoption and cost.",
+        "This is a product enhancement, not a fundamental business change."
+      ],
+      "riskFlags": [
+        "Competition in digital banking features is intense.",
+        "Regulatory scrutiny on digital financial products could arise.",
+        "Macroeconomic conditions could impact deposit growth and interest rate competitiveness."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:31:23"
+    },
+    {
+      "ticker": "STB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "6e3e1f2a3a2813478bc8978391535e4870fc639e08e8dfdc053bae276593f84e",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Preliminary H1 2026 results for the banking sector show significant divergence. One bank's profit is estimated to have fallen by 50%, with leadership citing a difficult situation and potential surge in non-performing loans. This highlights a challenging operating environment for some institutions.",
+      "bullPoints": [
+        "Sector performance is diverging, suggesting some banks may be outperforming.",
+        "The news provides an update on the banking sector's performance, offering market insight."
+      ],
+      "bearPoints": [
+        "The article highlights a bank with a 50% profit decline and potential NPL increase, indicating significant headwinds.",
+        "The \"difficult situation\" and \"nan giải\" ( giải nan) mentioned by leadership suggest deep-seated issues beyond a simple downturn.",
+        "The news is a general sector update, not specific to STB, limiting direct positive impact."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The article explicitly mentions a bank facing a 50% profit drop and potential NPL increase, indicating broader sector challenges.",
+        "Asset quality concerns: The mention of rising non-performing loans is a significant risk for any financial institution.",
+        "Macroeconomic uncertainty: While not detailed, a 50% profit drop in a bank suggests underlying economic pressures that could affect STB."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:31:29"
+    },
+    {
+      "ticker": "TCB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "46af3440bd9c7687ae025ad5dcb1bfedda30d87f152fec547ae7dffac41c3273",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Techcombank is co-organizing the National Financial Forum 2026 (VFF 2026) in Da Nang. This event brings together financial leaders and policymakers to discuss key issues. While the forum's success could indirectly benefit TCB through enhanced industry dialogue and potential policy insights, the direct impact on the bank's financials is not immediately clear.",
+      "bullPoints": [
+        "TCB demonstrates leadership by co-organizing a significant national financial forum.",
+        "Participation in VFF 2026 can enhance TCB's industry standing and network.",
+        "The forum may lead to valuable insights and discussions relevant to the financial sector's future."
+      ],
+      "bearPoints": [
+        "Co-organizing an event is a standard corporate activity and unlikely to drive significant stock price movement.",
+        "The direct financial benefit to TCB from hosting a forum is not quantifiable from this news.",
+        "The market may have already priced in TCB's role in such industry events."
+      ],
+      "riskFlags": [
+        "No direct financial impact or strategic advantage is immediately evident from this event.",
+        "Resource allocation for event organization could be a minor opportunity cost."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:31:55"
+    },
+    {
+      "ticker": "VCB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "9958bef0017d4d53fc1549c92a2d96a858071a1f6d72658852177c8bb762a68c",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietcombank announced its average lending interest rate for May 2026 was 7.2% per year, an increase from previous months. The spread between the average lending rate and average deposit rate stood at 3.5% per year. This information is a routine disclosure for a financial institution.",
+      "bullPoints": [
+        "Increased lending rates could signal stronger loan demand or a more favorable interest rate environment for banks.",
+        "A 3.5% spread between lending and deposit rates indicates a healthy net interest margin for the bank."
+      ],
+      "bearPoints": [
+        "The increase in lending rates might reflect rising funding costs for the bank, potentially pressuring future profitability if deposit rates also rise significantly.",
+        "The market may have already priced in this typical seasonal or economic trend in lending rates."
+      ],
+      "riskFlags": [
+        "Interest rate risk: Fluctuations in interest rates can impact a bank's net interest margin and the value of its assets.",
+        "Credit risk: Higher lending rates could potentially increase the risk of loan defaults if borrowers struggle to repay."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:32:02"
+    },
+    {
+      "ticker": "VIB",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "0219d4ee531495f643737bc25c452a91a2ce72c6585c32e4182f956e0fda8bc8",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "VIB Privilege Banking is highlighted as a financial platform for flexible individuals, as evidenced by its use by architect and entrepreneur Pham Minh An. The article focuses on the banking service's ability to support diverse financial needs.",
+      "bullPoints": [
+        "Showcases VIB Privilege Banking as a trusted financial solution.",
+        "Highlights the banking service's ability to support diverse financial needs of successful individuals."
+      ],
+      "bearPoints": [
+        "The article is a marketing piece and does not contain new financial information or performance metrics.",
+        "The success of one individual client does not necessarily translate to broad market impact or improved financial performance for VIB.",
+        "The news is a standard promotional piece, likely already priced into the stock."
+      ],
+      "riskFlags": [
+        "Marketing content, not a financial update.",
+        "No quantifiable impact on VIB's financial health or stock price.",
+        "Lack of concrete data to assess actual business performance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:32:08"
+    },
+    {
+      "ticker": "VIC",
+      "analysisDate": "2026-07-10",
+      "articleCount": 1,
+      "newsInputHash": "ee920dc358be6fe9441294db17567b919b7d38d9acfee817a3c490f89498af88",
+      "sentiment": "neutral",
+      "impactHorizon": "5d",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Foreign investors unexpectedly injected over 1,600 billion VND into a specific stock during the final trading session of the week. However, excluding this significant transaction, foreign investors were still net sellers of hundreds of billions of VND. This suggests the large inflow might be an isolated event rather than a broad trend.",
+      "bullPoints": [
+        "Significant foreign capital inflow into a specific stock."
+      ],
+      "bearPoints": [
+        "The large inflow was an isolated transaction, not indicative of broader foreign buying.",
+        "Excluding this transaction, foreign investors remained net sellers."
+      ],
+      "riskFlags": [
+        "Market concentration risk: large inflow into a single stock can be volatile.",
+        "Foreign investor sentiment: overall net selling indicates potential underlying concerns."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-10 11:32:14"
+    }
+  ]
+}

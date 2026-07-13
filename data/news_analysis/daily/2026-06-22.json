@@ -1,0 +1,272 @@
+{
+  "analysisDate": "2026-06-22",
+  "generatedAt": "2026-06-22T11:31:47Z",
+  "tickerCount": 10,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "ACB",
+      "analysisDate": "2026-06-22",
+      "articleCount": 5,
+      "newsInputHash": "eeab0158ccf3d8383116897b4770f839f93678ee39fa9da0b100f784a6562e56",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "A group of shareholders, reportedly linked to Âu Lạc Company, has significantly increased their stake in ACB, now holding nearly 10% of the bank's charter capital. This accumulation of shares, valued at approximately 13,000 billion VND, has been ongoing for several weeks. ACB has also issued an important notice to its corporate clients regarding the update of their payment account information.",
+      "bullPoints": [
+        "Significant insider/strategic investor accumulation of ACB shares indicates strong conviction.",
+        "Increased ownership by a large group could lead to greater stability and long-term focus.",
+        "ACB's proactive communication with corporate clients on regulatory compliance is a positive operational step."
+      ],
+      "bearPoints": [
+        "The substantial share accumulation by a single group raises concerns about potential future price manipulation or concentrated selling pressure.",
+        "The news of increased ownership is not entirely new, with accumulation happening over several weeks, suggesting the market may have already priced this in.",
+        "The 'important notice' to clients is a routine regulatory compliance update and does not represent new business or revenue generation."
+      ],
+      "riskFlags": [
+        "Concentration of ownership: A large stake held by a single group could pose risks if they decide to exit.",
+        "Regulatory risk: ACB's notice to clients suggests ongoing adherence to evolving central bank regulations, which could imply future compliance burdens or changes.",
+        "Sector headwinds: The article on SMEs struggling to access capital highlights potential challenges for the banking sector in lending to this segment, which could impact ACB's loan growth and asset quality."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:30:07"
+    },
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-06-22",
+      "articleCount": 1,
+      "newsInputHash": "74fd970927ede506c77a1c76b2697c5fa862ccfa9aff8dbe5601371c4c54f2e9",
+      "sentiment": "negative",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": -0.4,
+      "summary": "Hóa chất Đức Giang (DGC) released its audited financial statements for 2025, revealing a decrease in profit by tens of billions. Notably, the auditor issued two qualified opinions, one concerning the inventory valuation of VND 951 billion.",
+      "bullPoints": [
+        "Audited financial statements provide clarity on the company's performance.",
+        "The company has disclosed its financial results, allowing for analysis."
+      ],
+      "bearPoints": [
+        "Profitability declined in 2025 compared to previous periods.",
+        "The auditor's qualified opinion on inventory valuation raises concerns about asset accuracy.",
+        "The magnitude of the inventory discrepancy (VND 951 billion) is significant and warrants further investigation."
+      ],
+      "riskFlags": [
+        "Accounting/auditing concerns",
+        "Sector headwinds (potential for chemical sector volatility)",
+        "Valuation risk (if the market doesn't fully price in the profit decline and inventory issues)"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:30:16"
+    },
+    {
+      "ticker": "HPG",
+      "analysisDate": "2026-06-22",
+      "articleCount": 2,
+      "newsInputHash": "4d176707b0ad5cb67996ef808e89ac3cf461b98e8f22f0e6b95099b1fb8a9f3f",
+      "sentiment": "positive",
+      "impactHorizon": "5d",
+      "confidence": 0.7,
+      "newsScore": 0.4,
+      "summary": "Hòa Phát has successfully developed a specialized high-strength steel (S700MC) for the automotive and heavy industrial sectors, marking a significant technological advancement. This achievement breaks the monopoly of global steel giants and showcases HPG's innovation capabilities. The company's substantial contribution to Vietnam's crude steel output highlights its market dominance.",
+      "bullPoints": [
+        "Development of a high-strength, specialized steel (S700MC) for automotive and heavy industry.",
+        "Breaks the monopoly of global steel producers in this niche market.",
+        "Demonstrates HPG's technological advancement and innovation."
+      ],
+      "bearPoints": [
+        "The market may have already priced in HPG's ability to innovate and expand its product portfolio.",
+        "The actual market adoption and revenue impact of this new steel type are yet to be seen.",
+        "Competition from established global players with existing supply chains and customer relationships will remain intense."
+      ],
+      "riskFlags": [
+        "Sector headwinds: While this is a positive development, the broader steel sector can be cyclical and subject to global demand fluctuations.",
+        "Execution risk: Successfully scaling production and securing market share for this new specialized product will require significant execution."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:30:27"
+    },
+    {
+      "ticker": "HVN",
+      "analysisDate": "2026-06-22",
+      "articleCount": 1,
+      "newsInputHash": "a035bad454f7f2d740350e834bdca618bee4828d7ff174407dc1370679004f4b",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Vietnam Airlines has seen significant fleet growth over the past three decades, expanding from 25 aircraft in 1995 to a larger scale projected for 2040. While this indicates long-term expansion, the provided data shows fluctuations in the interim period.",
+      "bullPoints": [
+        "Long-term fleet expansion indicates strategic growth plans.",
+        "Historical data suggests a capacity for significant fleet development."
+      ],
+      "bearPoints": [
+        "The article focuses on historical data and future projections, lacking immediate operational or financial updates.",
+        "The fleet size decreased between 1995 and 2000, indicating past operational challenges or strategic shifts.",
+        "The projected 'khủng' (huge) scale for 2040 is vague and does not provide concrete near-term catalysts."
+      ],
+      "riskFlags": [
+        "Sector headwinds: The aviation industry is highly sensitive to economic cycles, fuel prices, and global events.",
+        "Capital intensity: Fleet expansion requires substantial capital investment, potentially leading to debt or dilution risks.",
+        "Execution risk: Achieving projected fleet growth by 2040 depends on numerous factors, including regulatory approvals, financing, and market demand."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:30:37"
+    },
+    {
+      "ticker": "MACRO",
+      "analysisDate": "2026-06-22",
+      "articleCount": 8,
+      "newsInputHash": "1d1a48d894fc174c1046a8f54cf1fdfd0f23cbc5212f9b8eaf59968937e9b489",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Macroeconomic news highlights significant infrastructure investment in Hanoi with over 1.3 million billion VND allocated for railway and housing projects. Trade figures for the first half of June show exports and imports exceeding 51 billion USD. However, other news touches on local infrastructure damage, tourism challenges in Hue, and administrative reforms, offering a mixed picture of the economic landscape.",
+      "bullPoints": [
+        "Large-scale infrastructure investment in Hanoi signals potential economic stimulus.",
+        "Strong export-import figures in early June suggest continued trade activity."
+      ],
+      "bearPoints": [
+        "The sheer scale of investment may not directly benefit all listed companies.",
+        "Infrastructure damage from natural disasters indicates ongoing risks and potential costs.",
+        "Challenges in boosting tourism in Hue suggest sector-specific headwinds."
+      ],
+      "riskFlags": [
+        "Macroeconomic risks related to infrastructure development and potential cost overruns.",
+        "Sector-specific risks in tourism and potential impacts from natural disasters.",
+        "Regulatory and administrative reforms (e.g., commune mergers) could create uncertainty."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:30:46"
+    },
+    {
+      "ticker": "NKG",
+      "analysisDate": "2026-06-22",
+      "articleCount": 1,
+      "newsInputHash": "f5cd9108b02168e49bb250bb3aba8d380d09ca89fd3a6833ceae667bd2b2e64d",
+      "sentiment": "negative",
+      "impactHorizon": "10d",
+      "confidence": 0.7,
+      "newsScore": -0.6,
+      "summary": "UBCKNN has identified material accounting errors at a major steel company, leading to the suspension of two PwC auditors. Despite these errors, the company's financial statements received an unqualified opinion. This raises concerns about financial reporting integrity within the steel sector.",
+      "bullPoints": [
+        "Potential for improved financial reporting standards in the future if corrective actions are taken."
+      ],
+      "bearPoints": [
+        "The news directly implicates a major steel company in material accounting errors.",
+        "The fact that an unqualified opinion was given despite errors suggests a potential systemic issue with oversight or reporting practices.",
+        "The suspension of auditors indicates a serious breach of professional standards."
+      ],
+      "riskFlags": [
+        "Regulatory risk: UBCKNN investigation and auditor suspension.",
+        "Sector headwinds: Negative sentiment and scrutiny on the steel sector's financial reporting.",
+        "Reputational risk: Damage to the company's and auditor's credibility."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:31:07"
+    },
+    {
+      "ticker": "NVL",
+      "analysisDate": "2026-06-22",
+      "articleCount": 2,
+      "newsInputHash": "b32ca7c66a9e6706333b31a4ba766eddff6ee7f74ba9708bf3c406fc851972ed",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Novaland (NVL) is planning a large share issuance of over 1.7 billion shares, primarily to address financial pressures and manage debt. This news was highlighted as a key event in the past week's stock market activity, alongside movements in \"Vin\" group stocks and PC1. The issuance aims to improve the company's financial standing.",
+      "bullPoints": [
+        "Planned share issuance to address financial pressures and debt.",
+        "Potential for improved financial stability if debt is effectively managed."
+      ],
+      "bearPoints": [
+        "Significant dilution risk for existing shareholders due to the large share issuance.",
+        "The need for such a large issuance suggests ongoing financial strain and potential underlying issues."
+      ],
+      "riskFlags": [
+        "Dilution risk",
+        "Debt concerns",
+        "Financial pressure"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:31:15"
+    },
+    {
+      "ticker": "REE",
+      "analysisDate": "2026-06-22",
+      "articleCount": 1,
+      "newsInputHash": "d43632f75324b58e5f836f44dba8423324e337a625c7d419f70c1e4e007f6062",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "REE is holding an extraordinary general meeting to discuss changes to its Board of Directors and the Strategic Committee, which will be chaired by Ms. Mai Thanh. The company also plans to issue 500,000 ESOP shares. These moves suggest internal restructuring and potential incentive alignment.",
+      "bullPoints": [
+        "Strengthening the Strategic Committee under experienced leadership could enhance long-term strategic direction.",
+        "ESOP issuance can align management incentives with shareholder value.",
+        "Potential for improved corporate governance with board changes."
+      ],
+      "bearPoints": [
+        "The ESOP issuance represents a dilution of existing shareholder equity.",
+        "The market may have already priced in these routine corporate governance adjustments.",
+        "The expansion of the Strategic Committee's role could lead to increased operational complexity or potential conflicts."
+      ],
+      "riskFlags": [
+        "Dilution risk from ESOP issuance.",
+        "Potential for increased executive compensation without immediate performance linkage.",
+        "Uncertainty regarding the specific impact of expanded committee powers on future performance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:31:31"
+    },
+    {
+      "ticker": "SHB",
+      "analysisDate": "2026-06-22",
+      "articleCount": 2,
+      "newsInputHash": "4e3c9451498433cd5a60c381558543e4ee56f2a8fdaaa3808dfce04c84e18dfa",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "A news report details a woman needing to report to the police after transferring 46 million VND from SHB to VietinBank. This event highlights potential issues with fund transfers or customer education within the banking system. The other article is unrelated to SHB's business operations.",
+      "bullPoints": [
+        "The news indirectly involves SHB in a financial transaction, indicating ongoing customer activity."
+      ],
+      "bearPoints": [
+        "The incident suggests a potential customer issue or confusion regarding fund transfers, which could reflect poorly on operational clarity or customer support.",
+        "The unrelated article about a celebrity is noise and provides no actionable information for SHB's stock performance."
+      ],
+      "riskFlags": [
+        "Operational risk: Potential for customer confusion or errors in fund transfers."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:31:40"
+    },
+    {
+      "ticker": "STB",
+      "analysisDate": "2026-06-22",
+      "articleCount": 1,
+      "newsInputHash": "c20234ce3e0c31f4b7e9df55edd2968027f373e44895fae7f8684c051e1b05c8",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Sacombank has announced plans to issue up to VND 20,000 billion in private placement bonds in 2026. This move aims to raise significant capital for the bank's operations and growth initiatives.",
+      "bullPoints": [
+        "Potential for increased liquidity and funding for future growth.",
+        "Indicates proactive capital management by the bank."
+      ],
+      "bearPoints": [
+        "Issuing bonds can increase financial leverage and interest expenses.",
+        "The market may have already anticipated this capital raising activity."
+      ],
+      "riskFlags": [
+        "Debt concerns: A large bond issuance increases the bank's debt burden.",
+        "Interest rate risk: Rising interest rates could increase the cost of servicing this debt."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-22 11:31:47"
+    }
+  ]
+}

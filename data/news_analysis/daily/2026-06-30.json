@@ -1,0 +1,111 @@
+{
+  "analysisDate": "2026-06-30",
+  "generatedAt": "2026-06-30T14:45:39Z",
+  "tickerCount": 4,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-06-30",
+      "articleCount": 1,
+      "newsInputHash": "328ab3de1356f04944545ef119dcfb7a0330239ed450e4dea8601c6c4352e869",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "Hóa chất Đức Giang (DGC) has announced its upcoming Annual General Meeting of Shareholders for 2026. A key agenda item will be discussing measures to \"rescue\" the stock from its \"warning status.\"",
+      "bullPoints": [
+        "Management is proactively addressing the stock's warning status.",
+        "The AGM provides a platform to communicate future strategies to shareholders."
+      ],
+      "bearPoints": [
+        "The stock is currently under a \"warning status,\" indicating underlying issues.",
+        "The need to \"rescue\" the stock suggests current performance or outlook is concerning.",
+        "The announcement is procedural and lacks concrete details on the rescue plan."
+      ],
+      "riskFlags": [
+        "regulatory risk (stock warning status)",
+        "sector headwinds (implied by stock warning status)",
+        "valuation concerns (implied by stock warning status)"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-30 14:37:10"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-06-30",
+      "articleCount": 2,
+      "newsInputHash": "41e08365715843b548c27471da606b91d6ef0d991eb3405fc8268767947a2d85",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "FPT has completed the issuance of nearly 11 million ESOP shares to employees and management. While this is a standard incentive program, the article notes that the amount FPT received is small compared to the market price, suggesting a potential dilution effect.",
+      "bullPoints": [
+        "ESOP issuance rewards employees and management, potentially boosting morale and retention.",
+        "Successful completion of ESOP issuance demonstrates FPT's ability to execute its incentive plans."
+      ],
+      "bearPoints": [
+        "Issuance of new shares dilutes existing shareholders' ownership.",
+        "The amount FPT received from the ESOP issuance is noted as small relative to market price, implying a discount and potential undervaluation of the shares issued."
+      ],
+      "riskFlags": [
+        "dilution risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-30 14:37:25"
+    },
+    {
+      "ticker": "HVN",
+      "analysisDate": "2026-06-30",
+      "articleCount": 1,
+      "newsInputHash": "317f59ad3b4a6a978aa808282dd6f1d26e7d6d9470eff38437e9ddf98ba3ea4a",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Vietnam Airlines reported a significant profit of 7,600 billion VND for the second consecutive year, leading to a positive equity position. However, the company has indicated that accumulated losses will not be fully offset until after 2032, delaying any potential dividend payments to shareholders.",
+      "bullPoints": [
+        "Two consecutive years of reported profits.",
+        "Positive shift in equity position."
+      ],
+      "bearPoints": [
+        "Shareholders must wait until after 2032 for potential dividend payments.",
+        "The company still carries accumulated losses despite recent profits."
+      ],
+      "riskFlags": [
+        "Long-term debt and accumulated losses may hinder future profitability and shareholder returns.",
+        "The extended timeline for dividend payments suggests ongoing financial challenges or conservative capital allocation."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-30 14:39:10"
+    },
+    {
+      "ticker": "MBS",
+      "analysisDate": "2026-06-30",
+      "articleCount": 2,
+      "newsInputHash": "52de94f4fe69b13dae153581f386d09a263e335c1a5982d53041b4a897aaa622",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "MBS has launched a large-scale promotional campaign offering gold and vouchers worth over 2 billion VND to attract investors. However, historical data suggests that World Cup seasons are not typically a golden period for the stock market. The company emphasizes focusing on individual stock performance over broad market movements.",
+      "bullPoints": [
+        "Promotional campaign aims to attract new investors and boost trading volume.",
+        "Offering gold and vouchers could incentivize trading activity during a potentially slow period."
+      ],
+      "bearPoints": [
+        "Historical data indicates World Cup seasons are not optimal for stock market performance.",
+        "The effectiveness of such promotions in driving sustained trading volume is uncertain.",
+        "Market sentiment is described as 'hờ hững với tin tốt', suggesting limited impact from positive news."
+      ],
+      "riskFlags": [
+        "Sector headwinds: Stock market performance may be sluggish, impacting brokerage revenues.",
+        "Promotional costs: Significant expenditure on giveaways could impact profitability.",
+        "Macro risks: General market sentiment and investor behavior can be unpredictable."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-06-30 14:41:57"
+    }
+  ]
+}

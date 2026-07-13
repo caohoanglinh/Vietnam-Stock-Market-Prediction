@@ -1,0 +1,201 @@
+{
+  "analysisDate": "2026-07-07",
+  "generatedAt": "2026-07-07T12:48:40Z",
+  "tickerCount": 7,
+  "modelName": "gemini-2.5-flash-lite",
+  "items": [
+    {
+      "ticker": "DGC",
+      "analysisDate": "2026-07-07",
+      "articleCount": 1,
+      "newsInputHash": "ce6123bb0de15b21fef12da7daa236fec96629df04dbb28768c1ed6c45055431",
+      "sentiment": "neutral",
+      "impactHorizon": "1d",
+      "confidence": 0.6,
+      "newsScore": 0.0,
+      "summary": "Hóa chất Đức Giang (DGC) has submitted a plan to address its stock being under warning status. The company aims to rectify the situation by July 9, 2026. This proactive step is a procedural requirement to resolve the warning.",
+      "bullPoints": [
+        "Company is proactively addressing the stock warning.",
+        "A clear timeline for rectification has been presented."
+      ],
+      "bearPoints": [
+        "The stock is currently under warning, indicating underlying issues.",
+        "The news itself is a procedural update, not a resolution of the problem.",
+        "The market may have already priced in the warning and the subsequent rectification plan."
+      ],
+      "riskFlags": [
+        "regulatory risk: The stock is under warning status, implying potential regulatory scrutiny or investor concern.",
+        "operational risk: The underlying reasons for the stock warning need to be fully understood and resolved."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:33:41"
+    },
+    {
+      "ticker": "DGW",
+      "analysisDate": "2026-07-07",
+      "articleCount": 8,
+      "newsInputHash": "a66ca8577a677063bb508ee5ead7fdf6e68f682d41312f0f1f382769a7b5fa75",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Digiworld (DGW) is exploring diversification into the beverage sector, partnering with brands like Budweiser and Corona. This move comes as the ICT retail sector faces saturation, prompting DGW to seek new growth avenues. While the company has a history of profitability and is paying a dividend, its 2023 business plan was significantly lowered, indicating potential headwinds.",
+      "bullPoints": [
+        "Diversification into the beverage industry with established brands.",
+        "Company has a track record of not reporting losses in any quarter.",
+        "Dividend payment of VND 167 billion planned for October."
+      ],
+      "bearPoints": [
+        "The ICT retail sector is becoming saturated, posing a challenge to core business growth.",
+        "The company unexpectedly lowered its 2023 business plan, with a 42% reduction in after-tax profit target.",
+        "The beverage sector entry is a new venture and carries inherent execution risks."
+      ],
+      "riskFlags": [
+        "Sector headwinds (ICT retail saturation).",
+        "Execution risk in a new industry (beverages).",
+        "Past downward revision of business targets suggests potential for future underperformance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:34:16"
+    },
+    {
+      "ticker": "FPT",
+      "analysisDate": "2026-07-07",
+      "articleCount": 2,
+      "newsInputHash": "9c7d1ac139dfc2d141819a1ad68463e6ae9b6eaf274c04017d64b85bcf96e7c7",
+      "sentiment": "positive",
+      "impactHorizon": "mixed",
+      "confidence": 0.7,
+      "newsScore": 0.3,
+      "summary": "FPT is being recognized by a USD billion foreign fund for its favorable position to benefit from the AI transition. Additionally, FPT is mentioned as a major investor in a proposed super project in a coastal province with the longest coastline in Vietnam, with an estimated investment of over VND 142 trillion.",
+      "bullPoints": [
+        "Positive recognition from a major foreign fund regarding AI transition opportunities.",
+        "Inclusion as a key investor in a potentially massive infrastructure/urban development project.",
+        "FPT's involvement in a large-scale project could signal future growth drivers."
+      ],
+      "bearPoints": [
+        "The proposed super project is still in the proposal stage and its realization is uncertain.",
+        "The foreign fund's praise for AI transition might be general market sentiment rather than specific to FPT's execution.",
+        "The sheer scale of the proposed project raises questions about FPT's specific role and capital commitment."
+      ],
+      "riskFlags": [
+        "Macro risk: Slow disbursement of national target program funds and public investment capital could indicate broader economic headwinds affecting large project funding.",
+        "Sector headwinds: The AI transition is competitive, and FPT's ability to capture market share is not guaranteed.",
+        "Execution risk: Large-scale projects, especially those involving multiple stakeholders, face significant execution challenges and potential delays."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:34:33"
+    },
+    {
+      "ticker": "FTS",
+      "analysisDate": "2026-07-07",
+      "articleCount": 8,
+      "newsInputHash": "8f1f66c174c7a5f23f941a0bb3beb2e862a83faaf57c0636a1104165bdcdd70d",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.3,
+      "newsScore": 0.0,
+      "summary": "The provided articles for FTS consist of multiple dated announcements regarding large volume stock transactions and insider/major shareholder activity. One article from November 2022 notes the stock price hitting an 18-month low, with an외국인 shareholder intending to acquire more shares. Another from December 2022 indicates the stock had risen over 50% from its low, with a major shareholder still looking to accumulate more.",
+      "bullPoints": [
+        "Major shareholder interest in accumulating more shares suggests confidence in the company's future prospects.",
+        "Previous price lows may have presented a buying opportunity for strategic investors."
+      ],
+      "bearPoints": [
+        "The news items are dated and do not represent current events, making their relevance questionable for today's analysis.",
+        "The articles mention significant price drops (18-month low), indicating past volatility and potential for further declines.",
+        "The repeated mention of 'large volume stock transactions' without further detail can be interpreted as increased trading activity, which may not always be positive."
+      ],
+      "riskFlags": [
+        "Dated information: The articles are from 2021 and 2022, making them irrelevant for current investment decisions.",
+        "Price volatility: Past price performance indicates significant fluctuations, posing a risk to investors.",
+        "Lack of specific details: The 'large volume stock transactions' are not elaborated upon, leaving room for speculation about the nature of these trades."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:35:51"
+    },
+    {
+      "ticker": "HDC",
+      "analysisDate": "2026-07-07",
+      "articleCount": 8,
+      "newsInputHash": "6e899f0d31c638e6a7b2164fb1444a6c4443992a7546c2026bf14f653bd3a085",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.0,
+      "summary": "HDC has been mentioned in several articles regarding large volume stock transactions and potential inclusion in an ETF basket. However, the company also faced regulatory penalties for trading violations. Financial results show mixed performance with a significant profit increase in Q3 but a decrease in Q4 compared to the previous year.",
+      "bullPoints": [
+        "Potential inclusion in an ETF basket could increase demand for HDC shares.",
+        "Reported strong profit growth in Q3 of a previous year.",
+        "Large volume stock transactions may indicate institutional interest."
+      ],
+      "bearPoints": [
+        "The company was subject to penalties by the State Securities Commission for trading violations.",
+        "Q4 profits showed a year-on-year decline.",
+        "The news items are dated and do not reflect current operational status or future outlook."
+      ],
+      "riskFlags": [
+        "Regulatory risk (UBCKNN fine).",
+        "Sector headwinds (real estate sector performance is not detailed but is generally cyclical).",
+        "Information scarcity and datedness of news items reduce confidence in current relevance."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:36:03"
+    },
+    {
+      "ticker": "HDG",
+      "analysisDate": "2026-07-07",
+      "articleCount": 8,
+      "newsInputHash": "de5218e3ffc838af4d7154efcc8178a23b17f8119c35773f066d046bce3c730c",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.4,
+      "newsScore": 0.1,
+      "summary": "Hà Đô (HDG) has seen mixed news regarding investor activity and its inclusion in ETFs. Dragon Capital has been actively buying HDG shares, indicating confidence from a major fund. However, there have also been instances of significant share volume becoming tradable and self-trading desks selling the stock.",
+      "bullPoints": [
+        "Dragon Capital has repeatedly increased its ownership of HDG, suggesting positive sentiment from a large institutional investor.",
+        "HDG was included in the VNM ETF, which can lead to increased demand from index-tracking funds.",
+        "The company reported a significant profit increase in Q2, driven by its energy segment."
+      ],
+      "bearPoints": [
+        "A large block of nearly 41 million HDG shares became tradable, potentially increasing supply and pressuring prices.",
+        "Self-trading desks have been net sellers of HDG, indicating a lack of conviction from domestic institutional players.",
+        "While Dragon Capital is buying, the overall market sentiment for HDG appears mixed, with other entities selling."
+      ],
+      "riskFlags": [
+        "Increased share liquidity risk due to a large block of shares becoming tradable.",
+        "Potential for price pressure if selling from self-trading desks continues.",
+        "The mixed investor activity suggests uncertainty about the stock's near-term direction."
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:36:31"
+    },
+    {
+      "ticker": "IJC",
+      "analysisDate": "2026-07-07",
+      "articleCount": 8,
+      "newsInputHash": "60097d2b58d03ddda95e1067b00eadf94aea82a36d7878c3ea6e29d6f384b6ab",
+      "sentiment": "neutral",
+      "impactHorizon": "mixed",
+      "confidence": 0.6,
+      "newsScore": 0.1,
+      "summary": "Becamex IJC announced a cash dividend payment of VND 264 billion for 2023 and plans to issue over 251.8 million shares. The company is also investing significantly in a new BOT project and increasing its stake in Becamex - Binh Phuoc.  Becamex Group has also purchased over 125 million IJC shares.",
+      "bullPoints": [
+        "Dividend payment provides a direct return to shareholders.",
+        "Significant investment in a large BOT project could drive future revenue.",
+        "Parent company's share purchase signals confidence and potential support."
+      ],
+      "bearPoints": [
+        "The large share issuance will dilute existing shareholders' ownership.",
+        "The company is investing in a 3-month-old enterprise for a large project, raising questions about execution risk.",
+        "The company is selling 'unsold' shares, indicating potential difficulty in finding buyers at desired prices."
+      ],
+      "riskFlags": [
+        "dilution risk",
+        "sector headwinds",
+        "regulatory risk"
+      ],
+      "modelName": "gemini-2.5-flash-lite",
+      "updatedAt": "2026-07-07 12:36:51"
+    }
+  ]
+}
